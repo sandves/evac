@@ -3,7 +3,9 @@
 
     config.$inject = ['$routeProvider', '$locationProvider'];
 
-    var app = angular.module('corepApp', ['ngRoute']) // Inject dependecies here
+    var app = angular.module('evacApp', [
+        'ngRoute'
+    ]); // Inject dependecies here
 
     app.config(config);
 
@@ -13,13 +15,17 @@
                 templateUrl: 'templates/beacons.html',
                 controller: 'beacon.ctrl'
             })
+            .when('/home', {
+                templateUrl: 'templates/home.html',
+                controller: 'home.ctrl'
+            })
             .otherwise({
-                redirectTo: '/beacons'
+                redirectTo: '/home'
             });
 
-        $locationProvider.html5Mode({
+        /*$locationProvider.html5Mode({
             enabled: true,
             requireBase: true
-        });
+        });*/
     }
-}();
+})();

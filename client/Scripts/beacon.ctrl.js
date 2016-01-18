@@ -12,4 +12,4 @@
         // TODO implement beacon controller 
         
     }
-}();
+})();

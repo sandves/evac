@@ -10,6 +10,8 @@
     function homeController($scope) {
 
         // TODO implement home controller
+        $scope.test = "Test";
         
     }
-}();
+
+})();

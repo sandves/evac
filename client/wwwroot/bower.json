@@ -1,0 +1,25 @@
+{
+  "name": "evac",
+  "description": "Indoor positioning system for evacuation of buildings",
+  "main": "index.js",
+  "authors": [
+    "Stian Sandve"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "beacons",
+    "positioning",
+    "bluetooth",
+    "smart"
+  ],
+  "homepage": "https://github.com/sandves/evac",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
