@@ -21,5 +21,11 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "angular": "latest",
+    "bootstrap": "latest",
+    "angular-route": "latest",
+    "angular-bootstrap": "latest"
+  }
 }
