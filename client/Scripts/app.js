@@ -4,8 +4,12 @@
     config.$inject = ['$routeProvider', '$locationProvider'];
 
     var app = angular.module('evacApp', [
-        'ngRoute'
-    ]); // Inject dependecies here
+        // Angular dependecies
+        'ngRoute',
+
+        // 3rd party dependencies
+        'btford.socket-io'
+    ]);
 
     app.config(config);
 

@@ -12,16 +12,32 @@
         });
     }
     config.$inject = [ "$routeProvider", "$locationProvider" ];
-    var app = angular.module("evacApp", [ "ngRoute" ]);
+    var app = angular.module("evacApp", [ "ngRoute", "btford.socket-io" ]);
     app.config(config);
 }(), function() {
     "use strict";
-    function beaconController($scope) {}
-    angular.module("evacApp").controller("beacon.ctrl", beaconController), beaconController.$inject = [ "$scope" ];
+    function beaconController($scope, socket) {
+        $scope.rssi = 0, $scope.distance = 0, $scope.connected = !1, socket.on("beacon-updated", function(beaconData) {
+            $scope.rssi = beaconData.rssi, $scope.distance = beaconData.distance.toFixed(2) + "m";
+        }), socket.on("connected", function() {
+            $scope.connected = !0;
+        });
+    }
+    angular.module("evacApp").controller("beacon.ctrl", beaconController), beaconController.$inject = [ "$scope", "socket" ];
 }(), function() {
     "use strict";
-    function homeController($scope) {
-        $scope.test = "Test";
+    function homeController($scope, $location) {
+        $scope.test = "Test", $scope.login = function() {
+            $location.path("/beacons");
+        };
     }
-    angular.module("evacApp").controller("home.ctrl", homeController), homeController.$inject = [ "$scope" ];
+    angular.module("evacApp").controller("home.ctrl", homeController), homeController.$inject = [ "$scope", "$location" ];
+}(), function() {
+    "use strict";
+    function socket(socketFactory) {
+        return socketFactory({
+            ioSocket: io.connect("http://localhost:3000")
+        });
+    }
+    angular.module("evacApp").factory("socket", socket), socket.$inject = [ "socketFactory" ];
 }();
