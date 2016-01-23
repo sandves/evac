@@ -18,31 +18,52 @@ io.on('connection', function(socket){
     });
 });
 
-EddystoneBeaconScanner.on('found', function(beacon) {
-    io.sockets.emit('beacon-updated', {
-        rssi: beacon.rssi,
-        distance: beacon.distance
-    });
-    console.log(beacon.distance + ' (' + beacon.rssi + ')');
+/*EddystoneBeaconScanner.on('found', function(beacon) {
+    console.log('found beacon');
   //console.log('found Eddystone Beacon:\n', JSON.stringify(beacon, null, 2));
 });
 
 EddystoneBeaconScanner.on('updated', function(beacon) {
-    io.sockets.emit('beacon-updated', {
-        rssi: beacon.rssi,
-        distance: beacon.distance
-    });
+    io.sockets.emit('beacon-updated', beacon);
     console.log(beacon.distance + ' (' + beacon.rssi + ')');
   //console.log('updated Eddystone Beacon:\n', JSON.stringify(beacon, null, 2));
 });
 
 EddystoneBeaconScanner.on('lost', function(beacon) {
-    io.sockets.emit('beacon-updated', {
-        rssi: beacon.rssi,
-        distance: beacon.distance
-    });
-    console.log(beacon.distance + ' (' + beacon.rssi + ')');
-  //console.log('lost Eddystone beacon:\n', JSON.stringify(beacon, null, 2));
+    console.log('lost beacon');    
 });
 
-EddystoneBeaconScanner.startScanning(true);
+EddystoneBeaconScanner.startScanning(true);*/
+
+var noble = require('noble');
+
+var beacons = {
+    // '38d99a8307714a1b80702de588ae1360', 
+    'd32b4cab73ee4b8eb31d95c8a17727cc': {
+        name: 'Ice',
+        discovered: false
+    },
+    '10ddfc5eb90441d4888e23216beadf36': {
+        name: 'Mint',
+        discvoered: false
+    },
+    '9f9a5e64f83648218096168fe4d4b4e8': {
+        name: 'Blueberry',
+        discovered: false
+    }
+};
+
+noble.on('stateChange', function(state) {
+  if (state === 'poweredOn') {
+    noble.startScanning([], true);
+  } else {
+    noble.stopScanning();
+  }
+});
+
+noble.on('discover', function(peripheral) {
+    if (beacons[peripheral.uuid]) {
+        var beacon = beacons[peripheral.uuid];
+        console.log(beacon.name + ': ' + peripheral.rssi + ' (' + peripheral.advertisement.txPowerLevel + ')');
+    }
+});

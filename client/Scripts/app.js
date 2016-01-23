@@ -8,7 +8,8 @@
         'ngRoute',
 
         // 3rd party dependencies
-        'btford.socket-io'
+        'btford.socket-io',
+        'angularMoment'
     ]);
 
     app.config(config);
