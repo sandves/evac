@@ -26,6 +26,7 @@
     "angular": "latest",
     "bootstrap": "latest",
     "socket.io-client": "latest",
+    "angular-moment": "latest",
     "angular-route": "latest",
     "angular-bootstrap": "latest",
     "angular-socket-io": "latest"
