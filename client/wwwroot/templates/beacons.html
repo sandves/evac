@@ -5,3 +5,12 @@
 	<p><b>Time: </b><span am-time-ago="lastUpdate"></span></p>
 	<p><b>URL: </b>{{ url }}</p>
 </div>
+
+<div smooth-button class="container" ng-mouseenter="play()" ng-mouseleave="reverse()"></div>
+
+<script type="text/ng-template" id="smooth-button.tmpl.html">
+    <div class="circle red"></div>
+    <div class="circle orange"></div>
+    <div class="circle yellow"></div>
+    <div class="circle grey"></div>
+</script>

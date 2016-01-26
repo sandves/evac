@@ -9,7 +9,10 @@
 
         // 3rd party dependencies
         'btford.socket-io',
-        'angularMoment'
+        'angularMoment',
+
+        // Custom dependencies
+        'smooth'
     ]);
 
     app.config(config);

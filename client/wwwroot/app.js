@@ -12,7 +12,7 @@
         });
     }
     config.$inject = [ "$routeProvider", "$locationProvider" ];
-    var app = angular.module("evacApp", [ "ngRoute", "btford.socket-io", "angularMoment" ]);
+    var app = angular.module("evacApp", [ "ngRoute", "btford.socket-io", "angularMoment", "smooth" ]);
     app.config(config);
 }(), function() {
     "use strict";
@@ -45,7 +45,41 @@
         };
     }
     angular.module("evacApp").controller("home.ctrl", homeController), homeController.$inject = [ "$scope", "$location" ];
-}(), function() {
+}();
+
+var app = angular.module("smooth", []);
+
+app.directive("smoothButton", function() {
+    var linker = function(scope, element, attrs) {
+        var linearScale = d3.scale.linear().domain([ 0, 20 ]).range([ 20, 1e3 ]), yVal = linearScale(5), tl = new TimelineLite();
+        element.children();
+        tl.add(TweenLite.to(element.find(".red"), .4, {
+            scaleX: 1.8,
+            scaleY: 1.8,
+            ease: Power2.easeOut
+        })), tl.add(TweenLite.to(element.find(".orange"), .4, {
+            scaleX: 1.6,
+            scaleY: 1.6,
+            ease: Power2.easeOut
+        }), "-=0.2"), tl.add(TweenLite.to(element.find(".yellow"), .4, {
+            scaleX: 1.4,
+            scaleY: 1.4,
+            ease: Power2.easeOut
+        }), "-=0.2"), tl.add(TweenLite.to(element.find(".grey"), 2, {
+            y: yVal,
+            ease: "easeOutExpo"
+        })), tl.stop(), scope.play = function() {
+            console.log("play"), tl.play();
+        }, scope.reverse = function() {
+            console.log("reverse"), tl.reverse();
+        };
+    };
+    return {
+        scope: !0,
+        link: linker,
+        templateUrl: "smooth-button.tmpl.html"
+    };
+}), function() {
     "use strict";
     function socket(socketFactory) {
         return socketFactory({

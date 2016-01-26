@@ -40,24 +40,27 @@ function getRandom(min, max) {
     return number;
 }*/
 
-/*EddystoneBeaconScanner.on('found', function(beacon) {
+EddystoneBeaconScanner.on('found', function(beacon) {
     console.log('found beacon');
   //console.log('found Eddystone Beacon:\n', JSON.stringify(beacon, null, 2));
 });
 
 EddystoneBeaconScanner.on('updated', function(beacon) {
-    io.sockets.emit('beacon-updated', beacon);
-    console.log(beacon.distance + ' (' + beacon.rssi + ')');
-  //console.log('updated Eddystone Beacon:\n', JSON.stringify(beacon, null, 2));
+    if (typeof beacon.distance != 'undefined') {
+        io.sockets.emit('beacon-updated', beacon);
+        console.log(beacon.distance + ' (' + beacon.rssi + ')');
+    }
+    else
+        console.log(beacon);
 });
 
 EddystoneBeaconScanner.on('lost', function(beacon) {
     console.log('lost beacon');    
 });
 
-EddystoneBeaconScanner.startScanning(true);*/
+EddystoneBeaconScanner.startScanning(true);
 
-var noble = require('noble');
+/*var noble = require('noble');
 
 var beacons = {
     // '38d99a8307714a1b80702de588ae1360', 
@@ -86,6 +89,7 @@ noble.on('stateChange', function(state) {
 noble.on('discover', function(peripheral) {
     if (beacons[peripheral.uuid]) {
         var beacon = beacons[peripheral.uuid];
-        console.log(beacon.name + ': ' + peripheral.rssi + ' (' + peripheral.advertisement.txPowerLevel + ')');
+        console.log(beacon.name + ': ' + peripheral.rssi + ' (' + 
+                peripheral.advertisement.txPowerLevel + ')');
     }
-});
+});*/
