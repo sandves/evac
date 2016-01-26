@@ -18,6 +18,28 @@ io.on('connection', function(socket){
     });
 });
 
+/*setInterval(function() {
+    console.log('emitting mock beacon');
+
+    var rssi = parseInt(getRandom(-50, -110));
+    var distance = getRandom(0.5, 20.0);
+
+    var beacon = {
+        rssi: rssi,
+        distance: distance,
+        url: 'www.vg.no',
+        txPower: -16
+    };
+
+    io.sockets.emit('beacon-updated', beacon)
+}, 1000);
+
+function getRandom(min, max) {
+    var number = (Math.random() * (max - min) + min);
+    console.log(number);
+    return number;
+}*/
+
 /*EddystoneBeaconScanner.on('found', function(beacon) {
     console.log('found beacon');
   //console.log('found Eddystone Beacon:\n', JSON.stringify(beacon, null, 2));
