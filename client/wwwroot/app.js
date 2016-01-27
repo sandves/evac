@@ -12,7 +12,7 @@
         });
     }
     config.$inject = [ "$routeProvider", "$locationProvider" ];
-    var app = angular.module("evacApp", [ "ngRoute", "btford.socket-io", "angularMoment", "smooth" ]);
+    var app = angular.module("evacApp", [ "ngRoute", "btford.socket-io", "angularMoment", "beacon" ]);
     app.config(config);
 }(), function() {
     "use strict";
@@ -22,10 +22,13 @@
             return parseFloat(r.toFixed(3));
         }
         $scope.rssi = null, $scope.distance = null, $scope.connected = !1, $scope.lastUpdate = null, 
-        $scope.connectionState = "closed", $scope.url = "", socket.on("beacon-updated", function(beacon) {
+        $scope.connectionState = "closed", $scope.url = "", $scope.dist = 0, socket.on("beacon-updated", function(beacon) {
             $scope.rssi = beacon.rssi + "dBm";
             var distance = "unknown";
-            if ("undefined" != typeof beacon.distance) var distance = beacon.distance.toFixed(3) + "m";
+            if ("undefined" != typeof beacon.distance) {
+                $scope.dist = beacon.distance;
+                var distance = beacon.distance.toFixed(3) + "m";
+            }
             var calculatedDistance = getRange(beacon.txPower, beacon.rssi);
             isNaN(calculatedDistance) ? calculatedDistance = "unknown" : calculatedDistance += "m", 
             $scope.distance = distance + " (" + calculatedDistance + ")", $scope.lastUpdate = new Date(), 
@@ -37,7 +40,31 @@
         });
     }
     angular.module("evacApp").controller("beacon.ctrl", beaconController), beaconController.$inject = [ "$scope", "socket" ];
-}(), function() {
+}();
+
+var app = angular.module("beacon", []);
+
+app.directive("beacon", function() {
+    var linker = function(scope, element, attrs) {
+        var linearScale = d3.scale.linear().domain([ 0, 20 ]).range([ 0, 500 ]);
+        scope.$watch("distance", function(value) {
+            var yVal = linearScale(value), tl = new TimelineLite();
+            tl.add(TweenLite.to(element.find(".beacon"), 2, {
+                y: yVal,
+                ease: "easeOutExpo"
+            })), tl.play();
+        });
+    };
+    return {
+        scope: {
+            distance: "=",
+            name: "@"
+        },
+        link: linker,
+        restrict: "AE",
+        templateUrl: "templates/beacon.tmpl.html"
+    };
+}), function() {
     "use strict";
     function homeController($scope, $location) {
         $scope.test = "Test", $scope.login = function() {
@@ -45,41 +72,7 @@
         };
     }
     angular.module("evacApp").controller("home.ctrl", homeController), homeController.$inject = [ "$scope", "$location" ];
-}();
-
-var app = angular.module("smooth", []);
-
-app.directive("smoothButton", function() {
-    var linker = function(scope, element, attrs) {
-        var linearScale = d3.scale.linear().domain([ 0, 20 ]).range([ 20, 1e3 ]), yVal = linearScale(5), tl = new TimelineLite();
-        element.children();
-        tl.add(TweenLite.to(element.find(".red"), .4, {
-            scaleX: 1.8,
-            scaleY: 1.8,
-            ease: Power2.easeOut
-        })), tl.add(TweenLite.to(element.find(".orange"), .4, {
-            scaleX: 1.6,
-            scaleY: 1.6,
-            ease: Power2.easeOut
-        }), "-=0.2"), tl.add(TweenLite.to(element.find(".yellow"), .4, {
-            scaleX: 1.4,
-            scaleY: 1.4,
-            ease: Power2.easeOut
-        }), "-=0.2"), tl.add(TweenLite.to(element.find(".grey"), 2, {
-            y: yVal,
-            ease: "easeOutExpo"
-        })), tl.stop(), scope.play = function() {
-            console.log("play"), tl.play();
-        }, scope.reverse = function() {
-            console.log("reverse"), tl.reverse();
-        };
-    };
-    return {
-        scope: !0,
-        link: linker,
-        templateUrl: "smooth-button.tmpl.html"
-    };
-}), function() {
+}(), function() {
     "use strict";
     function socket(socketFactory) {
         return socketFactory({

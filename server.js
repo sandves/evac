@@ -10,7 +10,7 @@ server.listen(3000);
     res.sendFile(__dirname + '/index.html');
 })*/
 
-io.on('connection', function(socket){
+io.on('connection', function(socket) {
     console.log('client connected');
     socket.emit('connected', {hello: 'world'});
     socket.on('bar', function(data) {

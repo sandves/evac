@@ -12,7 +12,7 @@
         'angularMoment',
 
         // Custom dependencies
-        'smooth'
+        'beacon'
     ]);
 
     app.config(config);
