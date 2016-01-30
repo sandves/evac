@@ -1,4 +1,14 @@
-<div class="container" style="padding-top: 20px;">
+<div style="margin-top: -20px; border-radius: 50%; position: absolute; background: black; left: calc(50% - 20px); width: 40px; height: 40px;"></div>
+<div class="circle immediate" style="margin-top: -150px;"></div>
+<div class="circle near" style="margin-top: -400px;"></div>
+<div class="circle far" style="margin-top: -700px;"></div>
+
+<div class="proximity" style="top: 160px;">IMMEDIATE</div>
+<div class="proximity" style="top: 410px;">NEAR</div>
+<div class="proximity" style="top: 710px;">FAR</div>
+
+
+<div class="container" style="padding-top: 20px;" ng-show="debug">
 	<p><b>Connection: </b>{{ connectionState }}</p>
 	<p><b>RSSI: </b>{{ rssi }}</p>
 	<p><b>Distance: </b>{{ distance }}</p>
@@ -13,7 +23,7 @@
           d="M10,55 C15,5 100,5 100,55" />
 </svg>-->
 
-	<div beacon distance="dist" name=""></div>
+<div beacon distance="dist" name="A"></div>
 	<!--<svg height="500" width="10" style="margin-left: 50%;">
   		<line x1="0" y1="0" x2="0" y2="480" style="stroke:rgb(0,0,255);stroke-width:4" />
 	</svg>-->

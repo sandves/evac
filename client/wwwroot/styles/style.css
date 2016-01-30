@@ -1,8 +1,39 @@
 .circle {
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    position: absolute;
+	border-radius: 50%;
+	position: absolute;
+    background: transparent;
+    border: 3px solid black;
+}
+
+.circle.immediate {
+	left: calc(50% - 150px);
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, .9);
+}
+
+.circle.near {
+	left: calc(50% - 400px);
+    width: 800px;
+    height: 800px;
+    box-shadow: 0 0 20px rgba(255, 0, 255, .5);
+}
+
+.circle.far {
+	left: calc(50% - 700px);
+    width: 1400px;
+    height: 1400px;
+    box-shadow: 0 0 20px rgba(0, 0, 255, .5);
+}
+
+.proximity {
+	position: absolute; 
+	left: 0; 
+	font-weight: bold; 
+	color: white; 
+	text-align: center; 
+	width: 100%; 
+	text-shadow: 1px 1px 10px #000000;
 }
 
 .yellow {
@@ -21,8 +52,18 @@
     background-color: gray;
 }
 
-body{
-  background-color: #fff;
+html {
+    min-height: 100%;
+}
+
+body {
+    background-color:   #0176A0;
+	background-image:   -moz-radial-gradient(top, ellipse cover, #029CC9 0%, #005077 100%);
+	background-image:   -webkit-radial-gradient(top, ellipse cover, #029CC9 0%, #005077 100%);
+	background-image:   -o-radial-gradient(top, ellipse cover, #029CC9 0%, #005077 100%);
+	background-image:   -ms-radial-gradient(top, ellipse cover, #029CC9 0%, #005077 100%);
+	background-image:   radial-gradient(top, ellipse cover, #029CC9 0%, #005077 100%);
+	filter:             progid:DXImageTransform.Microsoft.gradient(startColorstr = '#029CC9', endColorstr = '#005077', GradientType = 0);
 }
 
 .beacon {
@@ -60,7 +101,8 @@ body{
   top:0;
   background-color:transparent;
   border-radius:50%;
-  box-shadow:0px 0px 2px 2px #2980b9;
+  /*box-shadow:0px 0px 2px 2px #2980b9;*/
+  box-shadow:0px 0px 2px 2px red;
   -webkit-animation:active 2s infinite linear;
   animation:active 2s infinite linear;
 }
