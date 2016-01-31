@@ -16,7 +16,7 @@ function beaconDirective($window) {
             }, scope.$watch(scope.getWindowDimensions, function(newValue, oldValue) {
                 scope.windowHeight = newValue.h;
             }, !0), scope.windowHeight = 500, scope.$watch("distance", function(value) {
-                var yVal = d3.scale.linear().domain([ 0, 20 ]).range([ 0, scope.windowHeight ])(value), tl = new TimelineLite();
+                var yVal = d3.scale.linear().domain([ 0, 22 ]).range([ 0, scope.windowHeight ])(value), tl = new TimelineLite();
                 tl.add(TweenLite.to(element.find(".beacon"), 2, {
                     y: yVal,
                     ease: "easeOutExpo"
@@ -86,7 +86,7 @@ function() {
     "use strict";
     function socket(socketFactory) {
         return socketFactory({
-            ioSocket: io.connect("http://localhost:3000")
+            ioSocket: io.connect("http://192.168.5.20:3000")
         });
     }
     angular.module("evacApp").factory("socket", socket), socket.$inject = [ "socketFactory" ];
