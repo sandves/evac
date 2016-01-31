@@ -1,11 +1,14 @@
 <div style="margin-top: -20px; border-radius: 50%; position: absolute; background: black; left: calc(50% - 20px); width: 40px; height: 40px;"></div>
-<div class="circle immediate" style="margin-top: -10%;"></div>
-<div class="circle near" style="margin-top: -27.5%;"></div>
-<div class="circle far" style="margin-top: -47.5%;"></div>
 
-<div class="proximity" style="top: 22%;">IMMEDIATE</div>
-<div class="proximity" style="top: 53%;">NEAR</div>
-<div class="proximity" style="top: 89%;">FAR</div>
+<div style="width: 100%; min-height: 100vh; position: absolute; overflow: hidden;">
+	<div class="circle immediate"></div>
+	<div class="circle near"></div>
+	<div class="circle far"></div>
+</div>
+
+<div class="proximity" style="top: 22%;">IMMEDIATE (< 1m)</div>
+<div class="proximity" style="top: 53%;">NEAR (1-10m)</div>
+<div class="proximity" style="top: 89%;">FAR (> 10m)</div>
 
 
 <div class="container" style="padding-top: 20px;" ng-show="debug">

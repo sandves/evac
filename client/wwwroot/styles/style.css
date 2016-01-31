@@ -6,23 +6,26 @@
 }
 
 .circle.immediate {
-	left: 40%;
-    width: 20%;
-    padding-top: 20%;
+	left: calc(50% - 150px);
+    height: 40%;
+    width: 300px;
+    top: -20%;
     box-shadow: 0 0 20px rgba(255, 0, 0, .6);
 }
 
 .circle.near {
-	left: 22.5%;
-    width: 55%;
-    padding-top: 55%;
+	left: calc(50% - 400px);
+	height: 100%;
+    width: 800px;
+    top: -50%;
     box-shadow: 0 0 20px rgba(255, 0, 255, .3);
 }
 
 .circle.far {
-	left: 2.5%;
-    width: 95%;
-    padding-top: 95%;
+	left: calc(50% - 700px);
+    width: 1400px;
+    height: 170%;
+    top: -85%;
     box-shadow: 0 0 20px rgba(0, 0, 255, .3);
 }
 
