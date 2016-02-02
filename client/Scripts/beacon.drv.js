@@ -5,7 +5,7 @@ app.directive('beacon', function(){
 
     	var linearScale = d3.scale.linear()
         	.domain([0, 20])
-        	.range([0, 500]);
+        	.range([0, 800]);
 
         scope.$watch('distance', function (value) {
                 var yVal = linearScale(value);

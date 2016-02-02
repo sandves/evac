@@ -46,7 +46,7 @@ var app = angular.module("beacon", []);
 
 app.directive("beacon", function() {
     var linker = function(scope, element, attrs) {
-        var linearScale = d3.scale.linear().domain([ 0, 20 ]).range([ 0, 500 ]);
+        var linearScale = d3.scale.linear().domain([ 0, 20 ]).range([ 0, 800 ]);
         scope.$watch("distance", function(value) {
             var yVal = linearScale(value), tl = new TimelineLite();
             tl.add(TweenLite.to(element.find(".beacon"), 2, {
@@ -76,7 +76,7 @@ app.directive("beacon", function() {
     "use strict";
     function socket(socketFactory) {
         return socketFactory({
-            ioSocket: io.connect("http://localhost:3000")
+            ioSocket: io.connect("http://192.168.5.84:3000")
         });
     }
     angular.module("evacApp").factory("socket", socket), socket.$inject = [ "socketFactory" ];
