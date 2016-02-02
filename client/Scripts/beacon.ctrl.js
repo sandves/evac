@@ -24,7 +24,7 @@
         	$scope.rssi = beacon.rssi + 'dBm';
         	var distance = 'unknown';
         	if (typeof beacon.distance != 'undefined') {
-        		$scope.dist = beacon.distance;
+        		$scope.dist = beacon.distance < 10 ? beacon.distance : 10;
         		var distance = beacon.distance.toFixed(3) + 'm';
         	}
         	var calculatedDistance = getRange(beacon.txPower, beacon.rssi);

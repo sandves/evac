@@ -18,7 +18,7 @@ io.on('connection', function(socket) {
     });
 });
 
-var increasing = true;
+/*var increasing = true;
 var distance = 0.0;
 
 setInterval(function() {
@@ -59,9 +59,9 @@ function getDistance() {
 function getRandom(min, max) {
     var number = (Math.random() * (max - min) + min);
     return number;
-}
+}*/
 
-/*EddystoneBeaconScanner.on('found', function(beacon) {
+EddystoneBeaconScanner.on('found', function(beacon) {
     console.log('found beacon');
   //console.log('found Eddystone Beacon:\n', JSON.stringify(beacon, null, 2));
 });
@@ -79,7 +79,7 @@ EddystoneBeaconScanner.on('lost', function(beacon) {
     console.log('lost beacon');    
 });
 
-EddystoneBeaconScanner.startScanning(true);*/
+EddystoneBeaconScanner.startScanning(true);
 
 /*var noble = require('noble');
 

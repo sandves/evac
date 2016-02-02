@@ -16,7 +16,7 @@ function beaconDirective($window) {
             }, scope.$watch(scope.getWindowDimensions, function(newValue, oldValue) {
                 scope.windowHeight = newValue.h;
             }, !0), scope.windowHeight = 500, scope.$watch("distance", function(value) {
-                var yVal = d3.scale.linear().domain([ 0, 22 ]).range([ 0, scope.windowHeight ])(value), tl = new TimelineLite();
+                var yVal = d3.scale.linear().domain([ 0, 12 ]).range([ 0, scope.windowHeight ])(value), tl = new TimelineLite();
                 tl.add(TweenLite.to(element.find(".beacon"), 2, {
                     y: yVal,
                     ease: "easeOutExpo"
@@ -55,7 +55,7 @@ function beaconDirective($window) {
             $scope.rssi = beacon.rssi + "dBm";
             var distance = "unknown";
             if ("undefined" != typeof beacon.distance) {
-                $scope.dist = beacon.distance;
+                $scope.dist = beacon.distance < 10 ? beacon.distance : 10;
                 var distance = beacon.distance.toFixed(3) + "m";
             }
             var calculatedDistance = getRange(beacon.txPower, beacon.rssi);

@@ -30,7 +30,7 @@ function beaconDirective($window) {
 
             scope.$watch('distance', function (value) {
                     var yVal = d3.scale.linear()
-                                    .domain([0, 22])
+                                    .domain([0, 12])
                                     .range([0, scope.windowHeight])(value);
 
                     var tl = new TimelineLite();
