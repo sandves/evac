@@ -1,3 +1,31 @@
+function beaconDirective($window) {
+    return {
+        scope: {
+            distance: "=",
+            name: "@"
+        },
+        restrict: "AE",
+        templateUrl: "templates/beacon.tmpl.html",
+        link: function(scope, element, attrs) {
+            var w = angular.element($window);
+            scope.getWindowDimensions = function() {
+                return {
+                    h: w.height(),
+                    w: w.width()
+                };
+            }, scope.$watch(scope.getWindowDimensions, function(newValue, oldValue) {
+                scope.windowHeight = newValue.h;
+            }, !0), scope.windowHeight = 500, scope.$watch("distance", function(value) {
+                var yVal = d3.scale.linear().domain([ 0, 22 ]).range([ 0, scope.windowHeight ])(value), tl = new TimelineLite();
+                tl.add(TweenLite.to(element.find(".beacon"), 2, {
+                    y: yVal,
+                    ease: "easeOutExpo"
+                })), tl.play();
+            });
+        }
+    };
+}
+
 !function() {
     "use strict";
     function config($routeProvider, $locationProvider) {
@@ -21,8 +49,9 @@
             var ratio_db = txCalibratedPower - rssi, ratio_linear = Math.pow(10, ratio_db / 10), r = Math.sqrt(ratio_linear) / 100;
             return parseFloat(r.toFixed(3));
         }
-        $scope.rssi = null, $scope.distance = null, $scope.connected = !1, $scope.lastUpdate = null, 
-        $scope.connectionState = "closed", $scope.url = "", $scope.dist = 0, socket.on("beacon-updated", function(beacon) {
+        $scope.debug = !1, $scope.rssi = null, $scope.distance = null, $scope.connected = !1, 
+        $scope.lastUpdate = null, $scope.connectionState = "closed", $scope.url = "", $scope.dist = 0, 
+        socket.on("beacon-updated", function(beacon) {
             $scope.rssi = beacon.rssi + "dBm";
             var distance = "unknown";
             if ("undefined" != typeof beacon.distance) {
@@ -44,27 +73,8 @@
 
 var app = angular.module("beacon", []);
 
-app.directive("beacon", function() {
-    var linker = function(scope, element, attrs) {
-        var linearScale = d3.scale.linear().domain([ 0, 20 ]).range([ 0, 800 ]);
-        scope.$watch("distance", function(value) {
-            var yVal = linearScale(value), tl = new TimelineLite();
-            tl.add(TweenLite.to(element.find(".beacon"), 2, {
-                y: yVal,
-                ease: "easeOutExpo"
-            })), tl.play();
-        });
-    };
-    return {
-        scope: {
-            distance: "=",
-            name: "@"
-        },
-        link: linker,
-        restrict: "AE",
-        templateUrl: "templates/beacon.tmpl.html"
-    };
-}), function() {
+beaconDirective.$inject = [ "$window" ], app.directive("beacon", beaconDirective), 
+function() {
     "use strict";
     function homeController($scope, $location) {
         $scope.test = "Test", $scope.login = function() {

@@ -9,6 +9,8 @@
 
     function beaconController($scope, socket) {
 
+    	$scope.debug = false;
+
     	$scope.rssi = null;
     	$scope.distance = null;
     	$scope.connected = false;

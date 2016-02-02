@@ -18,11 +18,15 @@ io.on('connection', function(socket) {
     });
 });
 
-/*setInterval(function() {
+var increasing = true;
+var distance = 0.0;
+
+setInterval(function() {
     console.log('emitting mock beacon');
 
     var rssi = parseInt(getRandom(-50, -110));
-    var distance = getRandom(0.5, 20.0);
+    var distance = getDistance();
+    console.log(distance);
 
     var beacon = {
         rssi: rssi,
@@ -32,15 +36,32 @@ io.on('connection', function(socket) {
     };
 
     io.sockets.emit('beacon-updated', beacon)
-}, 1000);
+}, 500);
+
+function getDistance() {
+    if (increasing) {
+        if (distance < 19.0) {
+            return distance++;
+        } else {
+            increasing = false;
+            return distance++;
+        }
+    } else {
+        if (distance > 1.0) {
+            return distance--;
+        } else {
+            increasing = true;
+            return distance--;
+        }
+    }
+}
 
 function getRandom(min, max) {
     var number = (Math.random() * (max - min) + min);
-    console.log(number);
     return number;
-}*/
+}
 
-EddystoneBeaconScanner.on('found', function(beacon) {
+/*EddystoneBeaconScanner.on('found', function(beacon) {
     console.log('found beacon');
   //console.log('found Eddystone Beacon:\n', JSON.stringify(beacon, null, 2));
 });
@@ -58,7 +79,7 @@ EddystoneBeaconScanner.on('lost', function(beacon) {
     console.log('lost beacon');    
 });
 
-EddystoneBeaconScanner.startScanning(true);
+EddystoneBeaconScanner.startScanning(true);*/
 
 /*var noble = require('noble');
 
