@@ -59,8 +59,11 @@ html {
     min-height: 100%;
 }
 
-body {
-    background-color:   #0176A0;
+.building {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  background-color:   #0176A0;
 	background-image:   -moz-radial-gradient(top, ellipse cover, #029CC9 0%, #005077 100%);
 	background-image:   -webkit-radial-gradient(top, ellipse cover, #029CC9 0%, #005077 100%);
 	background-image:   -o-radial-gradient(top, ellipse cover, #029CC9 0%, #005077 100%);
