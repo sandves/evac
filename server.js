@@ -3,12 +3,13 @@ var app = require('express')();
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
 
+/*var fs = require('fs');
+var util = require('util');
+var log_file = fs.createWriteStream('beacon_data' + '/debug.dat', {flags : 'w'});
+*/
+
 server.listen(3000);
 
-/*app.get('/', function(req, res) {
-    console.log('get request');
-    res.sendFile(__dirname + '/index.html');
-})*/
 
 io.on('connection', function(socket) {
     console.log('client connected');
@@ -18,58 +19,16 @@ io.on('connection', function(socket) {
     });
 });
 
-/*var increasing = true;
-var distance = 0.0;
 
-setInterval(function() {
-    console.log('emitting mock beacon');
-
-    var rssi = parseInt(getRandom(-50, -110));
-    var distance = getDistance();
-    console.log(distance);
-
-    var beacon = {
-        rssi: rssi,
-        distance: distance,
-        url: 'www.vg.no',
-        txPower: -16
-    };
-
-    io.sockets.emit('beacon-updated', beacon)
-}, 500);
-
-function getDistance() {
-    if (increasing) {
-        if (distance < 19.0) {
-            return distance++;
-        } else {
-            increasing = false;
-            return distance++;
-        }
-    } else {
-        if (distance > 1.0) {
-            return distance--;
-        } else {
-            increasing = true;
-            return distance--;
-        }
-    }
-}
-
-function getRandom(min, max) {
-    var number = (Math.random() * (max - min) + min);
-    return number;
-}*/
-
-EddystoneBeaconScanner.on('found', function(beacon) {
+/*EddystoneBeaconScanner.on('found', function(beacon) {
     console.log('found beacon');
-  //console.log('found Eddystone Beacon:\n', JSON.stringify(beacon, null, 2));
 });
 
 EddystoneBeaconScanner.on('updated', function(beacon) {
     if (typeof beacon.distance != 'undefined') {
         io.sockets.emit('beacon-updated', beacon);
         console.log(beacon.distance + ' (' + beacon.rssi + ')');
+        // log_file.write(util.format(beacon.distance) + '\n');
     }
     else
         console.log(beacon);
@@ -79,38 +38,173 @@ EddystoneBeaconScanner.on('lost', function(beacon) {
     console.log('lost beacon');    
 });
 
-EddystoneBeaconScanner.startScanning(true);
+EddystoneBeaconScanner.startScanning(true);*/
 
-/*var noble = require('noble');
+var LineByLineReader = require('line-by-line'),
+    lr = new LineByLineReader('beacon_data/debug.dat');
 
-var beacons = {
-    // '38d99a8307714a1b80702de588ae1360', 
-    'd32b4cab73ee4b8eb31d95c8a17727cc': {
-        name: 'Ice',
-        discovered: false
-    },
-    '10ddfc5eb90441d4888e23216beadf36': {
-        name: 'Mint',
-        discvoered: false
-    },
-    '9f9a5e64f83648218096168fe4d4b4e8': {
-        name: 'Blueberry',
-        discovered: false
-    }
-};
-
-noble.on('stateChange', function(state) {
-  if (state === 'poweredOn') {
-    noble.startScanning([], true);
-  } else {
-    noble.stopScanning();
-  }
+lr.on('error', function (err) {
+    console.log(err);
 });
 
-noble.on('discover', function(peripheral) {
-    if (beacons[peripheral.uuid]) {
-        var beacon = beacons[peripheral.uuid];
-        console.log(beacon.name + ': ' + peripheral.rssi + ' (' + 
-                peripheral.advertisement.txPowerLevel + ')');
-    }
-});*/
+function line(l) {
+    // pause emitting of lines...
+    lr.pause();
+
+    // ...do your asynchronous line processing..
+    setTimeout(function () {
+
+        var line = parseFloat(l);
+
+        var e = {
+            pageX: 0,
+            pageY: line
+        };
+
+        var d = kalman(e);
+        console.log(d.y + ' : ' + line);
+
+        var beacon = {
+            rssi: 0,
+            txPower: 0,
+            url: 'www.vg.no',
+            distance: line,
+            prediction: d.y
+        };
+
+        io.sockets.emit('beacon-updated', beacon);
+
+        lr.resume();
+    }, 500);
+}
+ 
+lr.on('line', line);
+
+lr.on('end', function () {
+    // All lines are read, file is closed now.
+    console.log('all lines are read');
+});
+
+var sylvester = require('sylvester');
+Matrix = sylvester.Matrix;
+
+// Settings //////////////////////////////////////
+
+// The decay errodes the assumption that velocity 
+// never changes.  This is the only unique addition
+// I made to the proceedure.  If you set it to zero, 
+// the filter will act just like the one we designed
+// in class which means it strives to find a consitent
+// velocitiy.  Over time this will cause it to assume
+// the mouse is moving very slowly with lots of noise.
+// Set too high and the predicted fit will mirror the 
+// noisy data it recieves.  When at a nice setting, 
+// the fit will be resposive and will do a nice job
+// of smoothing out the function noise.
+
+var decay = 0.0001;
+
+// I use the uncertainty matrix, R to add random noise
+// to the known position of the mouse.  The higher the
+// values, the more noise, which can be seen by the 
+// spread of the orange points on the canvas.
+//
+// If you adjust this number you will often need to 
+// compensate by changing the decay so that the prediction
+// function remains smooth and reasonable.  However, as
+// these measurements get noisier we are left with a 
+// choice between slower tracking (due to uncertainty)
+// and unrealistic tracking because the data is too noisy.
+
+var R = Matrix.Diagonal([0.02, 0.02]);
+    
+// initial state (location and velocity)
+// I haven't found much reason to play with these
+// in general the model will update pretty quickly 
+// to any entry point.
+
+var x = $M([
+    [0], 
+    [0], 
+    [0], 
+    [0] 
+]);
+
+// external motion
+// I have not played with this at all, just
+// added like a udacity zombie.
+
+var u = $M([
+    [0], 
+    [0], 
+    [0], 
+    [0]
+]);
+        
+// initial uncertainty 
+// I don't see any reason to play with this
+// like the entry point it quickly adjusts 
+// itself to the behavior of the mouse
+var P = Matrix.Random(4, 4);
+
+// measurement function (4D -> 2D)
+// This one has to be this way to make things run
+var H = $M([
+    [1, 0, 0, 0], 
+    [0, 1, 0, 0]
+]); 
+
+// identity matrix
+var I = Matrix.I(4);
+
+// To determine dt
+var time = (new Date).getTime();
+
+
+// Event Loop //////////////////////////////////////
+
+function kalman(e) {
+
+    // change in time
+    now = (new Date).getTime();
+    dt = now - time;
+    time = now;
+
+    // Derive the next state
+    F = $M([[1, 0, dt, 0], 
+            [0, 1, 0, dt], 
+            [0, 0, 1, 0], 
+            [0, 0, 0, 1]
+           ]); 
+   
+    // decay confidence
+    // to account for change in velocity
+    P = P.map(function(x) {
+        return x * (1 + decay * dt);
+    });
+    
+    // Fake uncertaintity in our measurements
+    xMeasure = e.pageX; // + 500 * R.e(1,1) * 2 * (Math.random() - 0.5);
+    yMeasure = e.pageY;// + 500 * R.e(2,2) * 2 * (Math.random() - 0.5);
+    
+    // prediction
+    x = F.x(x).add(u);
+    P = F.x(P).x(F.transpose());
+
+    // measurement update
+    Z = $M([[xMeasure, yMeasure]]);
+    y = Z.transpose().subtract(H.x(x));
+    S = H.x(P).x(H.transpose()).add(R);
+
+    K = P.x(H.transpose()).x(S.inverse());
+    x = x.add(K.x(y));
+    P = I.subtract(K.x(H)).x(P);
+    
+    var prediction = {
+        x: x.e(1, 1),
+        y: x.e(2, 1)
+    };
+
+    return prediction;
+
+}

@@ -19,12 +19,14 @@
     	$scope.url = '';
 
     	$scope.dist = 0;
+    	$scope.prediction = 0;
 
         socket.on('beacon-updated', function(beacon) {
         	$scope.rssi = beacon.rssi + 'dBm';
         	var distance = 'unknown';
         	if (typeof beacon.distance != 'undefined') {
         		$scope.dist = beacon.distance < 10 ? beacon.distance : 10;
+        		$scope.prediction = beacon.prediction < 10 ? beacon.prediction : 10;
         		var distance = beacon.distance.toFixed(3) + 'm';
         	}
         	var calculatedDistance = getRange(beacon.txPower, beacon.rssi);

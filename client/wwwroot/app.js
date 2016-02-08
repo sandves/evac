@@ -2,7 +2,8 @@ function beaconDirective($window) {
     return {
         scope: {
             distance: "=",
-            name: "@"
+            name: "@",
+            x: "="
         },
         restrict: "AE",
         templateUrl: "templates/beacon.tmpl.html",
@@ -19,6 +20,7 @@ function beaconDirective($window) {
                 var yVal = d3.scale.linear().domain([ 0, 12 ]).range([ 0, scope.windowHeight ])(value), tl = new TimelineLite();
                 tl.add(TweenLite.to(element.find(".beacon"), 2, {
                     y: yVal,
+                    x: scope.x,
                     ease: "easeOutExpo"
                 })), tl.play();
             });
@@ -51,11 +53,11 @@ function beaconDirective($window) {
         }
         $scope.debug = !1, $scope.rssi = null, $scope.distance = null, $scope.connected = !1, 
         $scope.lastUpdate = null, $scope.connectionState = "closed", $scope.url = "", $scope.dist = 0, 
-        socket.on("beacon-updated", function(beacon) {
+        $scope.prediction = 0, socket.on("beacon-updated", function(beacon) {
             $scope.rssi = beacon.rssi + "dBm";
             var distance = "unknown";
             if ("undefined" != typeof beacon.distance) {
-                $scope.dist = beacon.distance < 10 ? beacon.distance : 10;
+                $scope.dist = beacon.distance < 10 ? beacon.distance : 10, $scope.prediction = beacon.prediction < 10 ? beacon.prediction : 10;
                 var distance = beacon.distance.toFixed(3) + "m";
             }
             var calculatedDistance = getRange(beacon.txPower, beacon.rssi);

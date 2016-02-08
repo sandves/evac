@@ -8,7 +8,8 @@ function beaconDirective($window) {
     return {
         scope: {
             distance: '=',
-            name: '@'
+            name: '@',
+            x: '='
         },
         restrict: 'AE',
         templateUrl: 'templates/beacon.tmpl.html',
@@ -29,16 +30,17 @@ function beaconDirective($window) {
             scope.windowHeight = 500;
 
             scope.$watch('distance', function (value) {
-                    var yVal = d3.scale.linear()
-                                    .domain([0, 12])
-                                    .range([0, scope.windowHeight])(value);
+                var yVal = d3.scale.linear()
+                                .domain([0, 12])
+                                .range([0, scope.windowHeight])(value);
 
-                    var tl = new TimelineLite();
-                    tl.add(TweenLite.to(element.find('.beacon'), 2, {
-                        y: yVal,
-                        ease: 'easeOutExpo'
-                    }));
-                    tl.play();
+                var tl = new TimelineLite();
+                tl.add(TweenLite.to(element.find('.beacon'), 2, {
+                    y: yVal,
+                    x: scope.x,
+                    ease: 'easeOutExpo'
+                }));
+                tl.play();
             });
         }
     }
