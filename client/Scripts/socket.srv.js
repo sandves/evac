@@ -9,7 +9,7 @@
 
 	function socket(socketFactory) {
 		return socketFactory({
-			ioSocket: io.connect('http://192.168.5.84:3000')
+			ioSocket: io.connect('http://localhost:3000')
 		});
 	}
 
