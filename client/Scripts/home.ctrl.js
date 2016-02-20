@@ -13,7 +13,7 @@
         $scope.test = "Test";
 
         $scope.login = function() {
-        	$location.path('/beacons');
+        	$location.path('/floorplan');
         }
         
     }

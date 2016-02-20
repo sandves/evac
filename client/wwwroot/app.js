@@ -37,6 +37,9 @@ function beaconDirective($window) {
         }).when("/home", {
             templateUrl: "templates/home.html",
             controller: "home.ctrl"
+        }).when("/floorplan", {
+            templateUrl: "templates/floorplan.tmpl.html",
+            controller: "floorplan.ctrl"
         }).otherwise({
             redirectTo: "/home"
         });
@@ -78,9 +81,15 @@ var app = angular.module("beacon", []);
 beaconDirective.$inject = [ "$window" ], app.directive("beacon", beaconDirective), 
 function() {
     "use strict";
+    function floorplanController($scope) {
+        $scope.rooms = [ "1012", "1013" ];
+    }
+    angular.module("evacApp").controller("floorplan.ctrl", floorplanController), floorplanController.$inject = [ "$scope" ];
+}(), function() {
+    "use strict";
     function homeController($scope, $location) {
         $scope.test = "Test", $scope.login = function() {
-            $location.path("/beacons");
+            $location.path("/floorplan");
         };
     }
     angular.module("evacApp").controller("home.ctrl", homeController), homeController.$inject = [ "$scope", "$location" ];

@@ -27,6 +27,10 @@
                 templateUrl: 'templates/home.html',
                 controller: 'home.ctrl'
             })
+            .when('/floorplan', {
+                templateUrl: 'templates/floorplan.tmpl.html',
+                controller: 'floorplan.ctrl'
+            })
             .otherwise({
                 redirectTo: '/home'
             });
