@@ -3,11 +3,6 @@ var app = require('express')();
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
 
-var fs = require('fs');
-var util = require('util');
-var log_file = fs.createWriteStream('beacon_data' + '/kalman.dat', {flags : 'w'});
-
-
 server.listen(3000);
 
 
@@ -20,12 +15,18 @@ io.on('connection', function(socket) {
 });
 
 
-/*EddystoneBeaconScanner.on('found', function(beacon) {
+EddystoneBeaconScanner.on('found', function(beacon) {
     console.log('found beacon');
 });
 
 EddystoneBeaconScanner.on('updated', function(beacon) {
     if (typeof beacon.distance != 'undefined') {
+        var distance = beacon.distance;
+        var prediction = kalman({
+            pageX: 0,
+            pageY: distance
+        });
+        beacon.prediction = prediction.y;
         io.sockets.emit('beacon-updated', beacon);
         console.log(beacon.distance + ' (' + beacon.rssi + ')');
         // log_file.write(util.format(beacon.distance) + '\n');
@@ -38,53 +39,8 @@ EddystoneBeaconScanner.on('lost', function(beacon) {
     console.log('lost beacon');    
 });
 
-EddystoneBeaconScanner.startScanning(true);*/
+EddystoneBeaconScanner.startScanning(true);
 
-var LineByLineReader = require('line-by-line'),
-    lr = new LineByLineReader('beacon_data/debug.dat');
-
-lr.on('error', function (err) {
-    console.log(err);
-});
-
-function line(l) {
-    // pause emitting of lines...
-    lr.pause();
-
-    // ...do your asynchronous line processing..
-    setTimeout(function () {
-
-        var line = parseFloat(l);
-
-        var e = {
-            pageX: 0,
-            pageY: line
-        };
-
-        var d = kalman(e);
-        console.log(d.y + ' : ' + line);
-
-        var beacon = {
-            rssi: 0,
-            txPower: 0,
-            url: 'www.vg.no',
-            distance: line,
-            prediction: d.y
-        };
-
-        io.sockets.emit('beacon-updated', beacon);
-        log_file.write(util.format(d.y) + '\n');
-
-        lr.resume();
-    }, 500);
-}
- 
-lr.on('line', line);
-
-lr.on('end', function () {
-    // All lines are read, file is closed now.
-    console.log('all lines are read');
-});
 
 var sylvester = require('sylvester');
 Matrix = sylvester.Matrix;
