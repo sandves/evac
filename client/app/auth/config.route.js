@@ -14,7 +14,7 @@
             controller: 'AuthController',
             controllerAs: 'vm'
         });
-        $routeProvider.when('/login', {
+        $routeProvider.when('/login/:fallback?', {
             templateUrl: 'app/auth/login.html',
             controller: 'AuthController',
             controllerAs: 'vm'

@@ -33,7 +33,8 @@
     function runFunction($rootScope, $location) {
         $rootScope.$on('$routeChangeError', function (event, next, previous, error) {
             if (error === 'AUTH_REQUIRED') {
-                $location.path('/login');
+                var fallback = next.$$route.originalPath;
+                $location.path('/login' + fallback);
             }
         });
     }

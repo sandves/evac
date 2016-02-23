@@ -5,11 +5,11 @@
         .module('app.auth')
         .controller('AuthController', AuthController);
 
-    AuthController.$inject = ['$location', 'authService'];
+    AuthController.$inject = ['$location', 'authService', '$routeParams'];
 
-    function AuthController($location, authService) {
+    function AuthController($location, authService, $routeParams) {
         var vm = this;
-
+        
         vm.error = null;
 
         vm.register = register;
@@ -31,7 +31,11 @@
         function login(user) {
             return authService.login(user)
                 .then(function () {
-                    $location.path('/beacons');
+                    if ($routeParams.fallback) {
+                        $location.path('/' + $routeParams.fallback);
+                    } else {
+                        $location.path('/floorplan');
+                    }
                 })
                 .catch(function (error) {
                     vm.error = error;
