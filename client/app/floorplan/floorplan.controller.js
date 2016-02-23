@@ -1,5 +1,5 @@
-(function() {
-'use strict';
+(function () {
+    'use strict';
 
     angular
         .module('app.floorplan')
@@ -7,7 +7,7 @@
 
     function FloorplanController() {
         var vm = this;
-        
+
         vm.rooms = ['1012', '1013'];
     }
 })();

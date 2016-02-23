@@ -1,32 +1,32 @@
-(function() {
-  'use strict';
+(function () {
+    'use strict';
 
-  angular
-    .module('app.auth')
-    .directive('gzAuthForm', gzAuthForm);
+    angular
+        .module('app.auth')
+        .directive('gzAuthForm', gzAuthForm);
 
-  function gzAuthForm() {
-    return {
-      templateUrl: 'app/auth/authForm.html',
-      restrict: 'E',
-      controller: AuthFormController,
-      controllerAs: 'vm',
-      bindToController: true,
-      scope: {
-        error: '=',
-        formTitle: '@',
-        submitAction: '&'
-      }
-    };
-  }
+    function gzAuthForm() {
+        return {
+            templateUrl: 'app/auth/authForm.html',
+            restrict: 'E',
+            controller: AuthFormController,
+            controllerAs: 'vm',
+            bindToController: true,
+            scope: {
+                error: '=',
+                formTitle: '@',
+                submitAction: '&'
+            }
+        };
+    }
 
-  function AuthFormController() {
-    var vm = this;
+    function AuthFormController() {
+        var vm = this;
 
-    vm.user = {
-      email: '',
-      password: ''
-    };
-  }
+        vm.user = {
+            email: '',
+            password: ''
+        };
+    }
 
 })();

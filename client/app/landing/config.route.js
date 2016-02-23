@@ -1,16 +1,16 @@
-(function() {
-  'use strict';
+(function () {
+    'use strict';
 
-  angular
-    .module('app.landing')
-    .config(configFunction);
+    angular
+        .module('app.landing')
+        .config(configFunction);
 
-  configFunction.$inject = ['$routeProvider'];
+    configFunction.$inject = ['$routeProvider'];
 
-  function configFunction($routeProvider) {
-    $routeProvider.when('/', {
-      templateUrl: 'app/landing/landing.html'
-    });
-  }
+    function configFunction($routeProvider) {
+        $routeProvider.when('/', {
+            templateUrl: 'app/landing/landing.html'
+        });
+    }
 
 })();

@@ -1,5 +1,5 @@
-(function() {
-'use strict';
+(function () {
+    'use strict';
 
     angular
         .module('app.beacons')
@@ -10,7 +10,7 @@
             calculateAccuracy: calculateAccuracy,
             getRange: getRange
         };
-        
+
         return service;
 
         ////////////////
