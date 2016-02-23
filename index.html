@@ -1,8 +1,0 @@
-<script src="/socket.io/socket.io.js"></script>
-<script>
-    var socket = io.connect('192.168.5.40:80');
-    socket.on('foo', function(data) {
-        console.log(data);
-        socket.emit('bar', {my: 'data'});
-    });
-</script>
