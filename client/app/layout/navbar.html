@@ -15,6 +15,7 @@
                 <li ng-class="{ active: vm.isActive('/beacons') }"><a href="#beacons">Beacons</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
+                <li><a href="#/register" ng-hide="vm.isLoggedIn()">Sign up</a></li>
                 <li><a href="#/login" ng-hide="vm.isLoggedIn()">Log in</a></li>
                 <li><a href="" ng-click="vm.logout()" ng-show="vm.isLoggedIn()">Log out</a></li>
             </ul>
