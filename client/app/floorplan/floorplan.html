@@ -1,8 +1,3 @@
 <div class="floorplan">
-    <div class="room" href="#" id="room1018">
-        {{ vm.rooms[0] }}
-    </div>
-    <div class="room" href="#" id="room1025">
-        {{ vm.rooms[1] }}
-    </div>
+    <evac-room ng-repeat="room in vm.rooms" room="room"></evac-room>
 </div>
