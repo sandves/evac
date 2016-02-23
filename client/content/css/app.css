@@ -153,6 +153,7 @@ html {
 	-webkit-box-shadow: 0 0 1px rgba(0, 0, 0, .5), 0 0 3px rgba(0, 0, 0, .5);
 	box-shadow: 0 0 1px rgba(0, 0, 0, .5), 0 0 3px rgba(0, 0, 0, .5);
 	-webkit-transform:translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
 
 .beacon:before {
