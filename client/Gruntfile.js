@@ -9,29 +9,31 @@ module.exports = function (grunt) {
                 options: {
                     hostname: '*',
                     port: 8080,
-                    base: "client/wwwroot",
+                    base: '.',
                     open: {
-                        target: "127.0.0.1:8080"
+                        target: '127.0.0.1:8080'
                     }
                 }
             }
         },      
         uglify: {
             dist: {
-                files: { 'client/wwwroot/app.js': ['client/Scripts/**/*.js'] }
+                files: { 
+                    'app.js': ['app/**/*.module.js', 'app/**/*.js'] }
             },
             options: {
-                beautify: true,
-                mangle: false
+                beautify: false,
+                mangle: true
             }
         },
         watch: {
             scripts: {
-                files: ['client/Scripts/**/*.js'],
+                files: ['app/**/*.js'],
                 tasks: ['uglify']
             }
         }
     });
 
-    grunt.registerTask('default', ['connect:server', 'uglify', 'watch']);
+    grunt.registerTask('default', ['uglify', 'watch']);
+    grunt.registerTask('serve', ['connect:server', 'uglify', 'watch']);
 };

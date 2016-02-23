@@ -57,5 +57,6 @@
     "globals": {
         "angular": false,
         "$": false
-    }
+    },
+    "predef": ["TimelineLite", "TweenLite", "d3", "io", "Firebase", "$M"]
 }
