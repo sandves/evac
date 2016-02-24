@@ -12,7 +12,6 @@
             templateUrl: 'app/floorplan/directives/room.html',
             controller: RoomController,
             controllerAs: 'vm',
-            link: link,
             restrict: 'EA',
             scope: {
                 room: '='
@@ -20,9 +19,6 @@
         };
         return directive;
         
-        function link(scope, element, attrs) {
-            
-        }
     }
     /* @ngInject */
     function RoomController () {

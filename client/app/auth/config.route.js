@@ -9,11 +9,6 @@
     configFunction.$inject = ['$routeProvider'];
 
     function configFunction($routeProvider) {
-        $routeProvider.when('/register', {
-            templateUrl: 'app/auth/register.html',
-            controller: 'AuthController',
-            controllerAs: 'vm'
-        });
         $routeProvider.when('/login/:fallback?', {
             templateUrl: 'app/auth/login.html',
             controller: 'AuthController',

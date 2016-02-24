@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('app.beacons')
+		.module('app.core')
 		.factory('socket', socket);
 
 	socket.$inject = ['socketFactory', 'SOCKET_URL'];
