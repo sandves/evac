@@ -121,3 +121,7 @@ function kalman(e) {
     return prediction;
 
 }
+
+module.exports = {
+    kalman: kalman  
+};
