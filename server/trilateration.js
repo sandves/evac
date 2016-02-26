@@ -28,7 +28,7 @@
   * @param {bool} return_middle If two solution found then return the center of them
   * @return {Object|Array|null} { x, y, z } or [ { x, y, z }, { x, y, z } ] or null
   */
-function trilaterate(p1, p2, p3, return_middle)
+function trilaterate(p1, p2, p3, returnMiddle)
 {
 	// based on: https://en.wikipedia.org/wiki/Trilateration
 	
@@ -50,7 +50,7 @@ function trilaterate(p1, p2, p3, return_middle)
 		return a.x * b.x + a.y * b.y + a.z * b.z;
 	}
 	
-	function vector_subtract(a, b)
+	function vectorSubtract(a, b)
 	{
 		return {
 			x: a.x - b.x,
@@ -59,7 +59,7 @@ function trilaterate(p1, p2, p3, return_middle)
 		};
 	}
 	
-	function vector_add(a, b)
+	function vectorAdd(a, b)
 	{
 		return {
 			x: a.x + b.x,
@@ -68,7 +68,7 @@ function trilaterate(p1, p2, p3, return_middle)
 		};
 	}
 	
-	function vector_divide(a, b)
+	function vectorDivide(a, b)
 	{
 		return {
 			x: a.x / b,
@@ -77,7 +77,7 @@ function trilaterate(p1, p2, p3, return_middle)
 		};
 	}
 	
-	function vector_multiply(a, b)
+	function vectorMultiply(a, b)
 	{
 		return {
 			x: a.x * b,
@@ -86,7 +86,7 @@ function trilaterate(p1, p2, p3, return_middle)
 		};
 	}
 	
-	function vector_cross(a, b)
+	function vectorCross(a, b)
 	{
 		return {
 			x: a.y * b.z - a.z * b.y,
@@ -97,14 +97,14 @@ function trilaterate(p1, p2, p3, return_middle)
 	
 	var ex, ey, ez, i, j, d, a, x, y, z, p4;
 	
-	ex = vector_divide(vector_subtract(p2, p1), norm(vector_subtract(p2, p1)));
+	ex = vectorDivide(vectorSubtract(p2, p1), norm(vectorSubtract(p2, p1)));
 	
-	i = dot(ex, vector_subtract(p3, p1));
-	a = vector_subtract(vector_subtract(p3, p1), vector_multiply(ex, i));
-	ey = vector_divide(a, norm(a));
-	ez =  vector_cross(ex, ey);
-	d = norm(vector_subtract(p2, p1));
-	j = dot(ey, vector_subtract(p3, p1));
+	i = dot(ex, vectorSubtract(p3, p1));
+	a = vectorSubtract(vectorSubtract(p3, p1), vectorMultiply(ex, i));
+	ey = vectorDivide(a, norm(a));
+	ez =  vectorCross(ex, ey);
+	d = norm(vectorSubtract(p2, p1));
+	j = dot(ey, vectorSubtract(p3, p1));
 	
 	x = (sqr(p1.r) - sqr(p2.r) + sqr(d)) / (2 * d);
 	y = (sqr(p1.r) - sqr(p3.r) + sqr(i) + sqr(j)) / (2 * j) - (i / j) * x;
@@ -116,11 +116,11 @@ function trilaterate(p1, p2, p3, return_middle)
 		return null;
 	}
 	
-	a = vector_add(p1, vector_add(vector_multiply(ex, x), vector_multiply(ey, y)))
-	p4a = vector_add(a, vector_multiply(ez, z));
-	p4b = vector_subtract(a, vector_multiply(ez, z));
+	a = vectorAdd(p1, vectorAdd(vectorMultiply(ex, x), vectorMultiply(ey, y)));
+	var p4a = vectorAdd(a, vectorMultiply(ez, z));
+	var p4b = vectorSubtract(a, vectorMultiply(ez, z));
 	
-	if (z == 0 || return_middle)
+	if (z === 0 || returnMiddle)
 	{
 		return a;
 	}

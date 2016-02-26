@@ -24,6 +24,7 @@
   "homepage": "https://github.com/sandves/evac#readme",
   "dependencies": {
       "socket.io": "latest",
+      "socket.io-client": "latest",
       "express": "latest",
       "noble": "latest",
       "eddystone-beacon-scanner": "latest",
