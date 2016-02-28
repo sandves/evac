@@ -21,7 +21,7 @@ EddystoneBeaconScanner.on('updated', function (beacon) {
             beacon: beacon,
             ip: ip
         };
-        ioSocket.sockets.emit('bs-updated', packet);
+        socket.emit('bs-updated', packet);
         console.log(beacon.distance + ' (' + beacon.rssi + ')');
     }
     else {
