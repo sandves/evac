@@ -14,11 +14,11 @@ var beacons = {};
 
 ioSocket.on('connection', function (socket) {
     var address = socket.handshake.address;
-    console.log('New connection from ' + address.address +
-        ':' + address.port);
+    console.log('New connection');
+    socket.on('bs-updated', baseStationUpdated); 
 });
 
-ioSocket.on('bs-updated', function (packet) {
+function baseStationUpdated(packet) {
     var beacon = packet.beacon;
     var distance = beacon.distance;
     var prediction = filters.kalman({
@@ -26,10 +26,13 @@ ioSocket.on('bs-updated', function (packet) {
         pageY: distance
     });
     beacon.prediction = prediction.y;
-    beacons[packet.ip][beacon.instance] = beacon;
+    if (!beacons[packet.ip])
+        beacons[packet.ip] = [];
+    beacons[packet.ip][beacon.id] = beacon;
+    console.log(beacon.distance);
     ioSocket.sockets.emit('beacon-updated', beacon);
-    console.log(beacon.distance + ' (' + beacon.rssi + ')');
-});
+    console.log(beacons);
+}
 
 // Predict the beacons positions by assuming that the base station
 // that receives the strongest signal is the closest one.
