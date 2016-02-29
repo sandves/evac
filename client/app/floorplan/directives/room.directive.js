@@ -1,4 +1,4 @@
-(function() {
+(function () {
     'use strict';
 
     angular
@@ -18,19 +18,31 @@
             }
         };
         return directive;
-        
+
     }
     /* @ngInject */
-    function RoomController () {
+    function RoomController() {
         var vm = this;
         var room = vm.room;
-        
-        vm.roomStyle = {
-            'width': room.width + 'px',
-            'height': room.height + 'px',
-            'top': room.top + 'px',
-            'left': room.left + 'px',
-            'line-height': room.height + 'px'
-        };
+
+        if (room.beacons.length > 0) {
+            vm.roomStyle = {
+                'width': room.width + 'px',
+                'height': room.height + 'px',
+                'top': room.top + 'px',
+                'left': room.left + 'px',
+                'line-height': room.height + 'px',
+                'background': '#000000'
+            };
+        } else {
+            vm.roomStyle = {
+                'width': room.width + 'px',
+                'height': room.height + 'px',
+                'top': room.top + 'px',
+                'left': room.left + 'px',
+                'line-height': room.height + 'px'
+            };
+        }
+
     }
 })();

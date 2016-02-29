@@ -15,7 +15,7 @@ var beacons = {};
 ioSocket.on('connection', function (socket) {
     var address = socket.handshake.address;
     console.log('New connection');
-    socket.on('bs-updated', baseStationUpdated); 
+    socket.on('bs-updated', baseStationUpdated);
 });
 
 function baseStationUpdated(packet) {
@@ -26,31 +26,46 @@ function baseStationUpdated(packet) {
         pageY: distance
     });
     beacon.prediction = prediction.y;
-    if (!beacons[packet.ip])
-        beacons[packet.ip] = [];
-    beacons[packet.ip][beacon.id] = beacon;
-    console.log(beacon.distance);
-    ioSocket.sockets.emit('beacon-updated', beacon);
-    console.log(beacons);
+    if (!beacons[beacon.id]) {
+        beacons[beacon.id] = {};
+    }
+    beacons[beacon.id][packet.ip] = beacon;
+    console.log(beacon.prediction);
+    
+    for (var id in beacons) {
+        if (beacons.hasOwnProperty(id)) {
+            var nearestBaseStation = getNearest(id);
+            ioSocket.sockets.emit('beacon', {
+                beacon: id,
+                baseStation: nearestBaseStation
+            });
+        }
+    }
+    
+    //ioSocket.sockets.emit('beacon-updated', beacon);
+    //console.log(beacons);
 }
 
 // Predict the beacons positions by assuming that the base station
 // that receives the strongest signal is the closest one.
-function getLocations() {
-    var distances = {};
-    for (var ip in beacons) {
-        if (beacons.hasOwnProperty(ip)) {
-            for (var instance in beacons[ip]) {
-                if (beacons[ip].hasOwnProperty(instance)) {
-                    if (distances[instance]) {
-                        if (distances[instance].prediction < beacons[ip][instance].prediction) {
-                            distances[instance] = beacons[ip][instance];
-                        } else {
-                            distances[instance] = beacons[ip][instance];
-                        }
-                    }
-                }
+function getNearest(beaconId) {
+    var baseStations = beacons[beaconId];
+    // If only one base station is in range of the beacon,
+    // return the address of the base station.
+    if (Object.keys(baseStations).length) {
+        return Object.keys(baseStations)[0];
+    }
+    
+    // Search for the basestation that is closest to the beacon
+    // and return the address of the base station.
+    var nearestBaseStation = 1000;
+    for (var address in baseStations) {
+        if (baseStations.hasOwnProperty(address)) {
+            console.log(address, baseStations[address]);
+            if (baseStations[address].prediction < nearestBaseStation) {
+                nearestBaseStation = address;
             }
         }
     }
+    return nearestBaseStation;
 }
