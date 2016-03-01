@@ -20,13 +20,12 @@ ioSocket.on('connection', function (socket) {
 
 function baseStationLost(packet) {
     delete beacons[packet.beacon.id][packet.ip];
-    
+
     var presentBeacons = {};
     for (var id in beacons) {
         if (beacons.hasOwnProperty(id)) {
             var nearestBaseStation = getNearest(id);
-	    if (!nearestBaseStation) {
-		console.log('no base stations in range');
+            if (!nearestBaseStation) {
                 continue;
             }
             if (!presentBeacons[nearestBaseStation]) {
@@ -35,6 +34,7 @@ function baseStationLost(packet) {
             presentBeacons[nearestBaseStation].push(id);
         }
     }
+    console.log('lost');
     ioSocket.sockets.emit('beacon', presentBeacons);
 }
 
@@ -55,8 +55,7 @@ function baseStationUpdated(packet) {
     for (var id in beacons) {
         if (beacons.hasOwnProperty(id)) {
             var nearestBaseStation = getNearest(id);
-	    if (!nearestBaseStation) {
-		console.log('no base stations in range');
+            if (!nearestBaseStation) {
                 continue;
             }
             if (!presentBeacons[nearestBaseStation]) {
@@ -74,9 +73,9 @@ function getNearest(beaconId) {
     var baseStations = beacons[beaconId];
     // If only one base station is in range of the beacon,
     // return the address of the base station.
-    if (Object.keys(baseStations).length) {
+    /*if (Object.keys(baseStations).length === 1) {
         return Object.keys(baseStations)[0];
-    }
+    }*/
     
     // Search for the basestation that is closest to the beacon
     // and return the address of the base station.
@@ -84,8 +83,8 @@ function getNearest(beaconId) {
     var distance = 1000;
     for (var address in baseStations) {
         if (baseStations.hasOwnProperty(address)) {
-            console.log(address, baseStations[address]);
             if (baseStations[address].prediction < distance) {
+                distance = baseStations[address].prediction;
                 nearestBaseStation = address;
             }
         }

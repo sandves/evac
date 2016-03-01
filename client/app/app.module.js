@@ -15,7 +15,8 @@
             'app.landing',
             'app.layout',
             'app.beacons',
-            'app.floorplan'
+            'app.floorplan',
+            'app.rooms'
         ])
         .config(configFunction)
         .run(runFunction);

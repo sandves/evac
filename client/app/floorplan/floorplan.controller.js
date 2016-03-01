@@ -59,11 +59,6 @@
             vm.rooms[3].name = 'stian';
         }
 
-        var roomAddresses = {
-            '192.168.5.111': 'Foo',
-            '192.168.5.112': 'Bar'
-        };
-
         function pushIfNew(array, obj) {
             for (var i = 0; i < array.length; i++) {
                 if (array[i] === obj) {

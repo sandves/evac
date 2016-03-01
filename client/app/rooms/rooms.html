@@ -1,0 +1,10 @@
+<div class="container">
+    <ul class="list-group">
+        <!--<li class="list-group-item list-group-item-info">
+            <h4 class="list-group-item-heading">Rooms</h4>
+        </li>-->
+        <li class="list-group-item" data-ng-repeat="room in vm.rooms">
+            {{ room.name }} <span ng-show="room.beacons.length > 0" class="badge">{{ room.beacons.length }}</span>
+        </li>
+    </ul>
+</div>

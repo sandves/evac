@@ -16,7 +16,6 @@ EddystoneBeaconScanner.on('found', function (beacon) {
 
 EddystoneBeaconScanner.on('updated', function (beacon) {
     if (typeof beacon.distance !== 'undefined') {
-        var distance = beacon.distance;
         var packet = {
             beacon: beacon,
             ip: ip
