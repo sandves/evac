@@ -20,6 +20,22 @@ ioSocket.on('connection', function (socket) {
 
 function baseStationLost(packet) {
     delete beacons[packet.beacon.id][packet.ip];
+    
+    var presentBeacons = {};
+    for (var id in beacons) {
+        if (beacons.hasOwnProperty(id)) {
+            var nearestBaseStation = getNearest(id);
+	    if (!nearestBaseStation) {
+		console.log('no base stations in range');
+                continue;
+            }
+            if (!presentBeacons[nearestBaseStation]) {
+                presentBeacons[nearestBaseStation] = [];
+            }
+            presentBeacons[nearestBaseStation].push(id);
+        }
+    }
+    ioSocket.sockets.emit('beacon', presentBeacons);
 }
 
 function baseStationUpdated(packet) {
@@ -34,12 +50,15 @@ function baseStationUpdated(packet) {
         beacons[beacon.id] = {};
     }
     beacons[beacon.id][packet.ip] = beacon;
-    //console.log(beacon.prediction);
 
     var presentBeacons = {};
     for (var id in beacons) {
         if (beacons.hasOwnProperty(id)) {
             var nearestBaseStation = getNearest(id);
+	    if (!nearestBaseStation) {
+		console.log('no base stations in range');
+                continue;
+            }
             if (!presentBeacons[nearestBaseStation]) {
                 presentBeacons[nearestBaseStation] = [];
             }
@@ -61,11 +80,12 @@ function getNearest(beaconId) {
     
     // Search for the basestation that is closest to the beacon
     // and return the address of the base station.
-    var nearestBaseStation = 1000;
+    var nearestBaseStation = null;
+    var distance = 1000;
     for (var address in baseStations) {
         if (baseStations.hasOwnProperty(address)) {
             console.log(address, baseStations[address]);
-            if (baseStations[address].prediction < nearestBaseStation) {
+            if (baseStations[address].prediction < distance) {
                 nearestBaseStation = address;
             }
         }
