@@ -5,8 +5,8 @@
         .module('app.floorplan')
         .controller('FloorplanController', FloorplanController);
 
-    FloorplanController.$inject = ['socket'];
-    function FloorplanController(socket) {
+    FloorplanController.$inject = ['$scope', 'socket'];
+    function FloorplanController($scope, socket) {
         var vm = this;
 
         vm.rooms = [
@@ -63,11 +63,31 @@
         };
 
         socket.on('beacon', function (packet) {
+            console.log('received packet');
             if (packet.baseStation === '192.168.5.111') {
                 vm.rooms[0].beacons.push(packet.beacon);
+                console.log('192.168.5.111');
             } else if (packet.baseStation === '192.168.5.112') {
                 vm.rooms[1].beacons.push(packet.beacon);
+                console.log('192.168.5.112');
             }
+        });
+        
+        socket.on('connected', function () {
+            vm.connected = true;
+            vm.connectionState = 'open';
+        });
+
+        socket.on('disconnect', function () {
+            vm.connected = false;
+            vm.connectionState = 'closed';
+            vm.rssi = null;
+            vm.distance = null;
+        });
+
+        $scope.$on('$destroy', function () {
+            // Cleanup code
+            socket.disconnect();
         });
     }
 })();
