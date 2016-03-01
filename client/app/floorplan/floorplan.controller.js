@@ -79,6 +79,8 @@
             for (var i = 0; i < vm.rooms.length; i++) {
                 if (vm.rooms[i].address in presentBeacons) {
                     vm.rooms[i].beacons = presentBeacons[vm.rooms[i].address];
+                } else {
+                    vm.rooms[i].beacons = [];
                 }
             }
         });

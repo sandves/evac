@@ -4,6 +4,7 @@
 var ioSocket = require('socket.io-client');
 var socket = ioSocket.connect('http://192.168.5.120:3000', { reconnect: true });
 var EddystoneBeaconScanner = require('eddystone-beacon-scanner');
+var ip = getServerIp();
 
 socket.on('connect', function (socket) {
     console.log('Connected');
@@ -16,7 +17,6 @@ EddystoneBeaconScanner.on('found', function (beacon) {
 EddystoneBeaconScanner.on('updated', function (beacon) {
     if (typeof beacon.distance !== 'undefined') {
         var distance = beacon.distance;
-        var ip = getServerIp();
         var packet = {
             beacon: beacon,
             ip: ip
@@ -30,7 +30,11 @@ EddystoneBeaconScanner.on('updated', function (beacon) {
 });
 
 EddystoneBeaconScanner.on('lost', function (beacon) {
-    console.log('lost beacon');
+    var packet = {
+        beacon: beacon,
+        ip: ip  
+    };
+    socket.emit('bs-lost', packet);
 });
 
 EddystoneBeaconScanner.startScanning(true);
