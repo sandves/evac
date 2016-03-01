@@ -13,7 +13,6 @@ server.listen(3000);
 var beacons = {};
 
 ioSocket.on('connection', function (socket) {
-    var address = socket.handshake.address;
     console.log('New connection');
     socket.on('bs-updated', baseStationUpdated);
 });
@@ -31,19 +30,30 @@ function baseStationUpdated(packet) {
     }
     beacons[beacon.id][packet.ip] = beacon;
     console.log(beacon.prediction);
-    
+
+    var presentBeacons = {};
     for (var id in beacons) {
         if (beacons.hasOwnProperty(id)) {
             var nearestBaseStation = getNearest(id);
-            ioSocket.sockets.emit('beacon', {
-                beacon: id,
-                baseStation: nearestBaseStation
-            });
+            if (beaconWasRecentlySeen(beacons[id][nearestBaseStation])) {
+                if (!presentBeacons[nearestBaseStation]) {
+                    presentBeacons[nearestBaseStation] = [];
+                }
+                presentBeacons[nearestBaseStation].push(id);
+            }
         }
     }
-    
-    //ioSocket.sockets.emit('beacon-updated', beacon);
-    //console.log(beacons);
+    ioSocket.sockets.emit('beacon', presentBeacons);
+}
+
+function beaconWasRecentlySeen(beacon) {
+    var now = (new Date()).getTime();
+    var dt = now - beacon.lastSeen;
+    if (dt < 5000) {
+        return true;
+    } else {
+        return false;
+    }
 }
 
 // Predict the beacons positions by assuming that the base station

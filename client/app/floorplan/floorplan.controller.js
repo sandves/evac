@@ -12,6 +12,7 @@
         vm.rooms = [
             {
                 name: 'Foo',
+                address: '192.168.5.111',
                 width: 100,
                 height: 50,
                 top: 20,
@@ -20,12 +21,13 @@
             },
             {
                 name: 'Bar',
+                address: '192.168.5.112',
                 width: 100,
                 height: 100,
                 top: 100,
                 left: 20,
                 beacons: []
-            },
+            }/*,
             {
                 name: 'Baz',
                 width: 300,
@@ -48,7 +50,7 @@
                 top: 230,
                 left: 20,
                 beacons: []
-            }
+            }*/
         ];
 
         vm.test = test;
@@ -62,27 +64,31 @@
             '192.168.5.112': 'Bar'
         };
 
+        function pushIfNew(array, obj) {
+            for (var i = 0; i < array.length; i++) {
+                if (array[i] === obj) {
+                    return;
+                }
+            }
+            array.push(obj);
+        }
+
         socket.on('beacon', function (packet) {
-            console.log('received packet');
-            if (packet.baseStation === '192.168.5.111') {
-                vm.rooms[0].beacons.push(packet.beacon);
-                console.log('192.168.5.111');
-            } else if (packet.baseStation === '192.168.5.112') {
-                vm.rooms[1].beacons.push(packet.beacon);
-                console.log('192.168.5.112');
+ 
+            var presentBeacons = packet;
+            for (var i = 0; i < vm.rooms.length; i++) {
+                if (vm.rooms[i].address in presentBeacons) {
+                    vm.rooms[i].beacons = presentBeacons[vm.rooms[i].address];
+                }
             }
         });
-        
+
         socket.on('connected', function () {
-            vm.connected = true;
-            vm.connectionState = 'open';
+            console.log('connected');
         });
 
         socket.on('disconnect', function () {
-            vm.connected = false;
-            vm.connectionState = 'closed';
-            vm.rssi = null;
-            vm.distance = null;
+            console.log('disconnected');
         });
 
         $scope.$on('$destroy', function () {

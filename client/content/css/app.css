@@ -221,7 +221,7 @@ html {
     background: #fff;
     color: #000;
     display: block;
-    font-family: Impact, sans-serif;
+    /*font-family: Impact, sans-serif;*/
     font-weight: bold;
     position: absolute;
     text-align: center;
