@@ -32,6 +32,14 @@
         function isActive(viewLocation) {
             return viewLocation === $location.path();
         }
+
+        // Ugly hack to hide the collapsed navbar menu when a navigation
+        // link is clicked. Note that the menu should not hide if a dropdown
+        // menu is clicked.
+        $('.nav :not(.dropdown) a').on('click', function () {
+            $('.navbar-collapse').collapse('hide');
+        });
+
     }
 
 })();
