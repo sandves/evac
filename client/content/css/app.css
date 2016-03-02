@@ -17,6 +17,10 @@ body {
     font-size: 63px;
 }
 
+.room-form {
+    margin-bottom: 20px;
+}
+
 /* Auth styles */
 
 .form-signin {

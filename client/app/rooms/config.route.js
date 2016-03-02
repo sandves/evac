@@ -8,12 +8,19 @@
     configFunction.$inject = ['$routeProvider'];
 
     function configFunction($routeProvider) {
-        $routeProvider.when('/rooms', {
-            templateUrl: 'app/rooms/rooms.html',
-            controller: 'RoomsController',
-            controllerAs: 'vm',
-            resolve: { user: resolveUser }
-        });
+        $routeProvider
+            .when('/rooms', {
+                templateUrl: 'app/rooms/rooms.html',
+                controller: 'RoomsController',
+                controllerAs: 'vm',
+                resolve: { user: resolveUser }
+            })
+            .when('/editrooms', {
+                templateUrl: 'app/rooms/edit.html',
+                controller: 'EditController',
+                controllerAs: 'vm',
+                resolve: { user: resolveUser }
+            });
     }
 
     resolveUser.$inject = ['authService'];

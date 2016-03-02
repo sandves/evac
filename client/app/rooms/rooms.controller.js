@@ -5,27 +5,15 @@
         .module('app.rooms')
         .controller('RoomsController', RoomsController);
 
-    RoomsController.$inject = ['$scope', 'socket'];
-    function RoomsController($scope, socket) {
+    RoomsController.$inject = ['$scope', 'socket', 'user', 'roomService'];
+    function RoomsController($scope, socket, user, roomService) {
         var vm = this;
         
-        vm.rooms = [
-          {
-              name: 'Loft',
-              address: '192.168.5.111',
-              beacons: []
-          },
-          {
-              name: 'Hovedetasje',
-              address: '192.168.5.112',
-              beacons: []
-          }  
-        ];
+        vm.rooms = roomService.getRoomsByUser(user.uid);
 
         ////////////////
 
         socket.on('beacon', function (packet) {
- 
             var presentBeacons = packet;
             for (var i = 0; i < vm.rooms.length; i++) {
                 if (vm.rooms[i].address in presentBeacons) {
