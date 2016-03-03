@@ -58,15 +58,27 @@
             } else if (event.keyCode === 27) {
                 form.$cancel();
             }
-        } 
+        }
 
         function validateIpAddress(ip) {
             if (/^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/.test(ip)) {
+                if (ipAlreadyExists(ip)) {
+                    return 'IP address must be unique';
+                }
                 return true;
             }
             return 'Not a valid IP address';
         }
 
+        function ipAlreadyExists(ip) {
+            var i;
+            for (i = 0; i < vm.rooms.length; i++) {
+                if (vm.rooms[i].address === ip) {
+                    return true;
+                }
+            }
+            return false;
+        }
     }
 
 })();
