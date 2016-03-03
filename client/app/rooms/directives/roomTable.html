@@ -13,7 +13,7 @@
         </span>
         </td>
         <td>
-            <span editable-text="room.address" e-name="address" e-form="rowform" onbeforesave="vm.validateIpAddress($data)" e-ng-keydown="vm.navigate($event, rowform)" e-required>
+            <span editable-text="room.address" e-name="address" e-form="rowform" onbeforesave="vm.validateIpAddress($data, room)" e-ng-keydown="vm.navigate($event, rowform)" e-required>
           {{ room.address || 'empty' }}
         </span>
         </td>

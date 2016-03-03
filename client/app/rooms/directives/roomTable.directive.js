@@ -60,9 +60,9 @@
             }
         }
 
-        function validateIpAddress(ip) {
+        function validateIpAddress(ip, room) {
             if (/^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/.test(ip)) {
-                if (ipAlreadyExists(ip)) {
+                if (ipAlreadyExists(ip, room)) {
                     return 'IP address must be unique';
                 }
                 return true;
@@ -70,10 +70,15 @@
             return 'Not a valid IP address';
         }
 
-        function ipAlreadyExists(ip) {
+        function ipAlreadyExists(ip, room) {
             var i;
             for (i = 0; i < vm.rooms.length; i++) {
-                if (vm.rooms[i].address === ip) {
+                // The second check is to disable validation if the user
+                // hits edit and then save, without modifying the IP address.
+                // Without this check the user would be warned that the
+                // address is not unique and would not be able to close the 
+                // inline editor.
+                if (vm.rooms[i].address === ip && vm.rooms[i].$id !== room.$id) {
                     return true;
                 }
             }
