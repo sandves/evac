@@ -28,6 +28,7 @@
         vm.saveRoom = saveRoom;
         vm.displayEditor = displayEditor;
         vm.validateIpAddress = validateIpAddress;
+        vm.navigate = navigate;
         
         //////////
 
@@ -49,6 +50,15 @@
         function saveRoom(room) {
             vm.rooms.$save(room);
         }
+
+        // Key handler to enable save on enter and cancel on escape
+        function navigate(event, form) {
+            if (event.keyCode === 13) {
+                form.$submit();
+            } else if (event.keyCode === 27) {
+                form.$cancel();
+            }
+        } 
 
         function validateIpAddress(ip) {
             if (/^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/.test(ip)) {

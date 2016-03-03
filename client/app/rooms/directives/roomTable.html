@@ -8,12 +8,12 @@
     </thead>
     <tr ng-repeat="room in vm.rooms">
         <td>
-            <span editable-text="room.name" e-name="name" e-form="rowform" e-required>
+            <span editable-text="room.name" e-name="name" e-form="rowform" e-ng-keydown="vm.navigate($event, rowform)" e-required>
           {{ room.name || 'empty' }}
         </span>
         </td>
         <td>
-            <span editable-text="room.address" e-name="address" e-form="rowform" onbeforesave="vm.validateIpAddress($data)" e-required>
+            <span editable-text="room.address" e-name="address" e-form="rowform" onbeforesave="vm.validateIpAddress($data)" e-ng-keydown="vm.navigate($event, rowform)" e-required>
           {{ room.address || 'empty' }}
         </span>
         </td>
