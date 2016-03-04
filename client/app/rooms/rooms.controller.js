@@ -10,8 +10,19 @@
         var vm = this;
         
         vm.rooms = roomService.getRoomsByUser(user.uid);
+        vm.buildingIsEmpty = false;
 
         ////////////////
+        
+        function checkIfbuildingIsEmpty() {
+            var empty = true;
+            angular.forEach(vm.rooms, function (value, key) {
+               if (value.beacons.length > 0) {
+                   empty = false;
+               }
+            });
+            vm.buildingIsEmpty = empty;
+        }
 
         socket.on('beacon', function (packet) {
             var presentBeacons = packet;
@@ -22,6 +33,8 @@
                     vm.rooms[i].beacons = [];
                 }
             }
+            
+            checkIfbuildingIsEmpty();
         });
 
         socket.on('connected', function () {

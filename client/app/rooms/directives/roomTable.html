@@ -1,48 +1,54 @@
-<div style="margin-bottom: 20px">
-    <form class="form-search form-inline">
-        <input type="text" ng-model="vm.search" class="form-control search-query" placeholder="Search..." />
-    </form>
+<div class="panel panel-default">
+    <!-- Default panel contents -->
+    <div class="panel-heading clearfix">
+        <h3 class="panel-title pull-left" style="padding-top: 7.5px;">Rooms</h3>
+        <form class="form-search form-inline pull-right">
+            <input type="text" ng-model="vm.search" class="form-control search-query" placeholder="Search..." />
+        </form>
+    </div>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th style="width: 10%;">Actions</th>
+            </tr>
+        </thead>
+        <tr ng-repeat="room in vm.rooms | filter:vm.search | orderBy:'name'">
+            <td>
+                <span editable-text="room.name" e-name="name" e-form="rowform" e-ng-keydown="vm.navigate($event, rowform)" e-required>
+            {{ room.name || 'empty' }}
+            </span>
+            </td>
+            <td>
+                <span editable-text="room.address" e-name="address" e-form="rowform" onbeforesave="vm.validateIpAddress($data,
+            room)" e-ng-keydown="vm.navigate($event, rowform)" e-required>
+            {{ room.address || 'empty' }}
+            </span>
+            </td>
+            <td style="white-space: nowrap">
+                <!-- form -->
+                <form editable-form name="rowform" onaftersave="vm.saveRoom(room)" ng-show="rowform.$visible" class="form-buttons form-inline"
+                shown="vm.displayEditor(room)">
+                    <button type="submit" ng-disabled="rowform.$waiting" class="btn btn-primary">
+                        <span class="glyphicon glyphicon-ok"></span>
+                    </button>
+                    <button type="button" ng-disabled="rowform.$waiting" ng-click="rowform.$cancel()" class="btn btn-default">
+                        <span class="glyphicon glyphicon-remove"></span>
+                    </button>
+                </form>
+                <div class="buttons" ng-show="!rowform.$visible">
+                    <button class="btn btn-primary" ng-click="rowform.$show()">
+                        <span class="glyphicon glyphicon-edit"></span>
+                    </button>
+                    <button class="btn btn-danger" ng-click="vm.removeRoom(room)">
+                        <span class="glyphicon glyphicon-trash"></span>
+                    </button>
+                </div>
+            </td>
+        </tr>
+    </table>
 </div>
 
-<table class="table table-bordered table-striped">
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Address</th>
-            <th>Actions</th>
-        </tr>
-    </thead>
-    <tr ng-repeat="room in vm.rooms | filter:vm.search | orderBy:'name'" ">
-        <td>
-            <span editable-text="room.name " e-name="name " e-form="rowform " e-ng-keydown="vm.navigate($event, rowform) " e-required>
-          {{ room.name || 'empty' }}
-        </span>
-        </td>
-        <td>
-            <span editable-text="room.address " e-name="address " e-form="rowform " onbeforesave="vm.validateIpAddress($data,
-    room) " e-ng-keydown="vm.navigate($event, rowform) "
-            e-required>
-          {{ room.address || 'empty' }}
-        </span>
-        </td>
-        <td style="white-space: nowrap ">
-            <!-- form -->
-            <form editable-form name="rowform " onaftersave="vm.saveRoom(room) " ng-show="rowform.$visible " class="form-buttons
-    form-inline "
-            shown="vm.displayEditor(room) ">
-                <button type="submit " ng-disabled="rowform.$waiting " class="btn btn-primary ">
-                    Save
-                </button>
-                <button type="button " ng-disabled="rowform.$waiting " ng-click="rowform.$cancel() " class="btn btn-default ">
-                    Cancel
-                </button>
-            </form>
-            <div class="buttons " ng-show="!rowform.$visible ">
-                <button class="btn btn-primary " ng-click="rowform.$show() ">Edit</button>
-                <button class="btn btn-danger " ng-click="vm.removeRoom(room) ">Delete</button>
-            </div>
-        </td>
-    </tr>
-</table>
-
-<button class="btn btn-default " ng-click="vm.addRoom() ">Add room</button>
+<button class="btn btn-default" ng-click="vm.addRoom()">Add room</button>

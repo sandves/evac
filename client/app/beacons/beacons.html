@@ -2,7 +2,7 @@
 
     <div style="margin-top: -20px; border-radius: 50%; position: absolute; background: black; left: calc(50% - 20px); width: 40px; height: 40px;"></div>
 
-    <div style="width: 100%; min-height: 100vh; position: absolute; overflow: hidden;">
+    <div style="width: 100%; min-height: calc(100vh - 48px); position: absolute; overflow: hidden;">
         <div class="circle immediate"></div>
         <div class="circle near"></div>
         <div class="circle far"></div>
@@ -13,7 +13,6 @@
             <div class="proximity" style="top: 53%;">NEAR (1-10m)</div>
             <div class="proximity" style="top: 89%;">FAR (> 10m)</div>
 
-
             <div class="container" style="padding-top: 20px;" ng-show="vm.debug">
                 <p><b>Connection: </b>{{ vm.connectionState }}</p>
                 <p><b>RSSI: </b>{{ vm.rssi }}</p>
@@ -22,6 +21,6 @@
                 <p><b>URL: </b>{{ vm.url }}</p>
             </div>
 
-            <beacon distance="vm.dist" name="A", x="-100"></beacon>
-            <beacon distance="vm.prediction" name="B", x="52"></beacon>
+            <beacon distance="vm.dist" name="A" , x="-100"></beacon>
+            <beacon distance="vm.prediction" name="B" , x="52"></beacon>
     </div>

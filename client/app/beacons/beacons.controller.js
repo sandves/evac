@@ -19,8 +19,8 @@
         vm.connectionState = 'closed';
         vm.url = '';
 
-        vm.dist = 0;
-        vm.prediction = 0;
+        vm.dist = 3;
+        vm.prediction = 4.5;
 
         socket.on('beacon-updated', function (beacon) {
             vm.rssi = beacon.rssi + 'dBm';

@@ -1,10 +1,17 @@
 <div class="container">
-    <ul class="list-group">
-        <!--<li class="list-group-item list-group-item-info">
-            <h4 class="list-group-item-heading">Rooms</h4>
-        </li>-->
-        <li class="list-group-item" data-ng-repeat="room in vm.rooms">
-            {{ room.name }} <span ng-show="room.beacons.length > 0" class="badge">{{ room.beacons.length }}</span>
-        </li>
-    </ul>
+    <div class="panel" ng-class="{ 'panel-success': vm.buildingIsEmpty, 'panel-danger': !vm.buildingIsEmpty }">
+        <div class="panel-heading">Detected objects</div>
+        <div class="panel-body">
+            <p ng-if="vm.buildingIsEmpty">The building is cleared.</p>
+            <p ng-if="!vm.buildingIsEmpty">
+                There are still people in the building! Look for <span class="badge">badges</span> to identify the rooms
+                that has not been cleared. The number in the badge represent the number of persons discovered. Click on the
+                room to view it in the floorplan viewer.</p>
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item" data-ng-repeat="room in vm.rooms">
+                {{ room.name }} <span ng-show="room.beacons.length > 0" class="badge">{{ room.beacons.length }}</span>
+            </li>
+        </ul>
+    </div>
 </div>
