@@ -7,7 +7,7 @@
         </form>
     </div>
 
-    <table class="table table-striped">
+    <table class="table">
         <thead>
             <tr>
                 <th>Name</th>
@@ -15,9 +15,9 @@
                 <th style="width: 10%;">Actions</th>
             </tr>
         </thead>
-        <tr ng-repeat="room in vm.rooms | filter:vm.search | orderBy:'name'">
+        <tr ng-repeat="room in vm.rooms | filter:vm.search | orderBy:['!name', 'name'] ">
             <td>
-                <span editable-text="room.name" e-name="name" e-form="rowform" e-ng-keydown="vm.navigate($event, rowform)" e-required>
+                <span editable-text="room.name" e-name="name" e-form="rowform" onbeforesave="vm.checkNotEmpty($data)" e-ng-keydown="vm.navigate($event, rowform)" e-required>
             {{ room.name || 'empty' }}
             </span>
             </td>
@@ -34,7 +34,7 @@
                     <button type="submit" ng-disabled="rowform.$waiting" class="btn btn-primary">
                         <span class="glyphicon glyphicon-ok"></span>
                     </button>
-                    <button type="button" ng-disabled="rowform.$waiting" ng-click="rowform.$cancel()" class="btn btn-default">
+                    <button type="button" ng-disabled="rowform.$waiting" ng-click="vm.cancel(room, rowform)" class="btn btn-default">
                         <span class="glyphicon glyphicon-remove"></span>
                     </button>
                 </form>
@@ -42,13 +42,14 @@
                     <button class="btn btn-primary" ng-click="rowform.$show()">
                         <span class="glyphicon glyphicon-edit"></span>
                     </button>
-                    <button class="btn btn-danger" ng-click="vm.removeRoom(room)">
+                    <button class="btn btn-danger" ss-really-click="vm.removeRoom(room)" ss-really-message="Are you sure you want to delete the room?">
                         <span class="glyphicon glyphicon-trash"></span>
                     </button>
                 </div>
             </td>
         </tr>
     </table>
+    <div class="panel-footer">
+        <button class="btn btn-default" ng-click="vm.addRoom()">Add room</button>
+    </div>
 </div>
-
-<button class="btn btn-default" ng-click="vm.addRoom()">Add room</button>

@@ -29,6 +29,8 @@
         vm.displayEditor = displayEditor;
         vm.validateIpAddress = validateIpAddress;
         vm.navigate = navigate;
+        vm.checkNotEmpty = checkNotEmpty;
+        vm.cancel = cancel;
         
         //////////
 
@@ -50,6 +52,16 @@
         function saveRoom(room) {
             vm.rooms.$save(room);
         }
+        
+        function cancel(room, rowform) {
+            rowform.$cancel();
+            // Remove room if empty. This is because validation is ommited if
+            // the user adds a new room, and then hits cancel without adding
+            // any information about the room.
+            if (room.name === '' && room.address === '') {
+                removeRoom(room);
+            }
+        }
 
         // Key handler to enable save on enter and cancel on escape
         function navigate(event, form) {
@@ -57,6 +69,14 @@
                 form.$submit();
             } else if (event.keyCode === 27) {
                 form.$cancel();
+            }
+        }
+        
+        function checkNotEmpty(name) {
+            if (name) {
+                return true;
+            } else {
+                return 'Name cannot be empty!';
             }
         }
 

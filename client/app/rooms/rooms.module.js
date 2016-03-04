@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('app.rooms', ['xeditable'])
+        .module('app.rooms', ['xeditable', 'ssReallyClick'])
         .run(xeditableConfig);
     
     xeditableConfig.$inject = ['editableOptions'];
