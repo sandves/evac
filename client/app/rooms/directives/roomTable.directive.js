@@ -52,7 +52,7 @@
         function saveRoom(room) {
             vm.rooms.$save(room);
         }
-        
+
         function cancel(room, rowform) {
             rowform.$cancel();
             // Remove room if empty. This is because validation is ommited if
@@ -71,21 +71,26 @@
                 form.$cancel();
             }
         }
-        
+
         function checkNotEmpty(name) {
-            if (name) {
-                return true;
-            } else {
+            if (!name) {
                 return 'Name cannot be empty!';
             }
         }
 
+        var ipRegex = new RegExp('' +
+            /^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\./.source +
+            /(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\./.source +
+            /(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\./.source +
+            /(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/.source
+            );
+
         function validateIpAddress(ip, room) {
-            if (/^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/.test(ip)) {
+            if (ipRegex.test(ip)) {
                 if (ipAlreadyExists(ip, room)) {
                     return 'IP address must be unique';
                 }
-                return true;
+                return undefined;
             }
             return 'Not a valid IP address';
         }
