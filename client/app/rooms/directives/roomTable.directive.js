@@ -43,6 +43,12 @@
             vm.rooms.$add(newRoom).then(function (ref) {
                 vm.inserted = ref.key();
             });
+            
+            // Clear search field so that the new row
+            // becomes visible in the table.
+            if (vm.search) {
+                vm.search = '';
+            }
         }
 
         function displayEditor(room) {
