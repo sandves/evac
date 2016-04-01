@@ -6,6 +6,22 @@ var socket = ioSocket.connect('http://192.168.5.120:3000', { reconnect: true });
 var EddystoneBeaconScanner = require('eddystone-beacon-scanner');
 var ip = getServerIp();
 
+var position = {};
+
+if (ip === '192.168.5.110') {
+    position.x = 2.55;
+    position.y = 6.35;
+} else if (ip === '192.168.5.111') {
+    position.x = 5.1;
+    position.y = 3.85;
+} else if (ip === '192.168.5.112') {
+    position.x = 0;
+    position.y = 1.85;
+} else {
+    position.x = 0;
+    position.y = 0;
+}
+
 socket.on('connect', function (socket) {
     console.log('Connected');
 });
@@ -18,7 +34,8 @@ EddystoneBeaconScanner.on('updated', function (beacon) {
     if (typeof beacon.distance !== 'undefined') {
         var packet = {
             beacon: beacon,
-            ip: ip
+            ip: ip,
+            position: position
         };
         socket.emit('bs-updated', packet);
         console.log(beacon.distance + ' (' + beacon.rssi + ')');
