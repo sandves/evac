@@ -21,7 +21,11 @@ ioSocket.on('connection', function (socket) {
 
 function baseStationLost(packet) {
     delete beacons[packet.beacon.id][packet.ip];
+    console.log('lost');
+    broadCastPresentBeacons();
+}
 
+function broadCastPresentBeacons() {
     var presentBeacons = {};
     for (var id in beacons) {
         if (beacons.hasOwnProperty(id)) {
@@ -35,7 +39,6 @@ function baseStationLost(packet) {
             presentBeacons[nearestBaseStation].push(id);
         }
     }
-    console.log('lost');
     ioSocket.sockets.emit('beacon', presentBeacons);
 }
 
@@ -52,20 +55,8 @@ function baseStationUpdated(packet) {
     }
     beacons[beacon.id][packet.ip] = beacon;
 
-    var presentBeacons = {};
-    for (var id in beacons) {
-        if (beacons.hasOwnProperty(id)) {
-            var nearestBaseStation = getNearest(id);
-            if (!nearestBaseStation) {
-                continue;
-            }
-            if (!presentBeacons[nearestBaseStation]) {
-                presentBeacons[nearestBaseStation] = [];
-            }
-            presentBeacons[nearestBaseStation].push(id);
-        }
-    }
-    ioSocket.sockets.emit('beacon', presentBeacons);
+    broadCastPresentBeacons();
+    trilaterate();
 }
 
 function trilaterate() {
