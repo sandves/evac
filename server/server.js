@@ -39,11 +39,13 @@ function broadCastPresentBeacons() {
             presentBeacons[nearestBaseStation].push(id);
         }
     }
+    //console.log(Object.keys(presentBeacons).length);
     ioSocket.sockets.emit('beacon', presentBeacons);
 }
 
 function baseStationUpdated(packet) {
     var beacon = packet.beacon;
+    beacon.position = packet.position;
     var distance = beacon.distance;
     var prediction = filters.kalman({
         pageX: 0,
@@ -60,11 +62,10 @@ function baseStationUpdated(packet) {
 }
 
 function trilaterate() {
-    
     var bs = {};
     for (var id in beacons) {
         if (beacons.hasOwnProperty(id)) {
-            if (beacons[id].length >= 3) {
+            if (Object.keys(beacons[id]).length >= 3) {
                 // There are currently only three beacons,
                 // so no need to check for more.
                 bs[id] = [];
@@ -92,27 +93,27 @@ function trilaterate() {
                 x: bs1.position.x, 
                 y: bs1.position.y, 
                 z: 0, 
-                r: bs1.beacon.distance 
+                r: bs1.prediction 
             };
             var bs2Point = { 
                 x: bs2.position.x, 
                 y: bs2.position.y, 
                 z: 0, r: 
-                bs2.beacon.distance 
+                bs2.prediction
             };
             var bs3Point = { 
                 x: bs3.position.x, 
                 y: bs3.position.y, 
                 z: 0, 
-                r: bs3.beacon.distance 
+                r: bs3.prediction 
             };
             
             var position = positioning.trilaterate(bs1Point, bs2Point, bs3Point, true);
             
             bs[id2] = position;
+            console.log(bs1.prediction, bs2.prediction, bs3.prediction, position.x, position.y);
         }
     }
-    console.log(bs);
 }
 
 // Predict the beacons positions by assuming that the base station

@@ -5,6 +5,10 @@ var ioSocket = require('socket.io-client');
 var socket = ioSocket.connect('http://192.168.5.120:3000', { reconnect: true });
 var EddystoneBeaconScanner = require('eddystone-beacon-scanner');
 var ip = getServerIp();
+var fs = require(fs);
+var logger = fs.createWriteStream('log.txt', {
+    flags: 'a'
+});
 
 var position = {};
 
@@ -31,6 +35,7 @@ EddystoneBeaconScanner.on('found', function (beacon) {
 });
 
 EddystoneBeaconScanner.on('updated', function (beacon) {
+    logger.write(JSON.stringify(beacon));
     if (typeof beacon.distance !== 'undefined') {
         var packet = {
             beacon: beacon,
@@ -68,3 +73,9 @@ function getServerIp() {
 
     return values.length ? values[0].address : '0.0.0.0';
 }
+
+process.on('SIGINT', function() {
+    console.log("Caught interrupt signal");
+    logger.end();
+    process.exit(2);
+});
