@@ -1,0 +1,1175 @@
+[
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461342150694,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131312,
+            "secCnt": 46659960
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -67,
+        "distance": 2.2387211385683394,
+        "lastSeen": 1461342152503,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131312,
+            "secCnt": 46659960
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -61,
+        "distance": 1.1220184543019633,
+        "lastSeen": 1461342153535,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131312,
+            "secCnt": 46659960
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -70,
+        "distance": 3.1622776601683795,
+        "lastSeen": 1461342154574,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131312,
+            "secCnt": 46659960
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -62,
+        "distance": 1.2589254117941673,
+        "lastSeen": 1461342156504,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131324,
+            "secCnt": 46660080
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -67,
+        "distance": 2.2387211385683394,
+        "lastSeen": 1461342157536,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131324,
+            "secCnt": 46660080
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -67,
+        "distance": 2.2387211385683394,
+        "lastSeen": 1461342159597,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131324,
+            "secCnt": 46660080
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -86,
+        "distance": 19.952623149688797,
+        "lastSeen": 1461342160631,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131324,
+            "secCnt": 46660080
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461342162694,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131324,
+            "secCnt": 46660080
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -82,
+        "distance": 12.589254117941675,
+        "lastSeen": 1461342163728,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131324,
+            "secCnt": 46660080
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -78,
+        "distance": 7.943282347242816,
+        "lastSeen": 1461342164501,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131324,
+            "secCnt": 46660080
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -64,
+        "distance": 1.5848931924611136,
+        "lastSeen": 1461342165547,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131324,
+            "secCnt": 46660080
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -76,
+        "distance": 6.309573444801933,
+        "lastSeen": 1461342166572,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131324,
+            "secCnt": 46660080
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461342168505,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131336,
+            "secCnt": 46660200
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -73,
+        "distance": 4.466835921509632,
+        "lastSeen": 1461342169540,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131336,
+            "secCnt": 46660200
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461342170574,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131336,
+            "secCnt": 46660200
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -67,
+        "distance": 2.2387211385683394,
+        "lastSeen": 1461342171612,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131336,
+            "secCnt": 46660200
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -70,
+        "distance": 3.1622776601683795,
+        "lastSeen": 1461342172641,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131336,
+            "secCnt": 46660200
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461342173671,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131336,
+            "secCnt": 46660200
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -75,
+        "distance": 5.623413251903491,
+        "lastSeen": 1461342174703,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131336,
+            "secCnt": 46660200
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -64,
+        "distance": 1.5848931924611136,
+        "lastSeen": 1461342175733,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131336,
+            "secCnt": 46660200
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461342176508,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131336,
+            "secCnt": 46660200
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -73,
+        "distance": 4.466835921509632,
+        "lastSeen": 1461342178514,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131336,
+            "secCnt": 46660200
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461342181529,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131347,
+            "secCnt": 46660320
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461342182566,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131347,
+            "secCnt": 46660320
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461342183599,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131347,
+            "secCnt": 46660320
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461342184636,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131347,
+            "secCnt": 46660320
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461342185668,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131347,
+            "secCnt": 46660320
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461342186706,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131347,
+            "secCnt": 46660320
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461342187732,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131347,
+            "secCnt": 46660320
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461342188503,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131347,
+            "secCnt": 46660320
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461342189535,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131347,
+            "secCnt": 46660320
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -72,
+        "distance": 3.9810717055349722,
+        "lastSeen": 1461342190572,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22,
+            "advCnt": 131347,
+            "secCnt": 46660320
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461342193529,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131359,
+            "secCnt": 46660440
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461342194563,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131359,
+            "secCnt": 46660440
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -73,
+        "distance": 4.466835921509632,
+        "lastSeen": 1461342196627,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131359,
+            "secCnt": 46660440
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461342198693,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131359,
+            "secCnt": 46660440
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -71,
+        "distance": 3.548133892335755,
+        "lastSeen": 1461342200510,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131359,
+            "secCnt": 46660440
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -70,
+        "distance": 3.1622776601683795,
+        "lastSeen": 1461342201542,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131359,
+            "secCnt": 46660440
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -77,
+        "distance": 7.079457843841379,
+        "lastSeen": 1461342202581,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131359,
+            "secCnt": 46660440
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -70,
+        "distance": 3.1622776601683795,
+        "lastSeen": 1461342205539,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131371,
+            "secCnt": 46660560
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -69,
+        "distance": 2.8183829312644537,
+        "lastSeen": 1461342206574,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131371,
+            "secCnt": 46660560
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -80,
+        "distance": 10,
+        "lastSeen": 1461342207606,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131371,
+            "secCnt": 46660560
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -76,
+        "distance": 6.309573444801933,
+        "lastSeen": 1461342208637,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131371,
+            "secCnt": 46660560
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -71,
+        "distance": 3.548133892335755,
+        "lastSeen": 1461342210701,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131371,
+            "secCnt": 46660560
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -73,
+        "distance": 4.466835921509632,
+        "lastSeen": 1461342211736,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131371,
+            "secCnt": 46660560
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -73,
+        "distance": 4.466835921509632,
+        "lastSeen": 1461342213539,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131371,
+            "secCnt": 46660560
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -71,
+        "distance": 3.548133892335755,
+        "lastSeen": 1461342214569,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131371,
+            "secCnt": 46660560
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461342217536,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131383,
+            "secCnt": 46660680
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -73,
+        "distance": 4.466835921509632,
+        "lastSeen": 1461342218576,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131383,
+            "secCnt": 46660680
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -72,
+        "distance": 3.9810717055349722,
+        "lastSeen": 1461342219595,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131383,
+            "secCnt": 46660680
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -69,
+        "distance": 2.8183829312644537,
+        "lastSeen": 1461342221658,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131383,
+            "secCnt": 46660680
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -75,
+        "distance": 5.623413251903491,
+        "lastSeen": 1461342222692,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131383,
+            "secCnt": 46660680
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -79,
+        "distance": 8.912509381337454,
+        "lastSeen": 1461342223726,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131383,
+            "secCnt": 46660680
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -77,
+        "distance": 7.079457843841379,
+        "lastSeen": 1461342224502,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131383,
+            "secCnt": 46660680
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461342225535,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131383,
+            "secCnt": 46660680
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -71,
+        "distance": 3.548133892335755,
+        "lastSeen": 1461342226563,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131383,
+            "secCnt": 46660680
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -69,
+        "distance": 2.8183829312644537,
+        "lastSeen": 1461342228508,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.25,
+            "advCnt": 131395,
+            "secCnt": 46660800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -72,
+        "distance": 3.9810717055349722,
+        "lastSeen": 1461342229545,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.25,
+            "advCnt": 131395,
+            "secCnt": 46660800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -75,
+        "distance": 5.623413251903491,
+        "lastSeen": 1461342231609,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.25,
+            "advCnt": 131395,
+            "secCnt": 46660800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -72,
+        "distance": 3.9810717055349722,
+        "lastSeen": 1461342234707,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.25,
+            "advCnt": 131395,
+            "secCnt": 46660800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461342235735,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.25,
+            "advCnt": 131395,
+            "secCnt": 46660800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -81,
+        "distance": 11.220184543019636,
+        "lastSeen": 1461342236503,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.25,
+            "advCnt": 131395,
+            "secCnt": 46660800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -63,
+        "distance": 1.4125375446227544,
+        "lastSeen": 1461342237538,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.25,
+            "advCnt": 131395,
+            "secCnt": 46660800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -82,
+        "distance": 12.589254117941675,
+        "lastSeen": 1461342238577,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.25,
+            "advCnt": 131395,
+            "secCnt": 46660800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -74,
+        "distance": 5.011872336272722,
+        "lastSeen": 1461342240503,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.25,
+            "advCnt": 131395,
+            "secCnt": 46660800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -78,
+        "distance": 7.943282347242816,
+        "lastSeen": 1461342241532,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.25,
+            "advCnt": 131395,
+            "secCnt": 46660800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -74,
+        "distance": 5.011872336272722,
+        "lastSeen": 1461342242561,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.25,
+            "advCnt": 131395,
+            "secCnt": 46660800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461342244627,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.25,
+            "advCnt": 131395,
+            "secCnt": 46660800
+        }
+    }
+]

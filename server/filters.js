@@ -30,7 +30,7 @@ var decay = 0.0001;
 // and unrealistic tracking because the data is too noisy.
 
 var R = Matrix.Diagonal([0.02, 0.02]);
-    
+
 // initial state (location and velocity)
 // I haven't found much reason to play with these
 // in general the model will update pretty quickly 
@@ -53,7 +53,7 @@ var u = $M([
     [0],
     [0]
 ]);
-        
+
 // initial uncertainty 
 // I don't see any reason to play with this
 // like the entry point it quickly adjusts 
@@ -65,7 +65,7 @@ var P = Matrix.Random(4, 4);
 var H = $M([
     [1, 0, 0, 0],
     [0, 1, 0, 0]
-]); 
+]);
 
 // identity matrix
 var I = Matrix.I(4);
@@ -88,18 +88,18 @@ function kalman(e) {
         [0, 1, 0, dt],
         [0, 0, 1, 0],
         [0, 0, 0, 1]
-    ]); 
-   
+    ]);
+
     // decay confidence
     // to account for change in velocity
-    P = P.map(function (x) {
+    P = P.map(function(x) {
         return x * (1 + decay * dt);
     });
-    
+
     // Fake uncertaintity in our measurements
     var xMeasure = e.pageX; // + 500 * R.e(1,1) * 2 * (Math.random() - 0.5);
     var yMeasure = e.pageY;// + 500 * R.e(2,2) * 2 * (Math.random() - 0.5);
-    
+
     // prediction
     x = F.x(x).add(u);
     P = F.x(P).x(F.transpose());
@@ -122,6 +122,27 @@ function kalman(e) {
 
 }
 
+function Filter(q, r, p, x) {
+    this.q = q; // process noise covariance
+    this.r = r; // measurment noise covariance
+    this.x = x; // initial value
+    this.p = p; // estimation error covariance
+    this.k = 0; // Kalman gain
+}
+
+Filter.prototype.update = function(measurement) {
+    // prediction update
+    // omit x = x
+    this.p = this.p + this.q;
+
+    //measurement update
+    this.k = this.p / (this.p + this.r);
+    this.x = this.x + this.k * (measurement - this.x);
+    this.p = (1 - this.k) * this.p;
+
+    return this.x;
+};
+
 module.exports = {
-    kalman: kalman  
+    Filter: Filter
 };

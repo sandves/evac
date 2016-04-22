@@ -1,0 +1,149 @@
+[
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -86,
+        "distance": 19.952623149688797,
+        "lastSeen": 1461343956498,
+        "tlm": {
+            "version": 0,
+            "vbatt": 2994,
+            "temp": 17.5,
+            "advCnt": 132196,
+            "secCnt": 46677840
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -91,
+        "distance": 35.48133892335755,
+        "lastSeen": 1461343963722
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -90,
+        "distance": 31.622776601683793,
+        "lastSeen": 1461343971589
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -81,
+        "distance": 11.220184543019636,
+        "lastSeen": 1461343973661
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -89,
+        "distance": 28.183829312644534,
+        "lastSeen": 1461343975724
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -91,
+        "distance": 35.48133892335755,
+        "lastSeen": 1461343980492
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -90,
+        "distance": 31.622776601683793,
+        "lastSeen": 1461343985651
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -91,
+        "distance": 35.48133892335755,
+        "lastSeen": 1461344019594
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -91,
+        "distance": 35.48133892335755,
+        "lastSeen": 1461344021678
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -91,
+        "distance": 35.48133892335755,
+        "lastSeen": 1461344025530
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -88,
+        "distance": 25.118864315095795,
+        "lastSeen": 1461344035719
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -90,
+        "distance": 31.622776601683793,
+        "lastSeen": 1461344037533
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -88,
+        "distance": 25.118864315095795,
+        "lastSeen": 1461344044636
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -69,
+        "distance": 2.8183829312644537,
+        "lastSeen": 1461344046695
+    }
+]

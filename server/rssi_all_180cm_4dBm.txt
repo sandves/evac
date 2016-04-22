@@ -1,0 +1,3544 @@
+[
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -67,
+        "distance": 2.2387211385683394,
+        "lastSeen": 1461341922675,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495148,
+            "secCnt": 75248040
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -73,
+        "distance": 4.466835921509632,
+        "lastSeen": 1461341922707,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23.25,
+            "advCnt": 131102,
+            "secCnt": 46657680
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -74,
+        "distance": 5.011872336272722,
+        "lastSeen": 1461341923086,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.5,
+            "advCnt": 162152,
+            "secCnt": 46658640
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -76,
+        "distance": 6.309573444801933,
+        "lastSeen": 1461341923652,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495148,
+            "secCnt": 75248040
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461341923731,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23.25,
+            "advCnt": 131102,
+            "secCnt": 46657680
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461341924511,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23.25,
+            "advCnt": 131102,
+            "secCnt": 46657680
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -72,
+        "distance": 3.9810717055349722,
+        "lastSeen": 1461341924633,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495148,
+            "secCnt": 75248040
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461341925092,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.5,
+            "advCnt": 162152,
+            "secCnt": 46658640
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461341925541,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23.25,
+            "advCnt": 131102,
+            "secCnt": 46657680
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461341926574,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23.25,
+            "advCnt": 131102,
+            "secCnt": 46657680
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -74,
+        "distance": 5.011872336272722,
+        "lastSeen": 1461341926681,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495163,
+            "secCnt": 75248160
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461341927088,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.5,
+            "advCnt": 162163,
+            "secCnt": 46658760
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461341927658,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495163,
+            "secCnt": 75248160
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461341928092,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.5,
+            "advCnt": 162163,
+            "secCnt": 46658760
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -74,
+        "distance": 5.011872336272722,
+        "lastSeen": 1461341928503,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131114,
+            "secCnt": 46657800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461341929092,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.5,
+            "advCnt": 162163,
+            "secCnt": 46658760
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -80,
+        "distance": 10,
+        "lastSeen": 1461341929533,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131114,
+            "secCnt": 46657800
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -78,
+        "distance": 7.943282347242816,
+        "lastSeen": 1461341929625,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495163,
+            "secCnt": 75248160
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -69,
+        "distance": 2.8183829312644537,
+        "lastSeen": 1461341930561,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131114,
+            "secCnt": 46657800
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -73,
+        "distance": 4.466835921509632,
+        "lastSeen": 1461341930602,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495163,
+            "secCnt": 75248160
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -72,
+        "distance": 3.9810717055349722,
+        "lastSeen": 1461341931090,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.5,
+            "advCnt": 162163,
+            "secCnt": 46658760
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -61,
+        "distance": 1.1220184543019633,
+        "lastSeen": 1461341931583,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495163,
+            "secCnt": 75248160
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461341931598,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131114,
+            "secCnt": 46657800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -63,
+        "distance": 1.4125375446227544,
+        "lastSeen": 1461341932091,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.5,
+            "advCnt": 162163,
+            "secCnt": 46658760
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461341932560,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495163,
+            "secCnt": 75248160
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -67,
+        "distance": 2.2387211385683394,
+        "lastSeen": 1461341933095,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.5,
+            "advCnt": 162163,
+            "secCnt": 46658760
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461341933542,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495163,
+            "secCnt": 75248160
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -69,
+        "distance": 2.8183829312644537,
+        "lastSeen": 1461341933655,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131114,
+            "secCnt": 46657800
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -69,
+        "distance": 2.8183829312644537,
+        "lastSeen": 1461341933699,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495163,
+            "secCnt": 75248160
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461341934094,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.5,
+            "advCnt": 162163,
+            "secCnt": 46658760
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461341934681,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495163,
+            "secCnt": 75248160
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -81,
+        "distance": 11.220184543019636,
+        "lastSeen": 1461341934687,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131114,
+            "secCnt": 46657800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -67,
+        "distance": 2.2387211385683394,
+        "lastSeen": 1461341935087,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.5,
+            "advCnt": 162163,
+            "secCnt": 46658760
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -62,
+        "distance": 1.2589254117941673,
+        "lastSeen": 1461341936084,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.5,
+            "advCnt": 162163,
+            "secCnt": 46658760
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -77,
+        "distance": 7.079457843841379,
+        "lastSeen": 1461341936514,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131114,
+            "secCnt": 46657800
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -70,
+        "distance": 3.1622776601683795,
+        "lastSeen": 1461341936636,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495163,
+            "secCnt": 75248160
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -63,
+        "distance": 1.4125375446227544,
+        "lastSeen": 1461341937092,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.5,
+            "advCnt": 162163,
+            "secCnt": 46658760
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -74,
+        "distance": 5.011872336272722,
+        "lastSeen": 1461341937542,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131114,
+            "secCnt": 46657800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461341938572,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131114,
+            "secCnt": 46657800
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -76,
+        "distance": 6.309573444801933,
+        "lastSeen": 1461341938676,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495178,
+            "secCnt": 75248280
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -61,
+        "distance": 1.1220184543019633,
+        "lastSeen": 1461341939085,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.25,
+            "advCnt": 162175,
+            "secCnt": 46658880
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -72,
+        "distance": 3.9810717055349722,
+        "lastSeen": 1461341939658,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495178,
+            "secCnt": 75248280
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -71,
+        "distance": 3.548133892335755,
+        "lastSeen": 1461341940086,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.25,
+            "advCnt": 162175,
+            "secCnt": 46658880
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461341940505,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131114,
+            "secCnt": 46657800
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -75,
+        "distance": 5.623413251903491,
+        "lastSeen": 1461341940636,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495178,
+            "secCnt": 75248280
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -75,
+        "distance": 5.623413251903491,
+        "lastSeen": 1461341941088,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.25,
+            "advCnt": 162175,
+            "secCnt": 46658880
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461341941540,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131114,
+            "secCnt": 46657800
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -69,
+        "distance": 2.8183829312644537,
+        "lastSeen": 1461341941613,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495178,
+            "secCnt": 75248280
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -71,
+        "distance": 3.548133892335755,
+        "lastSeen": 1461341942088,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.25,
+            "advCnt": 162175,
+            "secCnt": 46658880
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461341942573,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131114,
+            "secCnt": 46657800
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -71,
+        "distance": 3.548133892335755,
+        "lastSeen": 1461341942593,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495178,
+            "secCnt": 75248280
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -76,
+        "distance": 6.309573444801933,
+        "lastSeen": 1461341943096,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.25,
+            "advCnt": 162175,
+            "secCnt": 46658880
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -72,
+        "distance": 3.9810717055349722,
+        "lastSeen": 1461341943571,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495178,
+            "secCnt": 75248280
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -77,
+        "distance": 7.079457843841379,
+        "lastSeen": 1461341943605,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131114,
+            "secCnt": 46657800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -69,
+        "distance": 2.8183829312644537,
+        "lastSeen": 1461341944101,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.25,
+            "advCnt": 162175,
+            "secCnt": 46658880
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461341944553,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495178,
+            "secCnt": 75248280
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -62,
+        "distance": 1.2589254117941673,
+        "lastSeen": 1461341944637,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131114,
+            "secCnt": 46657800
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -63,
+        "distance": 1.4125375446227544,
+        "lastSeen": 1461341945530,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495178,
+            "secCnt": 75248280
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -64,
+        "distance": 1.5848931924611136,
+        "lastSeen": 1461341945674,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131114,
+            "secCnt": 46657800
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461341945700,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495178,
+            "secCnt": 75248280
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -59,
+        "distance": 0.8912509381337456,
+        "lastSeen": 1461341946104,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.25,
+            "advCnt": 162175,
+            "secCnt": 46658880
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -60,
+        "distance": 1,
+        "lastSeen": 1461341946678,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495178,
+            "secCnt": 75248280
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -61,
+        "distance": 1.1220184543019633,
+        "lastSeen": 1461341946704,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131114,
+            "secCnt": 46657800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461341947084,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.25,
+            "advCnt": 162175,
+            "secCnt": 46658880
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -63,
+        "distance": 1.4125375446227544,
+        "lastSeen": 1461341947743,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131114,
+            "secCnt": 46657800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -59,
+        "distance": 0.8912509381337456,
+        "lastSeen": 1461341948081,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.25,
+            "advCnt": 162175,
+            "secCnt": 46658880
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -59,
+        "distance": 0.8912509381337456,
+        "lastSeen": 1461341948511,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131114,
+            "secCnt": 46657800
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -63,
+        "distance": 1.4125375446227544,
+        "lastSeen": 1461341948635,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495178,
+            "secCnt": 75248280
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -64,
+        "distance": 1.5848931924611136,
+        "lastSeen": 1461341949081,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.25,
+            "advCnt": 162175,
+            "secCnt": 46658880
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -59,
+        "distance": 0.8912509381337456,
+        "lastSeen": 1461341950512,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131114,
+            "secCnt": 46657800
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461341950685,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495193,
+            "secCnt": 75248400
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -59,
+        "distance": 0.8912509381337456,
+        "lastSeen": 1461341951081,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.25,
+            "advCnt": 162175,
+            "secCnt": 46658880
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -63,
+        "distance": 1.4125375446227544,
+        "lastSeen": 1461341951658,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495193,
+            "secCnt": 75248400
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461341952087,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.25,
+            "advCnt": 162175,
+            "secCnt": 46658880
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -63,
+        "distance": 1.4125375446227544,
+        "lastSeen": 1461341952512,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131137,
+            "secCnt": 46658040
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -67,
+        "distance": 2.2387211385683394,
+        "lastSeen": 1461341952635,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495193,
+            "secCnt": 75248400
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -63,
+        "distance": 1.4125375446227544,
+        "lastSeen": 1461341953541,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131137,
+            "secCnt": 46658040
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -71,
+        "distance": 3.548133892335755,
+        "lastSeen": 1461341953613,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495193,
+            "secCnt": 75248400
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461341954590,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495193,
+            "secCnt": 75248400
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461341955097,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.25,
+            "advCnt": 162175,
+            "secCnt": 46658880
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461341955576,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495193,
+            "secCnt": 75248400
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -62,
+        "distance": 1.2589254117941673,
+        "lastSeen": 1461341955598,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131137,
+            "secCnt": 46658040
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -59,
+        "distance": 0.8912509381337456,
+        "lastSeen": 1461341956095,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.25,
+            "advCnt": 162175,
+            "secCnt": 46658880
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461341956552,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495193,
+            "secCnt": 75248400
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -59,
+        "distance": 0.8912509381337456,
+        "lastSeen": 1461341956632,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131137,
+            "secCnt": 46658040
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -63,
+        "distance": 1.4125375446227544,
+        "lastSeen": 1461341957096,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.25,
+            "advCnt": 162175,
+            "secCnt": 46658880
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -63,
+        "distance": 1.4125375446227544,
+        "lastSeen": 1461341957536,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495193,
+            "secCnt": 75248400
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -59,
+        "distance": 0.8912509381337456,
+        "lastSeen": 1461341957665,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131137,
+            "secCnt": 46658040
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461341958095,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.25,
+            "advCnt": 162175,
+            "secCnt": 46658880
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461341958681,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495193,
+            "secCnt": 75248400
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -63,
+        "distance": 1.4125375446227544,
+        "lastSeen": 1461341958695,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131137,
+            "secCnt": 46658040
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -67,
+        "distance": 2.2387211385683394,
+        "lastSeen": 1461341959084,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.25,
+            "advCnt": 162175,
+            "secCnt": 46658880
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -69,
+        "distance": 2.8183829312644537,
+        "lastSeen": 1461341959658,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495193,
+            "secCnt": 75248400
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -59,
+        "distance": 0.8912509381337456,
+        "lastSeen": 1461341959721,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131137,
+            "secCnt": 46658040
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461341960641,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 22,
+            "advCnt": 495193,
+            "secCnt": 75248400
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461341961084,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3084,
+            "temp": 18.25,
+            "advCnt": 162175,
+            "secCnt": 46658880
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -59,
+        "distance": 0.8912509381337456,
+        "lastSeen": 1461341961533,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131137,
+            "secCnt": 46658040
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -63,
+        "distance": 1.4125375446227544,
+        "lastSeen": 1461341962565,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 23,
+            "advCnt": 131137,
+            "secCnt": 46658040
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -69,
+        "distance": 2.8183829312644537,
+        "lastSeen": 1461341962681,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3153,
+            "temp": 22,
+            "advCnt": 495208,
+            "secCnt": 75248520
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -60,
+        "distance": 1,
+        "lastSeen": 1461341963082,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 18,
+            "advCnt": 162199,
+            "secCnt": 46659120
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461341963663,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3153,
+            "temp": 22,
+            "advCnt": 495208,
+            "secCnt": 75248520
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461341964096,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 18,
+            "advCnt": 162199,
+            "secCnt": 46659120
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -60,
+        "distance": 1,
+        "lastSeen": 1461341964502,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.75,
+            "advCnt": 131149,
+            "secCnt": 46658160
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -60,
+        "distance": 1,
+        "lastSeen": 1461341965091,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 18,
+            "advCnt": 162199,
+            "secCnt": 46659120
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -64,
+        "distance": 1.5848931924611136,
+        "lastSeen": 1461341965532,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.75,
+            "advCnt": 131149,
+            "secCnt": 46658160
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461341965616,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3153,
+            "temp": 22,
+            "advCnt": 495208,
+            "secCnt": 75248520
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461341966091,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 18,
+            "advCnt": 162199,
+            "secCnt": 46659120
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -59,
+        "distance": 0.8912509381337456,
+        "lastSeen": 1461341966567,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.75,
+            "advCnt": 131149,
+            "secCnt": 46658160
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -63,
+        "distance": 1.4125375446227544,
+        "lastSeen": 1461341966593,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3153,
+            "temp": 22,
+            "advCnt": 495208,
+            "secCnt": 75248520
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -67,
+        "distance": 2.2387211385683394,
+        "lastSeen": 1461341967093,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 18,
+            "advCnt": 162199,
+            "secCnt": 46659120
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461341967574,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3153,
+            "temp": 22,
+            "advCnt": 495208,
+            "secCnt": 75248520
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -60,
+        "distance": 1,
+        "lastSeen": 1461341967597,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.75,
+            "advCnt": 131149,
+            "secCnt": 46658160
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461341968090,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 18,
+            "advCnt": 162199,
+            "secCnt": 46659120
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -61,
+        "distance": 1.1220184543019633,
+        "lastSeen": 1461341968548,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3153,
+            "temp": 22,
+            "advCnt": 495208,
+            "secCnt": 75248520
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461341968631,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.75,
+            "advCnt": 131149,
+            "secCnt": 46658160
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -63,
+        "distance": 1.4125375446227544,
+        "lastSeen": 1461341969091,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 18,
+            "advCnt": 162199,
+            "secCnt": 46659120
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -60,
+        "distance": 1,
+        "lastSeen": 1461341969532,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3153,
+            "temp": 22,
+            "advCnt": 495208,
+            "secCnt": 75248520
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -69,
+        "distance": 2.8183829312644537,
+        "lastSeen": 1461341969665,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.75,
+            "advCnt": 131149,
+            "secCnt": 46658160
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461341969704,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3153,
+            "temp": 22,
+            "advCnt": 495208,
+            "secCnt": 75248520
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -77,
+        "distance": 7.079457843841379,
+        "lastSeen": 1461341970093,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 18,
+            "advCnt": 162199,
+            "secCnt": 46659120
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461341970684,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3153,
+            "temp": 22,
+            "advCnt": 495208,
+            "secCnt": 75248520
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -62,
+        "distance": 1.2589254117941673,
+        "lastSeen": 1461341970700,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.75,
+            "advCnt": 131149,
+            "secCnt": 46658160
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -75,
+        "distance": 5.623413251903491,
+        "lastSeen": 1461341971087,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 18,
+            "advCnt": 162199,
+            "secCnt": 46659120
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -74,
+        "distance": 5.011872336272722,
+        "lastSeen": 1461341971737,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.75,
+            "advCnt": 131149,
+            "secCnt": 46658160
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461341972501,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.75,
+            "advCnt": 131149,
+            "secCnt": 46658160
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461341972636,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3153,
+            "temp": 22,
+            "advCnt": 495208,
+            "secCnt": 75248520
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -67,
+        "distance": 2.2387211385683394,
+        "lastSeen": 1461341973088,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 18,
+            "advCnt": 162199,
+            "secCnt": 46659120
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461341973702,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3153,
+            "temp": 22,
+            "advCnt": 495223,
+            "secCnt": 75248640
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -67,
+        "distance": 2.2387211385683394,
+        "lastSeen": 1461341974671,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3153,
+            "temp": 22,
+            "advCnt": 495223,
+            "secCnt": 75248640
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -72,
+        "distance": 3.9810717055349722,
+        "lastSeen": 1461341975085,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 18,
+            "advCnt": 162210,
+            "secCnt": 46659240
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -60,
+        "distance": 1,
+        "lastSeen": 1461341975654,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3153,
+            "temp": 22,
+            "advCnt": 495223,
+            "secCnt": 75248640
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461341976087,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 18,
+            "advCnt": 162210,
+            "secCnt": 46659240
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -62,
+        "distance": 1.2589254117941673,
+        "lastSeen": 1461341976503,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.5,
+            "advCnt": 131160,
+            "secCnt": 46658280
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -64,
+        "distance": 1.5848931924611136,
+        "lastSeen": 1461341976638,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3153,
+            "temp": 22,
+            "advCnt": 495223,
+            "secCnt": 75248640
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -78,
+        "distance": 7.943282347242816,
+        "lastSeen": 1461341977086,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 18,
+            "advCnt": 162210,
+            "secCnt": 46659240
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -60,
+        "distance": 1,
+        "lastSeen": 1461341977538,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.5,
+            "advCnt": 131160,
+            "secCnt": 46658280
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -63,
+        "distance": 1.4125375446227544,
+        "lastSeen": 1461341977627,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3153,
+            "temp": 22,
+            "advCnt": 495223,
+            "secCnt": 75248640
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -60,
+        "distance": 1,
+        "lastSeen": 1461341978082,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 18,
+            "advCnt": 162210,
+            "secCnt": 46659240
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -59,
+        "distance": 0.8912509381337456,
+        "lastSeen": 1461341978568,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.5,
+            "advCnt": 131160,
+            "secCnt": 46658280
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -63,
+        "distance": 1.4125375446227544,
+        "lastSeen": 1461341978595,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3153,
+            "temp": 22,
+            "advCnt": 495223,
+            "secCnt": 75248640
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -67,
+        "distance": 2.2387211385683394,
+        "lastSeen": 1461341979087,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 18,
+            "advCnt": 162210,
+            "secCnt": 46659240
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -73,
+        "distance": 4.466835921509632,
+        "lastSeen": 1461341979574,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3153,
+            "temp": 22,
+            "advCnt": 495223,
+            "secCnt": 75248640
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -84,
+        "distance": 15.848931924611133,
+        "lastSeen": 1461341979597,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.5,
+            "advCnt": 131160,
+            "secCnt": 46658280
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -63,
+        "distance": 1.4125375446227544,
+        "lastSeen": 1461341980587,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3153,
+            "temp": 22,
+            "advCnt": 495223,
+            "secCnt": 75248640
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -74,
+        "distance": 5.011872336272722,
+        "lastSeen": 1461341981095,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 18,
+            "advCnt": 162210,
+            "secCnt": 46659240
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -72,
+        "distance": 3.9810717055349722,
+        "lastSeen": 1461341981524,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3153,
+            "temp": 22,
+            "advCnt": 495223,
+            "secCnt": 75248640
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -69,
+        "distance": 2.8183829312644537,
+        "lastSeen": 1461341981660,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.5,
+            "advCnt": 131160,
+            "secCnt": 46658280
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -67,
+        "distance": 2.2387211385683394,
+        "lastSeen": 1461341981696,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3153,
+            "temp": 22,
+            "advCnt": 495223,
+            "secCnt": 75248640
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -79,
+        "distance": 8.912509381337454,
+        "lastSeen": 1461341982691,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.5,
+            "advCnt": 131160,
+            "secCnt": 46658280
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -61,
+        "distance": 1.1220184543019633,
+        "lastSeen": 1461341983697,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3153,
+            "temp": 22,
+            "advCnt": 495223,
+            "secCnt": 75248640
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461341983726,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.5,
+            "advCnt": 131160,
+            "secCnt": 46658280
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461341984094,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 18,
+            "advCnt": 162210,
+            "secCnt": 46659240
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461341984504,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3003,
+            "temp": 22.5,
+            "advCnt": 131160,
+            "secCnt": 46658280
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -76,
+        "distance": 6.309573444801933,
+        "lastSeen": 1461341985097,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 18,
+            "advCnt": 162210,
+            "secCnt": 46659240
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461341985695,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 21.75,
+            "advCnt": 495236,
+            "secCnt": 75248760
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461341986672,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 21.75,
+            "advCnt": 495236,
+            "secCnt": 75248760
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -64,
+        "distance": 1.5848931924611136,
+        "lastSeen": 1461341987081,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 17.75,
+            "advCnt": 162222,
+            "secCnt": 46659360
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461341988086,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 17.75,
+            "advCnt": 162222,
+            "secCnt": 46659360
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -71,
+        "distance": 3.548133892335755,
+        "lastSeen": 1461341988502,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.5,
+            "advCnt": 131172,
+            "secCnt": 46658400
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461341988632,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 21.75,
+            "advCnt": 495236,
+            "secCnt": 75248760
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -81,
+        "distance": 11.220184543019636,
+        "lastSeen": 1461341989087,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 17.75,
+            "advCnt": 162222,
+            "secCnt": 46659360
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -79,
+        "distance": 8.912509381337454,
+        "lastSeen": 1461341989539,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.5,
+            "advCnt": 131172,
+            "secCnt": 46658400
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -60,
+        "distance": 1,
+        "lastSeen": 1461341989605,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 21.75,
+            "advCnt": 495236,
+            "secCnt": 75248760
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461341990091,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 17.75,
+            "advCnt": 162222,
+            "secCnt": 46659360
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -69,
+        "distance": 2.8183829312644537,
+        "lastSeen": 1461341990570,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.5,
+            "advCnt": 131172,
+            "secCnt": 46658400
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461341990596,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 21.75,
+            "advCnt": 495236,
+            "secCnt": 75248760
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1461341991088,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 17.75,
+            "advCnt": 162222,
+            "secCnt": 46659360
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461341991569,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 21.75,
+            "advCnt": 495236,
+            "secCnt": 75248760
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -75,
+        "distance": 5.623413251903491,
+        "lastSeen": 1461341991603,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.5,
+            "advCnt": 131172,
+            "secCnt": 46658400
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461341992091,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 17.75,
+            "advCnt": 162222,
+            "secCnt": 46659360
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -61,
+        "distance": 1.1220184543019633,
+        "lastSeen": 1461341992545,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 21.75,
+            "advCnt": 495236,
+            "secCnt": 75248760
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -61,
+        "distance": 1.1220184543019633,
+        "lastSeen": 1461341992634,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.5,
+            "advCnt": 131172,
+            "secCnt": 46658400
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461341993101,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 17.75,
+            "advCnt": 162222,
+            "secCnt": 46659360
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -64,
+        "distance": 1.5848931924611136,
+        "lastSeen": 1461341993526,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 21.75,
+            "advCnt": 495236,
+            "secCnt": 75248760
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -63,
+        "distance": 1.4125375446227544,
+        "lastSeen": 1461341993668,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.5,
+            "advCnt": 131172,
+            "secCnt": 46658400
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461341993702,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 21.75,
+            "advCnt": 495236,
+            "secCnt": 75248760
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -69,
+        "distance": 2.8183829312644537,
+        "lastSeen": 1461341994684,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 21.75,
+            "advCnt": 495236,
+            "secCnt": 75248760
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -78,
+        "distance": 7.943282347242816,
+        "lastSeen": 1461341994698,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.5,
+            "advCnt": 131172,
+            "secCnt": 46658400
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -63,
+        "distance": 1.4125375446227544,
+        "lastSeen": 1461341995085,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 17.75,
+            "advCnt": 162222,
+            "secCnt": 46659360
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -72,
+        "distance": 3.9810717055349722,
+        "lastSeen": 1461341995666,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 21.75,
+            "advCnt": 495236,
+            "secCnt": 75248760
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -60,
+        "distance": 1,
+        "lastSeen": 1461341995723,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.5,
+            "advCnt": 131172,
+            "secCnt": 46658400
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -60,
+        "distance": 1,
+        "lastSeen": 1461341996504,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.5,
+            "advCnt": 131172,
+            "secCnt": 46658400
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -71,
+        "distance": 3.548133892335755,
+        "lastSeen": 1461341996648,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 21.75,
+            "advCnt": 495236,
+            "secCnt": 75248760
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -73,
+        "distance": 4.466835921509632,
+        "lastSeen": 1461341997088,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 17.75,
+            "advCnt": 162222,
+            "secCnt": 46659360
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -75,
+        "distance": 5.623413251903491,
+        "lastSeen": 1461341997701,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 21.75,
+            "advCnt": 495251,
+            "secCnt": 75248880
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -76,
+        "distance": 6.309573444801933,
+        "lastSeen": 1461341998684,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 21.75,
+            "advCnt": 495251,
+            "secCnt": 75248880
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -67,
+        "distance": 2.2387211385683394,
+        "lastSeen": 1461341999097,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 17.75,
+            "advCnt": 162233,
+            "secCnt": 46659480
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -70,
+        "distance": 3.1622776601683795,
+        "lastSeen": 1461341999668,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 21.75,
+            "advCnt": 495251,
+            "secCnt": 75248880
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -90,
+        "distance": 31.622776601683793,
+        "lastSeen": 1461342000091,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 17.75,
+            "advCnt": 162233,
+            "secCnt": 46659480
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -63,
+        "distance": 1.4125375446227544,
+        "lastSeen": 1461342000504,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131183,
+            "secCnt": 46658520
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -72,
+        "distance": 3.9810717055349722,
+        "lastSeen": 1461342000644,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 21.75,
+            "advCnt": 495251,
+            "secCnt": 75248880
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -63,
+        "distance": 1.4125375446227544,
+        "lastSeen": 1461342001092,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 17.75,
+            "advCnt": 162233,
+            "secCnt": 46659480
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -88,
+        "distance": 25.118864315095795,
+        "lastSeen": 1461342001624,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 21.75,
+            "advCnt": 495251,
+            "secCnt": 75248880
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461342002090,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 17.75,
+            "advCnt": 162233,
+            "secCnt": 46659480
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -61,
+        "distance": 1.1220184543019633,
+        "lastSeen": 1461342002575,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131183,
+            "secCnt": 46658520
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -77,
+        "distance": 7.079457843841379,
+        "lastSeen": 1461342002605,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 21.75,
+            "advCnt": 495251,
+            "secCnt": 75248880
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -62,
+        "distance": 1.2589254117941673,
+        "lastSeen": 1461342003582,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 21.75,
+            "advCnt": 495251,
+            "secCnt": 75248880
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -67,
+        "distance": 2.2387211385683394,
+        "lastSeen": 1461342004560,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 21.75,
+            "advCnt": 495251,
+            "secCnt": 75248880
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -69,
+        "distance": 2.8183829312644537,
+        "lastSeen": 1461342004642,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131183,
+            "secCnt": 46658520
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -71,
+        "distance": 3.548133892335755,
+        "lastSeen": 1461342005538,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 21.75,
+            "advCnt": 495251,
+            "secCnt": 75248880
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -83,
+        "distance": 14.12537544622754,
+        "lastSeen": 1461342005701,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 21.75,
+            "advCnt": 495251,
+            "secCnt": 75248880
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -67,
+        "distance": 2.2387211385683394,
+        "lastSeen": 1461342006713,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131183,
+            "secCnt": 46658520
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -70,
+        "distance": 3.1622776601683795,
+        "lastSeen": 1461342007702,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 21.75,
+            "advCnt": 495251,
+            "secCnt": 75248880
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -74,
+        "distance": 5.011872336272722,
+        "lastSeen": 1461342008090
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461342008507,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131183,
+            "secCnt": 46658520
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -73,
+        "distance": 4.466835921509632,
+        "lastSeen": 1461342009093
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1461342009539,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131183,
+            "secCnt": 46658520
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -69,
+        "distance": 2.8183829312644537,
+        "lastSeen": 1461342010574,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131183,
+            "secCnt": 46658520
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -72,
+        "distance": 3.9810717055349722,
+        "lastSeen": 1461342010677,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 21.75,
+            "advCnt": 495264,
+            "secCnt": 75249000
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461342011655,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 21.75,
+            "advCnt": 495264,
+            "secCnt": 75249000
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1461342012086,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 17.75,
+            "advCnt": 162245,
+            "secCnt": 46659600
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "da2a1a1c478a",
+        "id": "da2a1a1c478a",
+        "type": "uid",
+        "rssi": -67,
+        "distance": 2.2387211385683394,
+        "lastSeen": 1461342012504,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3000,
+            "temp": 22.25,
+            "advCnt": 131195,
+            "secCnt": 46658640
+        }
+    },
+    {
+        "txPower": -19,
+        "url": "http://go.esti.be",
+        "id": "dfe581caefe6",
+        "type": "url",
+        "rssi": -67,
+        "distance": 2.2387211385683394,
+        "lastSeen": 1461342012641,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3156,
+            "temp": 21.75,
+            "advCnt": 495264,
+            "secCnt": 75249000
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -75,
+        "distance": 5.623413251903491,
+        "lastSeen": 1461342013085,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3081,
+            "temp": 17.75,
+            "advCnt": 162245,
+            "secCnt": 46659600
+        }
+    }
+]
