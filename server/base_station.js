@@ -5,12 +5,14 @@ var ioSocket = require('socket.io-client');
 var socket = ioSocket.connect('http://192.168.5.120:3000', { reconnect: true });
 var EddystoneBeaconScanner = require('eddystone-beacon-scanner');
 var ip = getServerIp();
-var fs = require(fs);
-var logger = fs.createWriteStream('log.txt', {
-    flags: 'a'
-});
-
+var fs = require('fs');
+var keypress = require('keypress');
+var data = [];
+var filename = 'rssi_body_3m_4dBm.txt';
+var log = false;
 var position = {};
+
+keypress(process.stdin);
 
 if (ip === '192.168.5.110') {
     position.x = 2.55;
@@ -26,6 +28,21 @@ if (ip === '192.168.5.110') {
     position.y = 0;
 }
 
+process.stdin.setRawMode(true);
+process.stdin.resume();
+
+process.stdin.on('keypress', function(ch, key) {
+    if (key && key.name == 'space') {
+        log = !log;
+        console.log('Log: ' + log);
+    } else if (key && key.ctrl && key.name == 'c') {
+        console.log("Caught interrupt signal");
+        var dataString = JSON.stringify(data, null, 4);
+        fs.writeFileSync(filename, dataString, 'utf8');
+        process.exit(2);
+    }
+});
+
 socket.on('connect', function (socket) {
     console.log('Connected');
 });
@@ -35,8 +52,10 @@ EddystoneBeaconScanner.on('found', function (beacon) {
 });
 
 EddystoneBeaconScanner.on('updated', function (beacon) {
-    logger.write(JSON.stringify(beacon));
     if (typeof beacon.distance !== 'undefined') {
+        if (log) {
+            data.push(beacon);
+        }
         var packet = {
             beacon: beacon,
             ip: ip,
@@ -74,8 +93,3 @@ function getServerIp() {
     return values.length ? values[0].address : '0.0.0.0';
 }
 
-process.on('SIGINT', function() {
-    console.log("Caught interrupt signal");
-    logger.end();
-    process.exit(2);
-});
