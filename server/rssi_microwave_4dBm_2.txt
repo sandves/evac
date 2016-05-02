@@ -1,0 +1,716 @@
+[
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1462226485490,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25,
+            "advCnt": 162835,
+            "secCnt": 55504200
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -69,
+        "distance": 2.8183829312644537,
+        "lastSeen": 1462226487485,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162859,
+            "secCnt": 55504440
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -70,
+        "distance": 3.1622776601683795,
+        "lastSeen": 1462226488486,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162859,
+            "secCnt": 55504440
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -62,
+        "distance": 1.2589254117941673,
+        "lastSeen": 1462226489493,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162859,
+            "secCnt": 55504440
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1462226491498,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162859,
+            "secCnt": 55504440
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -64,
+        "distance": 1.5848931924611136,
+        "lastSeen": 1462226492501,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162859,
+            "secCnt": 55504440
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -59,
+        "distance": 0.8912509381337456,
+        "lastSeen": 1462226493502,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162859,
+            "secCnt": 55504440
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -74,
+        "distance": 5.011872336272722,
+        "lastSeen": 1462226494510,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162859,
+            "secCnt": 55504440
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -64,
+        "distance": 1.5848931924611136,
+        "lastSeen": 1462226495488,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162859,
+            "secCnt": 55504440
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -64,
+        "distance": 1.5848931924611136,
+        "lastSeen": 1462226496490,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162859,
+            "secCnt": 55504440
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -67,
+        "distance": 2.2387211385683394,
+        "lastSeen": 1462226497488,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162859,
+            "secCnt": 55504440
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -75,
+        "distance": 5.623413251903491,
+        "lastSeen": 1462226499491,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162871,
+            "secCnt": 55504560
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1462226500490,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162871,
+            "secCnt": 55504560
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -62,
+        "distance": 1.2589254117941673,
+        "lastSeen": 1462226501496,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162871,
+            "secCnt": 55504560
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -69,
+        "distance": 2.8183829312644537,
+        "lastSeen": 1462226503503,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162871,
+            "secCnt": 55504560
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1462226505503,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162871,
+            "secCnt": 55504560
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -71,
+        "distance": 3.548133892335755,
+        "lastSeen": 1462226506511,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162871,
+            "secCnt": 55504560
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1462226507488,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162871,
+            "secCnt": 55504560
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1462226511488,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162883,
+            "secCnt": 55504680
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -60,
+        "distance": 1,
+        "lastSeen": 1462226512491,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162883,
+            "secCnt": 55504680
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1462226513491,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162883,
+            "secCnt": 55504680
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -59,
+        "distance": 0.8912509381337456,
+        "lastSeen": 1462226515494,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162883,
+            "secCnt": 55504680
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -62,
+        "distance": 1.2589254117941673,
+        "lastSeen": 1462226516492,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162883,
+            "secCnt": 55504680
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -60,
+        "distance": 1,
+        "lastSeen": 1462226517492,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162883,
+            "secCnt": 55504680
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -61,
+        "distance": 1.1220184543019633,
+        "lastSeen": 1462226519488,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162883,
+            "secCnt": 55504680
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -61,
+        "distance": 1.1220184543019633,
+        "lastSeen": 1462226521492,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162883,
+            "secCnt": 55504680
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -76,
+        "distance": 6.309573444801933,
+        "lastSeen": 1462226523488,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162895,
+            "secCnt": 55504800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -60,
+        "distance": 1,
+        "lastSeen": 1462226524501,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162895,
+            "secCnt": 55504800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1462226525498,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162895,
+            "secCnt": 55504800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -59,
+        "distance": 0.8912509381337456,
+        "lastSeen": 1462226526501,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162895,
+            "secCnt": 55504800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -75,
+        "distance": 5.623413251903491,
+        "lastSeen": 1462226527508,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162895,
+            "secCnt": 55504800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -63,
+        "distance": 1.4125375446227544,
+        "lastSeen": 1462226528507,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162895,
+            "secCnt": 55504800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -65,
+        "distance": 1.7782794100389228,
+        "lastSeen": 1462226529510,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162895,
+            "secCnt": 55504800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -66,
+        "distance": 1.9952623149688795,
+        "lastSeen": 1462226533491,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162895,
+            "secCnt": 55504800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -63,
+        "distance": 1.4125375446227544,
+        "lastSeen": 1462226535484,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162895,
+            "secCnt": 55504800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -63,
+        "distance": 1.4125375446227544,
+        "lastSeen": 1462226537488,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162895,
+            "secCnt": 55504800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -59,
+        "distance": 0.8912509381337456,
+        "lastSeen": 1462226538495,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162895,
+            "secCnt": 55504800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -61,
+        "distance": 1.1220184543019633,
+        "lastSeen": 1462226539498,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162895,
+            "secCnt": 55504800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -59,
+        "distance": 0.8912509381337456,
+        "lastSeen": 1462226540497,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162895,
+            "secCnt": 55504800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -70,
+        "distance": 3.1622776601683795,
+        "lastSeen": 1462226541496,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162895,
+            "secCnt": 55504800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -62,
+        "distance": 1.2589254117941673,
+        "lastSeen": 1462226544494,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162895,
+            "secCnt": 55504800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -78,
+        "distance": 7.943282347242816,
+        "lastSeen": 1462226545493,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3099,
+            "temp": 25.25,
+            "advCnt": 162895,
+            "secCnt": 55504800
+        }
+    }
+]
