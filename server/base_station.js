@@ -8,7 +8,7 @@ var ip = getServerIp();
 var fs = require('fs');
 var keypress = require('keypress');
 var data = [];
-var filename = 'rssi_door_4dBm_ca_3m.txt';
+var filename = 'rssi_estimote_vs_nexus_4dBm.txt';
 var log = false;
 var position = {};
 
