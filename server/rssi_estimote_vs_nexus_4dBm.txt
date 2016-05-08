@@ -1,0 +1,3733 @@
+[
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -85,
+        "distance": 25.118864315095795,
+        "lastSeen": 1462636295500
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -88,
+        "distance": 35.48133892335755,
+        "lastSeen": 1462636295753
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -82,
+        "distance": 12.589254117941675,
+        "lastSeen": 1462636295806,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164073,
+            "secCnt": 59598960
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -83,
+        "distance": 14.12537544622754,
+        "lastSeen": 1462636296314,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164073,
+            "secCnt": 59598960
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -74,
+        "distance": 5.011872336272722,
+        "lastSeen": 1462636296913,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164073,
+            "secCnt": 59598960
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -74,
+        "distance": 5.011872336272722,
+        "lastSeen": 1462636297204,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164073,
+            "secCnt": 59598960
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -88,
+        "distance": 35.48133892335755,
+        "lastSeen": 1462636297523
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -83,
+        "distance": 14.12537544622754,
+        "lastSeen": 1462636297711,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164073,
+            "secCnt": 59598960
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -87,
+        "distance": 31.622776601683793,
+        "lastSeen": 1462636298025
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -85,
+        "distance": 17.78279410038923,
+        "lastSeen": 1462636298217,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164073,
+            "secCnt": 59598960
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -90,
+        "distance": 44.6683592150963,
+        "lastSeen": 1462636298278
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -83,
+        "distance": 14.12537544622754,
+        "lastSeen": 1462636298729,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164073,
+            "secCnt": 59598960
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -87,
+        "distance": 31.622776601683793,
+        "lastSeen": 1462636298777
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -86,
+        "distance": 28.183829312644534,
+        "lastSeen": 1462636299281
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -90,
+        "distance": 44.6683592150963,
+        "lastSeen": 1462636299534
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -87,
+        "distance": 22.3872113856834,
+        "lastSeen": 1462636299749,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164073,
+            "secCnt": 59598960
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -84,
+        "distance": 22.3872113856834,
+        "lastSeen": 1462636300034
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -91,
+        "distance": 50.11872336272722,
+        "lastSeen": 1462636300284
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -85,
+        "distance": 25.118864315095795,
+        "lastSeen": 1462636300786
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -89,
+        "distance": 39.810717055349734,
+        "lastSeen": 1462636301037
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -85,
+        "distance": 25.118864315095795,
+        "lastSeen": 1462636301538
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -74,
+        "distance": 5.011872336272722,
+        "lastSeen": 1462636301708,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164097,
+            "secCnt": 59599080
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -91,
+        "distance": 50.11872336272722,
+        "lastSeen": 1462636301788
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -72,
+        "distance": 3.9810717055349722,
+        "lastSeen": 1462636302216,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164097,
+            "secCnt": 59599080
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -72,
+        "distance": 3.9810717055349722,
+        "lastSeen": 1462636302724,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164097,
+            "secCnt": 59599080
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1462636303234,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164097,
+            "secCnt": 59599080
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -84,
+        "distance": 22.3872113856834,
+        "lastSeen": 1462636303543
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -67,
+        "distance": 2.2387211385683394,
+        "lastSeen": 1462636303745,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164097,
+            "secCnt": 59599080
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -90,
+        "distance": 44.6683592150963,
+        "lastSeen": 1462636303799
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1462636304256,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164097,
+            "secCnt": 59599080
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -67,
+        "distance": 2.2387211385683394,
+        "lastSeen": 1462636304763,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164097,
+            "secCnt": 59599080
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -80,
+        "distance": 14.12537544622754,
+        "lastSeen": 1462636304804
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -93,
+        "distance": 63.09573444801933,
+        "lastSeen": 1462636305563
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1462636305785,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164097,
+            "secCnt": 59599080
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -84,
+        "distance": 22.3872113856834,
+        "lastSeen": 1462636306065
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -92,
+        "distance": 56.23413251903491,
+        "lastSeen": 1462636306316
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -82,
+        "distance": 17.78279410038923,
+        "lastSeen": 1462636307324
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -89,
+        "distance": 39.810717055349734,
+        "lastSeen": 1462636307586
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -77,
+        "distance": 7.079457843841379,
+        "lastSeen": 1462636307816,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164097,
+            "secCnt": 59599080
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -82,
+        "distance": 17.78279410038923,
+        "lastSeen": 1462636308079
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -73,
+        "distance": 4.466835921509632,
+        "lastSeen": 1462636308321,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164097,
+            "secCnt": 59599080
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -74,
+        "distance": 5.011872336272722,
+        "lastSeen": 1462636308827,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164097,
+            "secCnt": 59599080
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -89,
+        "distance": 39.810717055349734,
+        "lastSeen": 1462636308831
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -87,
+        "distance": 31.622776601683793,
+        "lastSeen": 1462636309334
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -75,
+        "distance": 5.623413251903491,
+        "lastSeen": 1462636309709,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164097,
+            "secCnt": 59599080
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -95,
+        "distance": 79.43282347242814,
+        "lastSeen": 1462636310091
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -92,
+        "distance": 56.23413251903491,
+        "lastSeen": 1462636310601
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -83,
+        "distance": 19.952623149688797,
+        "lastSeen": 1462636311103
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -92,
+        "distance": 56.23413251903491,
+        "lastSeen": 1462636311353
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -84,
+        "distance": 22.3872113856834,
+        "lastSeen": 1462636312362
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -91,
+        "distance": 50.11872336272722,
+        "lastSeen": 1462636312614
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -83,
+        "distance": 19.952623149688797,
+        "lastSeen": 1462636313116
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -69,
+        "distance": 2.8183829312644537,
+        "lastSeen": 1462636313194,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164121,
+            "secCnt": 59599200
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -83,
+        "distance": 19.952623149688797,
+        "lastSeen": 1462636313624
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -95,
+        "distance": 79.43282347242814,
+        "lastSeen": 1462636313878
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -67,
+        "distance": 2.2387211385683394,
+        "lastSeen": 1462636314724,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164121,
+            "secCnt": 59599200
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -82,
+        "distance": 17.78279410038923,
+        "lastSeen": 1462636314880
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -83,
+        "distance": 14.12537544622754,
+        "lastSeen": 1462636315232,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164121,
+            "secCnt": 59599200
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -82,
+        "distance": 17.78279410038923,
+        "lastSeen": 1462636315634
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -80,
+        "distance": 10,
+        "lastSeen": 1462636315736,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164121,
+            "secCnt": 59599200
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -94,
+        "distance": 70.79457843841381,
+        "lastSeen": 1462636315887
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -84,
+        "distance": 22.3872113856834,
+        "lastSeen": 1462636316140
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -76,
+        "distance": 6.309573444801933,
+        "lastSeen": 1462636316245,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164121,
+            "secCnt": 59599200
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -91,
+        "distance": 50.11872336272722,
+        "lastSeen": 1462636316391
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -72,
+        "distance": 3.9810717055349722,
+        "lastSeen": 1462636316752,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164121,
+            "secCnt": 59599200
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -91,
+        "distance": 50.11872336272722,
+        "lastSeen": 1462636316901
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -78,
+        "distance": 7.943282347242816,
+        "lastSeen": 1462636317267,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164121,
+            "secCnt": 59599200
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -83,
+        "distance": 19.952623149688797,
+        "lastSeen": 1462636317402
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -82,
+        "distance": 17.78279410038923,
+        "lastSeen": 1462636318159
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -73,
+        "distance": 4.466835921509632,
+        "lastSeen": 1462636318275,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164121,
+            "secCnt": 59599200
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -84,
+        "distance": 22.3872113856834,
+        "lastSeen": 1462636318667
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -71,
+        "distance": 3.548133892335755,
+        "lastSeen": 1462636318780,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164121,
+            "secCnt": 59599200
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -90,
+        "distance": 44.6683592150963,
+        "lastSeen": 1462636318917
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -70,
+        "distance": 3.1622776601683795,
+        "lastSeen": 1462636319287,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164121,
+            "secCnt": 59599200
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -95,
+        "distance": 79.43282347242814,
+        "lastSeen": 1462636319425
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -74,
+        "distance": 5.011872336272722,
+        "lastSeen": 1462636319794,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164121,
+            "secCnt": 59599200
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -85,
+        "distance": 25.118864315095795,
+        "lastSeen": 1462636319925
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -95,
+        "distance": 79.43282347242814,
+        "lastSeen": 1462636320176
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -94,
+        "distance": 70.79457843841381,
+        "lastSeen": 1462636320682
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -68,
+        "distance": 2.51188643150958,
+        "lastSeen": 1462636320819,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164121,
+            "secCnt": 59599200
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -84,
+        "distance": 22.3872113856834,
+        "lastSeen": 1462636321188
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -83,
+        "distance": 14.12537544622754,
+        "lastSeen": 1462636321201,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164121,
+            "secCnt": 59599200
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -92,
+        "distance": 56.23413251903491,
+        "lastSeen": 1462636321438
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -84,
+        "distance": 15.848931924611133,
+        "lastSeen": 1462636321709,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164121,
+            "secCnt": 59599200
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -87,
+        "distance": 31.622776601683793,
+        "lastSeen": 1462636321938
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -79,
+        "distance": 8.912509381337454,
+        "lastSeen": 1462636322218,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164121,
+            "secCnt": 59599200
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -86,
+        "distance": 28.183829312644534,
+        "lastSeen": 1462636322442
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -91,
+        "distance": 50.11872336272722,
+        "lastSeen": 1462636322693
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -87,
+        "distance": 31.622776601683793,
+        "lastSeen": 1462636323197
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -84,
+        "distance": 15.848931924611133,
+        "lastSeen": 1462636323238,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164121,
+            "secCnt": 59599200
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -93,
+        "distance": 63.09573444801933,
+        "lastSeen": 1462636323448
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -93,
+        "distance": 63.09573444801933,
+        "lastSeen": 1462636323951
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -88,
+        "distance": 35.48133892335755,
+        "lastSeen": 1462636324457
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -92,
+        "distance": 56.23413251903491,
+        "lastSeen": 1462636324712
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -69,
+        "distance": 2.8183829312644537,
+        "lastSeen": 1462636325200,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -90,
+        "distance": 44.6683592150963,
+        "lastSeen": 1462636325713
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -79,
+        "distance": 8.912509381337454,
+        "lastSeen": 1462636326217,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -89,
+        "distance": 39.810717055349734,
+        "lastSeen": 1462636326468
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -85,
+        "distance": 25.118864315095795,
+        "lastSeen": 1462636326972
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -91,
+        "distance": 50.11872336272722,
+        "lastSeen": 1462636327225
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -89,
+        "distance": 39.810717055349734,
+        "lastSeen": 1462636327728
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -74,
+        "distance": 5.011872336272722,
+        "lastSeen": 1462636327747,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -91,
+        "distance": 50.11872336272722,
+        "lastSeen": 1462636328482
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -78,
+        "distance": 7.943282347242816,
+        "lastSeen": 1462636328762,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -89,
+        "distance": 39.810717055349734,
+        "lastSeen": 1462636328989
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -77,
+        "distance": 7.079457843841379,
+        "lastSeen": 1462636329265,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -92,
+        "distance": 56.23413251903491,
+        "lastSeen": 1462636329748
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -73,
+        "distance": 4.466835921509632,
+        "lastSeen": 1462636329771,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -91,
+        "distance": 50.11872336272722,
+        "lastSeen": 1462636330253
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -74,
+        "distance": 5.011872336272722,
+        "lastSeen": 1462636330283,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -88,
+        "distance": 35.48133892335755,
+        "lastSeen": 1462636330754
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -90,
+        "distance": 44.6683592150963,
+        "lastSeen": 1462636331005
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -72,
+        "distance": 3.9810717055349722,
+        "lastSeen": 1462636331296,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -88,
+        "distance": 35.48133892335755,
+        "lastSeen": 1462636331506
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -90,
+        "distance": 44.6683592150963,
+        "lastSeen": 1462636331758
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -75,
+        "distance": 5.623413251903491,
+        "lastSeen": 1462636331799,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -73,
+        "distance": 4.466835921509632,
+        "lastSeen": 1462636332310,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -90,
+        "distance": 44.6683592150963,
+        "lastSeen": 1462636332509
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -90,
+        "distance": 44.6683592150963,
+        "lastSeen": 1462636332763
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -75,
+        "distance": 5.623413251903491,
+        "lastSeen": 1462636333201,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -88,
+        "distance": 35.48133892335755,
+        "lastSeen": 1462636333521
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -75,
+        "distance": 5.623413251903491,
+        "lastSeen": 1462636333707,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -92,
+        "distance": 56.23413251903491,
+        "lastSeen": 1462636334024
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -74,
+        "distance": 5.011872336272722,
+        "lastSeen": 1462636334218,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -91,
+        "distance": 50.11872336272722,
+        "lastSeen": 1462636334278
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -69,
+        "distance": 2.8183829312644537,
+        "lastSeen": 1462636334721,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -89,
+        "distance": 39.810717055349734,
+        "lastSeen": 1462636334781
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -72,
+        "distance": 3.9810717055349722,
+        "lastSeen": 1462636335235,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -92,
+        "distance": 56.23413251903491,
+        "lastSeen": 1462636335289
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -72,
+        "distance": 3.9810717055349722,
+        "lastSeen": 1462636335744,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -89,
+        "distance": 39.810717055349734,
+        "lastSeen": 1462636336041
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -90,
+        "distance": 44.6683592150963,
+        "lastSeen": 1462636336544
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -90,
+        "distance": 44.6683592150963,
+        "lastSeen": 1462636336797
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -78,
+        "distance": 7.943282347242816,
+        "lastSeen": 1462636337708,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -88,
+        "distance": 35.48133892335755,
+        "lastSeen": 1462636337805
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -90,
+        "distance": 44.6683592150963,
+        "lastSeen": 1462636338313
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -94,
+        "distance": 70.79457843841381,
+        "lastSeen": 1462636338564
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -91,
+        "distance": 50.11872336272722,
+        "lastSeen": 1462636339073
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -71,
+        "distance": 3.548133892335755,
+        "lastSeen": 1462636339239,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -86,
+        "distance": 28.183829312644534,
+        "lastSeen": 1462636339577
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -69,
+        "distance": 2.8183829312644537,
+        "lastSeen": 1462636339747,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -69,
+        "distance": 2.8183829312644537,
+        "lastSeen": 1462636340257,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -87,
+        "distance": 31.622776601683793,
+        "lastSeen": 1462636340331
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -87,
+        "distance": 31.622776601683793,
+        "lastSeen": 1462636340833
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -88,
+        "distance": 35.48133892335755,
+        "lastSeen": 1462636341089
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -87,
+        "distance": 31.622776601683793,
+        "lastSeen": 1462636341592
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -93,
+        "distance": 63.09573444801933,
+        "lastSeen": 1462636342097
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -82,
+        "distance": 12.589254117941675,
+        "lastSeen": 1462636342289,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -88,
+        "distance": 35.48133892335755,
+        "lastSeen": 1462636342348
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -91,
+        "distance": 50.11872336272722,
+        "lastSeen": 1462636342602
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -83,
+        "distance": 14.12537544622754,
+        "lastSeen": 1462636342798,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -89,
+        "distance": 39.810717055349734,
+        "lastSeen": 1462636342853
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -77,
+        "distance": 7.079457843841379,
+        "lastSeen": 1462636343307,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -95,
+        "distance": 79.43282347242814,
+        "lastSeen": 1462636343358
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -96,
+        "distance": 89.12509381337455,
+        "lastSeen": 1462636343861
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -90,
+        "distance": 44.6683592150963,
+        "lastSeen": 1462636344116
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -79,
+        "distance": 8.912509381337454,
+        "lastSeen": 1462636344325,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -90,
+        "distance": 44.6683592150963,
+        "lastSeen": 1462636344621
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -77,
+        "distance": 7.079457843841379,
+        "lastSeen": 1462636344840,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -89,
+        "distance": 39.810717055349734,
+        "lastSeen": 1462636345371
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -94,
+        "distance": 70.79457843841381,
+        "lastSeen": 1462636346180
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -80,
+        "distance": 10,
+        "lastSeen": 1462636346220,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -77,
+        "distance": 7.079457843841379,
+        "lastSeen": 1462636346727,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -87,
+        "distance": 31.622776601683793,
+        "lastSeen": 1462636346934
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -77,
+        "distance": 7.079457843841379,
+        "lastSeen": 1462636347240,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -94,
+        "distance": 70.79457843841381,
+        "lastSeen": 1462636347433
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -88,
+        "distance": 35.48133892335755,
+        "lastSeen": 1462636347686
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -83,
+        "distance": 14.12537544622754,
+        "lastSeen": 1462636347751,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164145,
+            "secCnt": 59599320
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -87,
+        "distance": 31.622776601683793,
+        "lastSeen": 1462636348439
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -90,
+        "distance": 44.6683592150963,
+        "lastSeen": 1462636348947
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -89,
+        "distance": 28.183829312644534,
+        "lastSeen": 1462636349205,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164193,
+            "secCnt": 59599560
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -94,
+        "distance": 70.79457843841381,
+        "lastSeen": 1462636349447
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -87,
+        "distance": 31.622776601683793,
+        "lastSeen": 1462636349699
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -82,
+        "distance": 12.589254117941675,
+        "lastSeen": 1462636349717,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164193,
+            "secCnt": 59599560
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -88,
+        "distance": 35.48133892335755,
+        "lastSeen": 1462636350202
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -82,
+        "distance": 12.589254117941675,
+        "lastSeen": 1462636350225,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164193,
+            "secCnt": 59599560
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -90,
+        "distance": 31.622776601683793,
+        "lastSeen": 1462636350736,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164193,
+            "secCnt": 59599560
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -88,
+        "distance": 35.48133892335755,
+        "lastSeen": 1462636351462
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -83,
+        "distance": 14.12537544622754,
+        "lastSeen": 1462636351756,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164193,
+            "secCnt": 59599560
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -94,
+        "distance": 70.79457843841381,
+        "lastSeen": 1462636351966
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -74,
+        "distance": 5.011872336272722,
+        "lastSeen": 1462636352269,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164193,
+            "secCnt": 59599560
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -91,
+        "distance": 50.11872336272722,
+        "lastSeen": 1462636352475
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -88,
+        "distance": 35.48133892335755,
+        "lastSeen": 1462636352729
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -89,
+        "distance": 39.810717055349734,
+        "lastSeen": 1462636353237
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -78,
+        "distance": 7.943282347242816,
+        "lastSeen": 1462636353286,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164193,
+            "secCnt": 59599560
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -94,
+        "distance": 70.79457843841381,
+        "lastSeen": 1462636353739
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -76,
+        "distance": 6.309573444801933,
+        "lastSeen": 1462636353796,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164193,
+            "secCnt": 59599560
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -92,
+        "distance": 56.23413251903491,
+        "lastSeen": 1462636354242
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -89,
+        "distance": 39.810717055349734,
+        "lastSeen": 1462636354495
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -74,
+        "distance": 5.011872336272722,
+        "lastSeen": 1462636354809,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164193,
+            "secCnt": 59599560
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -91,
+        "distance": 50.11872336272722,
+        "lastSeen": 1462636354996
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -86,
+        "distance": 28.183829312644534,
+        "lastSeen": 1462636355247
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -76,
+        "distance": 6.309573444801933,
+        "lastSeen": 1462636355316,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164193,
+            "secCnt": 59599560
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -86,
+        "distance": 28.183829312644534,
+        "lastSeen": 1462636355750
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -87,
+        "distance": 31.622776601683793,
+        "lastSeen": 1462636356253
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -87,
+        "distance": 22.3872113856834,
+        "lastSeen": 1462636357722,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164193,
+            "secCnt": 59599560
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -91,
+        "distance": 50.11872336272722,
+        "lastSeen": 1462636357759
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -80,
+        "distance": 10,
+        "lastSeen": 1462636358219,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164193,
+            "secCnt": 59599560
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -81,
+        "distance": 11.220184543019636,
+        "lastSeen": 1462636358724,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164193,
+            "secCnt": 59599560
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -88,
+        "distance": 35.48133892335755,
+        "lastSeen": 1462636359026
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -83,
+        "distance": 14.12537544622754,
+        "lastSeen": 1462636359235,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164193,
+            "secCnt": 59599560
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -94,
+        "distance": 70.79457843841381,
+        "lastSeen": 1462636359525
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -82,
+        "distance": 12.589254117941675,
+        "lastSeen": 1462636359746,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27,
+            "advCnt": 164193,
+            "secCnt": 59599560
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -87,
+        "distance": 31.622776601683793,
+        "lastSeen": 1462636359778
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -85,
+        "distance": 25.118864315095795,
+        "lastSeen": 1462636360282
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -88,
+        "distance": 35.48133892335755,
+        "lastSeen": 1462636361037
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -75,
+        "distance": 5.623413251903491,
+        "lastSeen": 1462636361197,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164217,
+            "secCnt": 59599680
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -86,
+        "distance": 28.183829312644534,
+        "lastSeen": 1462636361541
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -83,
+        "distance": 14.12537544622754,
+        "lastSeen": 1462636362209,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164217,
+            "secCnt": 59599680
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -86,
+        "distance": 28.183829312644534,
+        "lastSeen": 1462636362296
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -86,
+        "distance": 19.952623149688797,
+        "lastSeen": 1462636362716,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164217,
+            "secCnt": 59599680
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -90,
+        "distance": 44.6683592150963,
+        "lastSeen": 1462636363559
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -71,
+        "distance": 3.548133892335755,
+        "lastSeen": 1462636364236,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164217,
+            "secCnt": 59599680
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -73,
+        "distance": 4.466835921509632,
+        "lastSeen": 1462636364747,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164217,
+            "secCnt": 59599680
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -87,
+        "distance": 31.622776601683793,
+        "lastSeen": 1462636364814
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -87,
+        "distance": 31.622776601683793,
+        "lastSeen": 1462636365570
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -70,
+        "distance": 3.1622776601683795,
+        "lastSeen": 1462636365765,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164217,
+            "secCnt": 59599680
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -91,
+        "distance": 50.11872336272722,
+        "lastSeen": 1462636366069
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -86,
+        "distance": 28.183829312644534,
+        "lastSeen": 1462636366320
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -78,
+        "distance": 7.943282347242816,
+        "lastSeen": 1462636366794,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164217,
+            "secCnt": 59599680
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -92,
+        "distance": 56.23413251903491,
+        "lastSeen": 1462636366819
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -86,
+        "distance": 28.183829312644534,
+        "lastSeen": 1462636367070
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -77,
+        "distance": 7.079457843841379,
+        "lastSeen": 1462636367304,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164217,
+            "secCnt": 59599680
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -86,
+        "distance": 28.183829312644534,
+        "lastSeen": 1462636367573
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -84,
+        "distance": 22.3872113856834,
+        "lastSeen": 1462636368327
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -73,
+        "distance": 4.466835921509632,
+        "lastSeen": 1462636368818,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164217,
+            "secCnt": 59599680
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -87,
+        "distance": 31.622776601683793,
+        "lastSeen": 1462636369080
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -85,
+        "distance": 25.118864315095795,
+        "lastSeen": 1462636369581
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -85,
+        "distance": 17.78279410038923,
+        "lastSeen": 1462636369709,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164217,
+            "secCnt": 59599680
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -80,
+        "distance": 10,
+        "lastSeen": 1462636370212,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164217,
+            "secCnt": 59599680
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -89,
+        "distance": 39.810717055349734,
+        "lastSeen": 1462636370336
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -73,
+        "distance": 4.466835921509632,
+        "lastSeen": 1462636370723,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164217,
+            "secCnt": 59599680
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -86,
+        "distance": 28.183829312644534,
+        "lastSeen": 1462636370841
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -81,
+        "distance": 11.220184543019636,
+        "lastSeen": 1462636371236,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164217,
+            "secCnt": 59599680
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -93,
+        "distance": 63.09573444801933,
+        "lastSeen": 1462636371342
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -87,
+        "distance": 31.622776601683793,
+        "lastSeen": 1462636371593
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -76,
+        "distance": 6.309573444801933,
+        "lastSeen": 1462636371742,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164217,
+            "secCnt": 59599680
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -94,
+        "distance": 70.79457843841381,
+        "lastSeen": 1462636372097
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -88,
+        "distance": 35.48133892335755,
+        "lastSeen": 1462636372346
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -86,
+        "distance": 28.183829312644534,
+        "lastSeen": 1462636372851
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -76,
+        "distance": 6.309573444801933,
+        "lastSeen": 1462636373197,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164241,
+            "secCnt": 59599800
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -89,
+        "distance": 39.810717055349734,
+        "lastSeen": 1462636373356
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -89,
+        "distance": 39.810717055349734,
+        "lastSeen": 1462636373607
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -90,
+        "distance": 44.6683592150963,
+        "lastSeen": 1462636374113
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -90,
+        "distance": 44.6683592150963,
+        "lastSeen": 1462636374618
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -74,
+        "distance": 5.011872336272722,
+        "lastSeen": 1462636375235,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164241,
+            "secCnt": 59599800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -77,
+        "distance": 7.079457843841379,
+        "lastSeen": 1462636375745,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164241,
+            "secCnt": 59599800
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -94,
+        "distance": 70.79457843841381,
+        "lastSeen": 1462636375884
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -92,
+        "distance": 56.23413251903491,
+        "lastSeen": 1462636376385
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -94,
+        "distance": 70.79457843841381,
+        "lastSeen": 1462636376639
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -90,
+        "distance": 31.622776601683793,
+        "lastSeen": 1462636377271,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164241,
+            "secCnt": 59599800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -85,
+        "distance": 17.78279410038923,
+        "lastSeen": 1462636377776,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164241,
+            "secCnt": 59599800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -76,
+        "distance": 6.309573444801933,
+        "lastSeen": 1462636378789,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164241,
+            "secCnt": 59599800
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -86,
+        "distance": 28.183829312644534,
+        "lastSeen": 1462636378903
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -94,
+        "distance": 70.79457843841381,
+        "lastSeen": 1462636379158
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -77,
+        "distance": 7.079457843841379,
+        "lastSeen": 1462636379298,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164241,
+            "secCnt": 59599800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -75,
+        "distance": 5.623413251903491,
+        "lastSeen": 1462636379801,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164241,
+            "secCnt": 59599800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -73,
+        "distance": 4.466835921509632,
+        "lastSeen": 1462636380312,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164241,
+            "secCnt": 59599800
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -87,
+        "distance": 31.622776601683793,
+        "lastSeen": 1462636380416
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -72,
+        "distance": 3.9810717055349722,
+        "lastSeen": 1462636380816,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164241,
+            "secCnt": 59599800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -73,
+        "distance": 4.466835921509632,
+        "lastSeen": 1462636381201,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164241,
+            "secCnt": 59599800
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -87,
+        "distance": 31.622776601683793,
+        "lastSeen": 1462636381423
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -92,
+        "distance": 56.23413251903491,
+        "lastSeen": 1462636381676
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -73,
+        "distance": 4.466835921509632,
+        "lastSeen": 1462636381708,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164241,
+            "secCnt": 59599800
+        }
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -74,
+        "distance": 5.011872336272722,
+        "lastSeen": 1462636382212,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164241,
+            "secCnt": 59599800
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -79,
+        "distance": 12.589254117941675,
+        "lastSeen": 1462636382434
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -83,
+        "distance": 19.952623149688797,
+        "lastSeen": 1462636382688
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -79,
+        "distance": 8.912509381337454,
+        "lastSeen": 1462636382725,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164241,
+            "secCnt": 59599800
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -81,
+        "distance": 15.848931924611133,
+        "lastSeen": 1462636382943
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -86,
+        "distance": 28.183829312644534,
+        "lastSeen": 1462636383194
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -80,
+        "distance": 10,
+        "lastSeen": 1462636383232,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164241,
+            "secCnt": 59599800
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -91,
+        "distance": 50.11872336272722,
+        "lastSeen": 1462636383445
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -80,
+        "distance": 14.12537544622754,
+        "lastSeen": 1462636383695
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -82,
+        "distance": 12.589254117941675,
+        "lastSeen": 1462636383743,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164241,
+            "secCnt": 59599800
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -86,
+        "distance": 28.183829312644534,
+        "lastSeen": 1462636384455
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -91,
+        "distance": 50.11872336272722,
+        "lastSeen": 1462636384705
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -69,
+        "distance": 2.8183829312644537,
+        "lastSeen": 1462636385200,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164265,
+            "secCnt": 59599920
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -82,
+        "distance": 17.78279410038923,
+        "lastSeen": 1462636385210
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -94,
+        "distance": 70.79457843841381,
+        "lastSeen": 1462636385459
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -71,
+        "distance": 3.548133892335755,
+        "lastSeen": 1462636385712,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164265,
+            "secCnt": 59599920
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -84,
+        "distance": 22.3872113856834,
+        "lastSeen": 1462636385715
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -93,
+        "distance": 63.09573444801933,
+        "lastSeen": 1462636385969
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -83,
+        "distance": 19.952623149688797,
+        "lastSeen": 1462636386469
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -93,
+        "distance": 63.09573444801933,
+        "lastSeen": 1462636386720
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -72,
+        "distance": 3.9810717055349722,
+        "lastSeen": 1462636386726,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164265,
+            "secCnt": 59599920
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -85,
+        "distance": 25.118864315095795,
+        "lastSeen": 1462636386974
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -88,
+        "distance": 35.48133892335755,
+        "lastSeen": 1462636387226
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -81,
+        "distance": 11.220184543019636,
+        "lastSeen": 1462636387233,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164265,
+            "secCnt": 59599920
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -80,
+        "distance": 14.12537544622754,
+        "lastSeen": 1462636387478
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -86,
+        "distance": 28.183829312644534,
+        "lastSeen": 1462636387728
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -72,
+        "distance": 3.9810717055349722,
+        "lastSeen": 1462636387740,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164265,
+            "secCnt": 59599920
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -88,
+        "distance": 35.48133892335755,
+        "lastSeen": 1462636387979
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -73,
+        "distance": 4.466835921509632,
+        "lastSeen": 1462636388250,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164265,
+            "secCnt": 59599920
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -85,
+        "distance": 25.118864315095795,
+        "lastSeen": 1462636388485
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -81,
+        "distance": 11.220184543019636,
+        "lastSeen": 1462636388756,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164265,
+            "secCnt": 59599920
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -80,
+        "distance": 14.12537544622754,
+        "lastSeen": 1462636388985
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -85,
+        "distance": 25.118864315095795,
+        "lastSeen": 1462636389238
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -80,
+        "distance": 10,
+        "lastSeen": 1462636389267,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164265,
+            "secCnt": 59599920
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -86,
+        "distance": 28.183829312644534,
+        "lastSeen": 1462636389742
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -78,
+        "distance": 7.943282347242816,
+        "lastSeen": 1462636389778,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164265,
+            "secCnt": 59599920
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -82,
+        "distance": 17.78279410038923,
+        "lastSeen": 1462636390247
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -83,
+        "distance": 19.952623149688797,
+        "lastSeen": 1462636390497
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -76,
+        "distance": 6.309573444801933,
+        "lastSeen": 1462636391298,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164265,
+            "secCnt": 59599920
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -80,
+        "distance": 14.12537544622754,
+        "lastSeen": 1462636391752
+    },
+    {
+        "txPower": -19,
+        "namespace": "edd1ebeac04e5defa017",
+        "instance": "efd17886b072",
+        "id": "efd17886b072",
+        "type": "uid",
+        "rssi": -73,
+        "distance": 4.466835921509632,
+        "lastSeen": 1462636391801,
+        "tlm": {
+            "version": 0,
+            "vbatt": 3087,
+            "temp": 27.25,
+            "advCnt": 164265,
+            "secCnt": 59599920
+        }
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -85,
+        "distance": 25.118864315095795,
+        "lastSeen": 1462636392253
+    },
+    {
+        "txPower": -16,
+        "url": "http://vb.estimote.com",
+        "id": "50756f0ce0ee",
+        "type": "url",
+        "rssi": -98,
+        "distance": 112.2018454301963,
+        "lastSeen": 1462636394519
+    }
+]
