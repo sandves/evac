@@ -8,6 +8,8 @@ var server = require('http').Server(app);
 var ioSocket = require('socket.io')(server);
 var filters = require('./filters.js');
 var positioning = require('./trilateration.js');
+var gammaList = {};
+var gamma = 2.0;
 
 server.listen(3000);
 
@@ -17,12 +19,28 @@ ioSocket.on('connection', function (socket) {
     console.log('New connection');
     socket.on('bs-updated', baseStationUpdated);
     socket.on('bs-lost', baseStationLost);
+    socket.on('gamma-updated', gammaUpdated);
 });
 
 function baseStationLost(packet) {
     delete beacons[packet.beacon.id][packet.ip];
     console.log('lost');
     broadCastPresentBeacons();
+}
+
+function gammaUpdated(packet) {
+    gammaList['packet.ip'] = packet.gamma;
+    
+    // Calculate average path loss exponent (gamma)
+    // based on the gamma calculated at all base stations.
+    var g = 0;
+    for (var ip in gammaList) {
+        if (gammaList.hasOwnProperty(ip)) {
+            g += gammaList[ip];
+        }
+    }
+    var length = Object.keys(gammaList).length;
+    gamma = g / length;
 }
 
 function broadCastPresentBeacons() {
@@ -46,7 +64,7 @@ function broadCastPresentBeacons() {
 function baseStationUpdated(packet) {
     var beacon = packet.beacon;
     beacon.position = packet.position;
-    var distance = beacon.distance;
+    var distance = calculateDistance(beacon, gamma);
     var prediction = filters.kalman({
         pageX: 0,
         pageY: distance
@@ -139,4 +157,10 @@ function getNearest(beaconId) {
         }
     }
     return nearestBaseStation;
+}
+
+function calculateDistance(beacon, gamma) {
+    var pathLoss = beacon.txPower - beacon.rssi;
+    var distance = Math.pow(10, (pathLoss / (10 * gamma)) - 2.0);
+    return distance;
 }

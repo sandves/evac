@@ -135,15 +135,5 @@
         "rssi": -88,
         "distance": 25.118864315095795,
         "lastSeen": 1461344044636
-    },
-    {
-        "txPower": -19,
-        "namespace": "edd1ebeac04e5defa017",
-        "instance": "da2a1a1c478a",
-        "id": "da2a1a1c478a",
-        "type": "uid",
-        "rssi": -69,
-        "distance": 2.8183829312644537,
-        "lastSeen": 1461344046695
     }
 ]

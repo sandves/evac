@@ -18,19 +18,19 @@ class Filter:
         return self.x
 
 
-raw_rssi_file = open('debug.dat', 'r')
-raw_rssi = []
+#raw_rssi_file = open('debug.dat', 'r')
+#raw_rssi = []
 
-for line in raw_rssi_file:
-    raw_rssi.append(float(line.strip()))
+#for line in raw_rssi_file:
+#    raw_rssi.append(float(line.strip()))
 
-raw_rssi_file.close()
-filter = Filter(0.05, 10.0, 1.0, 1.0)
-filtered_rssi = []
+#raw_rssi_file.close()
+#filter = Filter(0.05, 10.0, 1.0, 1.0)
+#filtered_rssi = []
 
-for index, item in enumerate(raw_rssi):
-    filtered_rssi.append(filter.update(raw_rssi[index]))
+#for index, item in enumerate(raw_rssi):
+#    filtered_rssi.append(filter.update(raw_rssi[index]))
 
-plt.plot(raw_rssi, color='b', marker=None)
-plt.plot(filtered_rssi, color='r', marker=None)
-plt.show()
+#plt.plot(raw_rssi, color='b', marker=None)
+#plt.plot(filtered_rssi, color='r', marker=None)
+#plt.show()

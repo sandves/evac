@@ -11,18 +11,23 @@ var data = [];
 var filename = 'rssi_door_4dBm_ca_3m.txt';
 var log = false;
 var position = {};
+var snifferId = 'PUT_ID_HERE';
+var snifferDistance = 0;
 
 keypress(process.stdin);
 
 if (ip === '192.168.5.110') {
     position.x = 2.55;
     position.y = 6.35;
+    snifferDistance = 1.0;
 } else if (ip === '192.168.5.111') {
     position.x = 5.1;
     position.y = 3.85;
+    snifferDistance = 2.0;
 } else if (ip === '192.168.5.112') {
     position.x = 0;
     position.y = 1.85;
+    snifferDistance = 3.0;
 } else {
     position.x = 0;
     position.y = 0;
@@ -32,11 +37,11 @@ process.stdin.setRawMode(true);
 process.stdin.resume();
 
 process.stdin.on('keypress', function(ch, key) {
-    if (key && key.name == 'space') {
+    if (key && key.name === 'space') {
         log = !log;
         console.log('Log: ' + log);
-    } else if (key && key.ctrl && key.name == 'c') {
-        console.log("Caught interrupt signal");
+    } else if (key && key.ctrl && key.name === 'c') {
+        console.log('Caught interrupt signal');
         var dataString = JSON.stringify(data, null, 4);
         fs.writeFileSync(filename, dataString, 'utf8');
         process.exit(2);
@@ -52,6 +57,17 @@ EddystoneBeaconScanner.on('found', function (beacon) {
 });
 
 EddystoneBeaconScanner.on('updated', function (beacon) {
+    
+    if (beacon.id === snifferId) {
+        var gamma = calculateGamma(beacon);
+        var gammaPacket = {
+            ip: ip,
+            gamma: gamma
+        };
+        socket.emit('gamma-updated', gammaPacket);
+        return;
+    } 
+    
     if (typeof beacon.distance !== 'undefined') {
         if (log) {
             data.push(beacon);
@@ -79,6 +95,10 @@ EddystoneBeaconScanner.on('lost', function (beacon) {
 
 EddystoneBeaconScanner.startScanning(true);
 console.log(getServerIp());
+
+function calculateGamma(beacon) {
+    return (beacon.txPower - beacon.rssi) / (10 * Math.log10(snifferDistance) + 20.0);
+}
 
 function getServerIp() {
     var os = require('os');
