@@ -11,8 +11,8 @@ var data = [];
 var filename = 'rssi_estimote_vs_nexus_4dBm.txt';
 var log = false;
 var position = {};
-var snifferId = 'PUT_ID_HERE';
-var snifferDistance = 0;
+var snifferId = 'efd17886b072';
+var snifferDistance = 2.14;
 
 keypress(process.stdin);
 
@@ -57,7 +57,11 @@ EddystoneBeaconScanner.on('found', function (beacon) {
 });
 
 EddystoneBeaconScanner.on('updated', function (beacon) {
-    
+   
+    if (typeof beacon.txPower === 'undefined') {
+        beacon.txPower = -19;
+    }
+ 
     if (beacon.id === snifferId) {
         var gamma = calculateGamma(beacon);
         var gammaPacket = {
@@ -65,24 +69,20 @@ EddystoneBeaconScanner.on('updated', function (beacon) {
             gamma: gamma
         };
         socket.emit('gamma-updated', gammaPacket);
+	console.log(gamma);
         return;
     } 
     
-    if (typeof beacon.distance !== 'undefined') {
-        if (log) {
-            data.push(beacon);
-        }
-        var packet = {
-            beacon: beacon,
-            ip: ip,
-            position: position
-        };
-        socket.emit('bs-updated', packet);
-        console.log(beacon.distance + ' (' + beacon.rssi + ')');
+    if (log) {
+        data.push(beacon);
     }
-    else {
-        console.log(beacon);
-    }
+    var packet = {
+        beacon: beacon,
+        ip: ip,
+        position: position
+    };
+    socket.emit('bs-updated', packet);
+    console.log(beacon.rssi + ' (' + beacon.id + ')');
 });
 
 EddystoneBeaconScanner.on('lost', function (beacon) {
