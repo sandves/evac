@@ -8,7 +8,7 @@ def smooth(y, box_pts):
     y_smooth = np.convolve(y, box, mode='same')
     return y_smooth
 
-def estimate_distance(tx_power, rssi, filter, gamma=2.0):
+def estimate_distance(tx_power, rssi, filter=None, gamma=2.0):
     if filter:
         rssi = filter.update(rssi)
     return math.pow(10, (((tx_power - rssi)) / (10 * gamma)) - 2);
@@ -19,14 +19,20 @@ def write_rssi_to_file(file_in, file_out):
     test_data.close()
     
     plottable = open(file_out, 'w')
+    rssis = []
     
     initialTime = int(beacon_frames[0]['lastSeen'])
     for frame in beacon_frames:
         currentTime = int(frame['lastSeen'])
         # Convert from milliseconds to seconds
         elapsedTime = (currentTime - initialTime) / 1000.0
-        plottable.write(str(frame['rssi']) + ',' + str(elapsedTime) + '\n')
+        rssi = frame['rssi']
+        rssis.append(rssi)
+        plottable.write(str(rssi) + ',' + str(elapsedTime) + '\n')
 
+    average = sum(rssis) / float(len(rssis))
+    print ('Average distance for ' + file_in + ': ' + str(average))
+    
     plottable.close()
     
 def write_distance_to_file(file_in, file_out, filter, gamma):
@@ -102,13 +108,13 @@ def write_smoothed_rssi_to_file(file_in, file_out):
     test_data.close()
     
     plottable = open(file_out, 'w')
-    signal_strengths = []
+    distances = []
     
     for idx, frame in enumerate(beacon_frames):
         rssi = float(frame['rssi'])
-        signal_strengths.append(rssi)
+        distances.append(rssi)
         
-    smoothed = smooth(signal_strengths, 9)
+    smoothed = smooth(distances, 9)
 
     first_third = []
     last_two_thirds = []
@@ -183,17 +189,17 @@ test_data = open('rssi_all_180cm_4dBm.json', 'r')
 beacon_frames = json.load(test_data)
 test_data.close()
 
-signal_strengths = {}
+distances = {}
 elapsed_times = {}
 
 initial_time = int(beacon_frames[0]['lastSeen'])
 for frame in beacon_frames:
     id = str(frame['id'])
     rssi = float(frame['rssi'])
-    if id in signal_strengths:
-        signal_strengths[id].append(rssi)
+    if id in distances:
+        distances[id].append(rssi)
     else:
-        signal_strengths[id] = []
+        distances[id] = []
     current_time = int(frame['lastSeen'])
     if id in elapsed_times:
         elapsed_times[id].append((current_time - initial_time) / 1000.0)
@@ -201,7 +207,7 @@ for frame in beacon_frames:
         elapsed_times[id] = []
     
 smoothed = {}
-for key, value in signal_strengths.iteritems():
+for key, value in distances.iteritems():
     smoothed[key] = smooth(value, 9)
 
 for key, value in smoothed.iteritems():
@@ -212,6 +218,43 @@ for key, value in smoothed.iteritems():
         elapsed_time = elapsed_times[key][idx]
         plottable.write(str(signal) + ',' + str(elapsed_time) + '\n')
     plottable.close()
+
+############### estimote vs nexus +4dBm ###############
+
+filename = 'rssi_estimote_vs_nexus_4dBm'
+test_data = open(filename + '.json', 'r')
+beacon_frames = json.load(test_data)
+test_data.close()
+
+distances = {}
+elapsed_times = {}
+
+initial_time = int(beacon_frames[0]['lastSeen'])
+for frame in beacon_frames:
+    id = str(frame['id'])
+    rssi = float(frame['rssi'])
+    tx_power = int(frame['txPower'])
+    distance = estimate_distance(tx_power, rssi, filter=None, gamma=2.35)
+    if id in distances:
+        distances[id].append(distance)
+    else:
+        distances[id] = []
+    current_time = int(frame['lastSeen'])
+    if id in elapsed_times:
+        elapsed_times[id].append((current_time - initial_time) / 1000.0)
+    else:
+        elapsed_times[id] = []
+
+smoothed = {}
+for key, value in distances.iteritems():
+    smoothed[key] = smooth(value, 9)
+
+for key, value in smoothed.iteritems():
+    plottable = open('output/' + filename + '_' + key + '.dat', 'w')
+    for idx, signal in enumerate(value):
+        elapsed_time = elapsed_times[key][idx]
+        plottable.write(str(signal) + ',' + str(elapsed_time) + '\n')
+    plottable.close()
     
 ####################### interference #####################
 
@@ -219,17 +262,17 @@ test_data = open('rssi_interference_4dBm.json', 'r')
 beacon_frames = json.load(test_data)
 test_data.close()
 
-signal_strengths = {}
+distances = {}
 elapsed_times = {}
 
 initial_time = int(beacon_frames[0]['lastSeen'])
 for frame in beacon_frames:
     id = str(frame['id'])
     rssi = float(frame['rssi'])
-    if id in signal_strengths:
-        signal_strengths[id].append(rssi)
+    if id in distances:
+        distances[id].append(rssi)
     else:
-        signal_strengths[id] = []
+        distances[id] = []
     current_time = int(frame['lastSeen'])
     if id in elapsed_times:
         elapsed_times[id].append((current_time - initial_time) / 1000.0)
@@ -237,7 +280,7 @@ for frame in beacon_frames:
         elapsed_times[id] = []
     
 smoothed = {}
-for key, value in signal_strengths.iteritems():
+for key, value in distances.iteritems():
     smoothed[key] = smooth(value, 9)
 
 for key, value in smoothed.iteritems():
