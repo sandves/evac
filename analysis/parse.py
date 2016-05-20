@@ -291,3 +291,32 @@ for key, value in smoothed.iteritems():
         elapsed_time = elapsed_times[key][idx]
         plottable.write(str(signal) + ',' + str(elapsed_time) + '\n')
     plottable.close()
+    
+############# position estimates adaptive gamma ###########
+test_data = open('position_estimates_adaptive.json', 'r')
+estimates = json.load(test_data)
+test_data.close()
+plottable = open('output/position_estimates_adaptive.dat', 'w')
+
+for estimate in estimates:
+    x = float(estimate['x'])
+    y = float(estimate['y'])
+    if x > 0 and y > 0:
+        plottable.write(str(x) + ',' + str(y) + '\n')
+        
+plottable.close()
+
+########### position estimates fixed gamma (2.2) #########
+test_data = open('position_estimates_fixed.json', 'r')
+estimates = json.load(test_data)
+test_data.close()
+plottable = open('output/position_estimates_fixed.dat', 'w')
+
+for estimate in estimates:
+    x = float(estimate['x'])
+    y = float(estimate['y'])
+    if x > 0 and y > 0:
+        plottable.write(str(x) + ',' + str(y) + '\n')
+        
+plottable.close()
+    

@@ -8,12 +8,38 @@ var server = require('http').Server(app);
 var ioSocket = require('socket.io')(server);
 var filters = require('./filters.js');
 var positioning = require('./trilateration.js');
+
+// Logging setup
+var fs = require('fs');
+var data = [];
+var keypress = require('keypress');
+keypress(process.stdin);
+var filename = 'poisition_estimates_adaptive.json';
+var log = false;
+process.stdin.setRawMode(true);
+process.stdin.resume();
+////
+
 var gammaList = {};
-var gamma = 2.0;
+var gammaAverage = 2.0;
 
 server.listen(3000);
 
 var beacons = {};
+
+process.stdin.on('keypress', function(ch, key) {
+   if (key && key.name === 'space') {
+       log = !log;
+       console.log('Log: ' + log);
+   } else if (key && key.ctrl && key.name === 'c') {
+       console.log('Caught interrupt signal');
+       if (data.length > 0) {
+           var dataString = JSON.stringify(data, null, 4);
+           fs.writeFileSync(filename, dataString, 'utf8');   
+       }
+       process.exit(2);
+   }
+});
 
 ioSocket.on('connection', function (socket) {
     console.log('New connection');
@@ -40,7 +66,7 @@ function gammaUpdated(packet) {
         }
     }
     var length = Object.keys(gammaList).length;
-    gamma = g / length;
+    gammaAverage = g / length;
 }
 
 function broadCastPresentBeacons() {
@@ -64,12 +90,16 @@ function broadCastPresentBeacons() {
 function baseStationUpdated(packet) {
     var beacon = packet.beacon;
     beacon.position = packet.position;
-    var distance = calculateDistance(beacon, gamma);
-    var prediction = filters.kalman({
+    var gamma = 2.0;
+    if (gammaList.hasOwnProperty(packet.ip)) {
+        gamma = gammaList['packet.ip'];
+    }
+    var distance = calculateDistance(beacon, 2.2);
+    /*var prediction = filters.kalman({
         pageX: 0,
         pageY: distance
-    });
-    beacon.prediction = prediction.y;
+    });*/
+    beacon.prediction = distance;
     if (!beacons[beacon.id]) {
         beacons[beacon.id] = {};
     }
@@ -130,6 +160,17 @@ function trilaterate() {
             
             bs[id2] = position;
             console.log(bs1.prediction, bs2.prediction, bs3.prediction, position.x, position.y);
+            
+            if (log) {
+                data.push({
+                   bs1Distance: bs1.prediction,
+                   bs2Distance: bs2.prediction,
+                   bs3Distance: bs3.prediction,
+                   x: position.x,
+                   y: position.y
+                });
+            }
+            
         }
     }
 }

@@ -12,22 +12,22 @@ var filename = 'rssi_estimote_vs_nexus_4dBm.txt';
 var log = false;
 var position = {};
 var snifferId = 'PUT_ID_HERE';
-var snifferDistance = 0;
+var referenceDistance = 0;
 
 keypress(process.stdin);
 
 if (ip === '192.168.5.110') {
-    position.x = 2.55;
-    position.y = 6.35;
-    snifferDistance = 1.0;
+    position.x = 2.7;
+    position.y = 5.4;
+    referenceDistance = 2.8;
 } else if (ip === '192.168.5.111') {
-    position.x = 5.1;
-    position.y = 3.85;
-    snifferDistance = 2.0;
+    position.x = 4.7;
+    position.y = 3.5;
+    referenceDistance = 2.1;
 } else if (ip === '192.168.5.112') {
-    position.x = 0;
+    position.x = 0.35;
     position.y = 1.85;
-    snifferDistance = 3.0;
+    referenceDistance = 2.8;
 } else {
     position.x = 0;
     position.y = 0;
@@ -42,8 +42,10 @@ process.stdin.on('keypress', function(ch, key) {
         console.log('Log: ' + log);
     } else if (key && key.ctrl && key.name === 'c') {
         console.log('Caught interrupt signal');
-        var dataString = JSON.stringify(data, null, 4);
-        fs.writeFileSync(filename, dataString, 'utf8');
+        if (data.length > 0) {
+            var dataString = JSON.stringify(data, null, 4);
+            fs.writeFileSync(filename, dataString, 'utf8');
+        }
         process.exit(2);
     }
 });
@@ -97,7 +99,7 @@ EddystoneBeaconScanner.startScanning(true);
 console.log(getServerIp());
 
 function calculateGamma(beacon) {
-    return (beacon.txPower - beacon.rssi) / (10 * Math.log10(snifferDistance) + 20.0);
+    return (beacon.txPower - beacon.rssi) / (10 * Math.log10(referenceDistance) + 20.0);
 }
 
 function getServerIp() {
