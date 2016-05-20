@@ -11,8 +11,8 @@ var data = [];
 var filename = 'rssi_estimote_vs_nexus_4dBm.txt';
 var log = false;
 var position = {};
-var snifferId = 'PUT_ID_HERE';
-var referenceDistance = 0;
+var referenceId = 'efd17886b072';
+var referenceDistance = 2.14;
 
 keypress(process.stdin);
 
@@ -59,32 +59,32 @@ EddystoneBeaconScanner.on('found', function (beacon) {
 });
 
 EddystoneBeaconScanner.on('updated', function (beacon) {
-    
-    if (beacon.id === snifferId) {
+   
+    if (typeof beacon.txPower === 'undefined') {
+        beacon.txPower = -19;
+    }
+ 
+    if (beacon.id === referenceId) {
         var gamma = calculateGamma(beacon);
         var gammaPacket = {
             ip: ip,
             gamma: gamma
         };
         socket.emit('gamma-updated', gammaPacket);
+	console.log(gamma);
         return;
     } 
     
-    if (typeof beacon.distance !== 'undefined') {
-        if (log) {
-            data.push(beacon);
-        }
-        var packet = {
-            beacon: beacon,
-            ip: ip,
-            position: position
-        };
-        socket.emit('bs-updated', packet);
-        console.log(beacon.distance + ' (' + beacon.rssi + ')');
+    if (log) {
+        data.push(beacon);
     }
-    else {
-        console.log(beacon);
-    }
+    var packet = {
+        beacon: beacon,
+        ip: ip,
+        position: position
+    };
+    socket.emit('bs-updated', packet);
+    console.log(beacon.rssi + ' (' + beacon.id + ')');
 });
 
 EddystoneBeaconScanner.on('lost', function (beacon) {
