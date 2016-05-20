@@ -12,7 +12,7 @@ var filename = 'rssi_estimote_vs_nexus_4dBm.txt';
 var log = false;
 var position = {};
 var referenceId = 'efd17886b072';
-var referenceDistance = 2.14;
+var referenceDistance = 0;
 
 keypress(process.stdin);
 
